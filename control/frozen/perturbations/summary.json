@@ -1,0 +1,88 @@
+{
+  "all_samples_evaluated": true,
+  "counts": {
+    "matrix_intertwining_entries": 16384,
+    "one_step_witnesses": 1024,
+    "two_and_three_step_mass_checks": 24576,
+    "two_step_initial_column_growth_checks": 16384
+  },
+  "cycle_comparison": "exact rational integer cross powers",
+  "exact_arithmetic": "fractions.Fraction",
+  "growth_memory_two_samples": 256,
+  "hidden_persistence_criterion_samples": 256,
+  "limitations": "The finite seeded sample study checks exact matrix identities and numerical cycle rates for the recorded parameter points. Separate corner computations check the specified parameter box. No outside-box or biological calibration conclusion is drawn.",
+  "max_sample_absolute_edge_error": "124008420859/1717986918400",
+  "minimum_sample_hidden_coefficient": "2117/16384",
+  "minimum_sample_one_step_difference": "152676769/167772160",
+  "regimes": {
+    "alternating": {
+      "maximum_multiplier_enclosing_range": {
+        "decimal_lower": 1.2209853632505698,
+        "decimal_upper": 1.323261965163418,
+        "lower": "171838413342503/140737488355328",
+        "upper": "186232565413235/140737488355328"
+      },
+      "minimum_multiplier_enclosing_range": {
+        "decimal_lower": 1.2209853632505698,
+        "decimal_upper": 1.323261965163418,
+        "lower": "171838413342503/140737488355328",
+        "upper": "186232565413235/140737488355328"
+      },
+      "optimizer_preserved_samples": 256,
+      "samples": 256,
+      "simple_cycle_count": 1
+    },
+    "no11": {
+      "maximum_multiplier_enclosing_range": {
+        "decimal_lower": 1.2252795246284194,
+        "decimal_upper": 1.3326835207478211,
+        "lower": "86221381414707/70368744177664",
+        "upper": "23444816435323/17592186044416"
+      },
+      "minimum_multiplier_enclosing_range": {
+        "decimal_lower": 0.6153554275695079,
+        "decimal_upper": 0.697391499792019,
+        "lower": "173207154643903/281474976710656",
+        "upper": "24537282020271/35184372088832"
+      },
+      "optimizer_preserved_samples": 256,
+      "samples": 256,
+      "simple_cycle_count": 3,
+      "smallest_sample_optimizer_gap_interval": {
+        "decimal_lower": 0.5422183935926093,
+        "decimal_upper": 0.5422183935926199,
+        "lower": "152620909708569/281474976710656",
+        "upper": "38155227427143/70368744177664"
+      }
+    },
+    "unrestricted": {
+      "maximum_multiplier_enclosing_range": {
+        "decimal_lower": 1.2419986083018557,
+        "decimal_upper": 1.3384918105367731,
+        "lower": "2731183823019/2199023255552",
+        "upper": "188375975599121/140737488355328"
+      },
+      "minimum_multiplier_enclosing_range": {
+        "decimal_lower": 0.42843162555474734,
+        "decimal_upper": 0.5108829288505596,
+        "lower": "120592781825131/281474976710656",
+        "upper": "143800760500083/281474976710656"
+      },
+      "optimizer_preserved_samples": 256,
+      "samples": 256,
+      "simple_cycle_count": 6,
+      "smallest_sample_optimizer_gap_interval": {
+        "decimal_lower": 0.16215059637861629,
+        "decimal_upper": 0.1621505963786234,
+        "lower": "22820667669645/140737488355328",
+        "upper": "11410333834823/70368744177664"
+      }
+    }
+  },
+  "root_enclosures": "48 exact dyadic bisections of a positive enclosing interval; printed decimals are illustrative only",
+  "sample_generation_checked": true,
+  "sample_sha256": "8440e1169a511b2614925122acf845168f99a986e1da1f6e1d877587d568e81c",
+  "samples": 256,
+  "schema": "population-growth.local-table-study.v1",
+  "status": "passed"
+}

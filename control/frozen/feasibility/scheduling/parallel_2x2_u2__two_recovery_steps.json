@@ -1,0 +1,223 @@
+{
+  "exploration": {
+    "cycle_search_complete": true,
+    "cycle_steps": 7,
+    "cycles": 2,
+    "edges": 4,
+    "graph_complete": true,
+    "limits": {
+      "max_cycle_steps": 50000,
+      "max_cycles": 5000,
+      "max_edges": 20000,
+      "max_states": 5000,
+      "max_warmup_steps": 20000
+    },
+    "states": 3,
+    "warmup_steps": 6
+  },
+  "graph": {
+    "edges": [
+      {
+        "action": 0,
+        "source": 0,
+        "target": 0,
+        "weight": "357/320"
+      },
+      {
+        "action": 1,
+        "source": 0,
+        "target": 1,
+        "weight": "219/320"
+      },
+      {
+        "action": 0,
+        "source": 1,
+        "target": 2,
+        "weight": "357/320"
+      },
+      {
+        "action": 0,
+        "source": 2,
+        "target": 0,
+        "weight": "309/320"
+      }
+    ],
+    "initial": [
+      0,
+      1,
+      2
+    ],
+    "states": [
+      {
+        "constraint": 0,
+        "history": [
+          0,
+          0
+        ]
+      },
+      {
+        "constraint": 1,
+        "history": [
+          0,
+          1
+        ]
+      },
+      {
+        "constraint": 2,
+        "history": [
+          1,
+          0
+        ]
+      }
+    ],
+    "viable": [
+      0,
+      1,
+      2
+    ]
+  },
+  "independent_checks": {
+    "cycle_oracle_limit": 24,
+    "independent_closed_walk_extrema_checked": true,
+    "legal_periodic_tail_witnesses_checked": 2,
+    "reachable_graph_and_weights_match": true,
+    "viable_vertices": 3
+  },
+  "maximum": {
+    "cycle": [
+      0
+    ],
+    "cycle_edges": [
+      0
+    ],
+    "entry_state": 0,
+    "initial_constraint_state": 0,
+    "length": 1,
+    "optimal_simple_cycles": 1,
+    "prefix": [
+      0,
+      0
+    ],
+    "product": "357/320",
+    "unique_simple_cycle": true
+  },
+  "minimum": {
+    "cycle": [
+      1,
+      0,
+      0
+    ],
+    "cycle_edges": [
+      1,
+      2,
+      3
+    ],
+    "entry_state": 0,
+    "initial_constraint_state": 0,
+    "length": 3,
+    "optimal_simple_cycles": 1,
+    "prefix": [
+      0,
+      0
+    ],
+    "product": "24158547/32768000",
+    "unique_simple_cycle": true
+  },
+  "model": {
+    "actions": 2,
+    "constraint": {
+      "initial": [
+        0
+      ],
+      "next": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          null
+        ],
+        [
+          0,
+          null
+        ]
+      ],
+      "states": 3
+    },
+    "memory": 2,
+    "weights": [
+      {
+        "action": 0,
+        "history": [
+          0,
+          0
+        ],
+        "value": "357/320"
+      },
+      {
+        "action": 1,
+        "history": [
+          0,
+          0
+        ],
+        "value": "219/320"
+      },
+      {
+        "action": 0,
+        "history": [
+          0,
+          1
+        ],
+        "value": "357/320"
+      },
+      {
+        "action": 1,
+        "history": [
+          0,
+          1
+        ],
+        "value": "219/320"
+      },
+      {
+        "action": 0,
+        "history": [
+          1,
+          0
+        ],
+        "value": "309/320"
+      },
+      {
+        "action": 1,
+        "history": [
+          1,
+          0
+        ],
+        "value": "267/320"
+      },
+      {
+        "action": 0,
+        "history": [
+          1,
+          1
+        ],
+        "value": "309/320"
+      },
+      {
+        "action": 1,
+        "history": [
+          1,
+          1
+        ],
+        "value": "267/320"
+      }
+    ]
+  },
+  "reason": null,
+  "schema": "structural-memory.constrained-scheduling.v1",
+  "stage_seconds": {
+    "cycle_optimization": 2.349599526496604e-05,
+    "model_and_graph_construction": 7.874900620663539e-05
+  },
+  "status": "optimal"
+}

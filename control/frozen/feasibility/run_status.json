@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "all_column_ratio_evaluations": 13776,
+    "dense_correlated_growth_ratio_comparisons": 50,
+    "dense_full_vector_comparisons": 92,
+    "dense_pure_growth_ratio_comparisons": 200,
+    "finite_structures": 6,
+    "independent_closed_walk_optimum_comparisons": 14,
+    "optimal_scheduling_cases": 14,
+    "scheduling_cases": 18,
+    "structurally_infinite_stops": 1,
+    "structures": 7,
+    "unknown_scheduling_cases": 4,
+    "weight_count": 435
+  },
+  "status": "completed"
+}

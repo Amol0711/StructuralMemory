@@ -1,0 +1,598 @@
+{
+  "exploration": {
+    "cycle_search_complete": true,
+    "cycle_steps": 62,
+    "cycles": 8,
+    "edges": 13,
+    "graph_complete": true,
+    "limits": {
+      "max_cycle_steps": 50000,
+      "max_cycles": 5000,
+      "max_edges": 20000,
+      "max_states": 5000,
+      "max_warmup_steps": 20000
+    },
+    "states": 8,
+    "warmup_steps": 22
+  },
+  "graph": {
+    "edges": [
+      {
+        "action": 0,
+        "source": 0,
+        "target": 0,
+        "weight": "147/160"
+      },
+      {
+        "action": 1,
+        "source": 0,
+        "target": 1,
+        "weight": "141/160"
+      },
+      {
+        "action": 0,
+        "source": 1,
+        "target": 2,
+        "weight": "147/160"
+      },
+      {
+        "action": 0,
+        "source": 2,
+        "target": 3,
+        "weight": "147/160"
+      },
+      {
+        "action": 1,
+        "source": 2,
+        "target": 4,
+        "weight": "141/160"
+      },
+      {
+        "action": 0,
+        "source": 3,
+        "target": 5,
+        "weight": "147/160"
+      },
+      {
+        "action": 1,
+        "source": 3,
+        "target": 6,
+        "weight": "141/160"
+      },
+      {
+        "action": 0,
+        "source": 4,
+        "target": 7,
+        "weight": "147/160"
+      },
+      {
+        "action": 0,
+        "source": 5,
+        "target": 0,
+        "weight": "141/160"
+      },
+      {
+        "action": 1,
+        "source": 5,
+        "target": 1,
+        "weight": "147/160"
+      },
+      {
+        "action": 0,
+        "source": 6,
+        "target": 2,
+        "weight": "141/160"
+      },
+      {
+        "action": 0,
+        "source": 7,
+        "target": 3,
+        "weight": "141/160"
+      },
+      {
+        "action": 1,
+        "source": 7,
+        "target": 4,
+        "weight": "147/160"
+      }
+    ],
+    "initial": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "states": [
+      {
+        "constraint": 0,
+        "history": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "constraint": 1,
+        "history": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "constraint": 0,
+        "history": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "constraint": 0,
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "constraint": 1,
+        "history": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "constraint": 0,
+        "history": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "constraint": 1,
+        "history": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "constraint": 0,
+        "history": [
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "viable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "independent_checks": {
+    "cycle_oracle_limit": 24,
+    "independent_closed_walk_extrema_checked": true,
+    "legal_periodic_tail_witnesses_checked": 2,
+    "reachable_graph_and_weights_match": true,
+    "viable_vertices": 8
+  },
+  "maximum": {
+    "cycle": [
+      0
+    ],
+    "cycle_edges": [
+      0
+    ],
+    "entry_state": 0,
+    "initial_constraint_state": 0,
+    "length": 1,
+    "optimal_simple_cycles": 3,
+    "prefix": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "product": "147/160",
+    "unique_simple_cycle": false
+  },
+  "minimum": {
+    "cycle": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "cycle_edges": [
+      4,
+      7,
+      11,
+      6,
+      10
+    ],
+    "entry_state": 2,
+    "initial_constraint_state": 0,
+    "length": 5,
+    "optimal_simple_cycles": 1,
+    "prefix": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "product": "58102361667/104857600000",
+    "unique_simple_cycle": true
+  },
+  "model": {
+    "actions": 2,
+    "constraint": {
+      "initial": [
+        0
+      ],
+      "next": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          null
+        ]
+      ],
+      "states": 2
+    },
+    "memory": 4,
+    "weights": [
+      {
+        "action": 0,
+        "history": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "value": "147/160"
+      },
+      {
+        "action": 0,
+        "history": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "value": "141/160"
+      },
+      {
+        "action": 1,
+        "history": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "value": "147/160"
+      }
+    ]
+  },
+  "reason": null,
+  "schema": "structural-memory.constrained-scheduling.v1",
+  "stage_seconds": {
+    "cycle_optimization": 0.00010599999950500205,
+    "model_and_graph_construction": 0.0003012240049429238
+  },
+  "status": "optimal"
+}

@@ -1,0 +1,254 @@
+{
+  "all_exact": true,
+  "artifact_sha256": {
+    "all_legal_word_masses.csv": "ca07da3ab62d1268bede063f8acf458e05ffeaa5811b9f0a5bf3a98f9ead3e70",
+    "control_transients.dat": "d7c3b2f188aeff43a9bd4399111be9d6ebba06f54e35a4c996c0536ae6c58021",
+    "finite_horizons.csv": "61fb797eeac6b266da48b5d3a9d29adaa52ef92fa46aaeee86c7ed33c4a63eb3",
+    "finite_horizons.json": "3591982921fe2488ea8d5ffbcfb9eaaa7d29511171f216e78a2274778b1fcf48",
+    "input.json": "493465b314cf2b72a85d21365555dec177b457252f26802010bbd59a49a85f83",
+    "two_step_prefixes.json": "bee08ff8c05e540c10d88654c9d7343d2e4950a66afafc6abebd130b609096ba"
+  },
+  "constraints": 3,
+  "history_factorization_checks": 27576,
+  "independent_dynamic_programming_extrema_checks": 117,
+  "initial_populations": 3,
+  "limitations": "Finite exact enumeration through the specified maximum horizon; not an all-horizon optimality proof. Only the baseline model is evaluated here. Periodic phase comparisons use legal infinite rotations; constrained finite-horizon minima are computed independently.",
+  "mass_and_marginal_agreements": 27603,
+  "matrix_intertwining_columns": 16,
+  "max_horizon": 12,
+  "optimization_queries": 117,
+  "results": {
+    "anticorrelated/alternating": {
+      "best_phase_suboptimal_horizons": [],
+      "counts_by_horizon": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fixed_phase_suboptimal_horizons": [],
+      "largest_best_phase_to_optimum": "1",
+      "largest_fixed_to_optimum": "1",
+      "total_word_population_checks": 25
+    },
+    "anticorrelated/no11": {
+      "best_phase_suboptimal_horizons": [],
+      "counts_by_horizon": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        13,
+        21,
+        34,
+        55,
+        89,
+        144,
+        233,
+        377
+      ],
+      "fixed_phase_suboptimal_horizons": [
+        4,
+        7,
+        10
+      ],
+      "largest_best_phase_to_optimum": "1",
+      "largest_fixed_to_optimum": "493/437",
+      "total_word_population_checks": 985
+    },
+    "anticorrelated/unrestricted": {
+      "best_phase_suboptimal_horizons": [],
+      "counts_by_horizon": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ],
+      "fixed_phase_suboptimal_horizons": [],
+      "largest_best_phase_to_optimum": "1",
+      "largest_fixed_to_optimum": "1",
+      "total_word_population_checks": 8191
+    },
+    "correlated/alternating": {
+      "best_phase_suboptimal_horizons": [],
+      "counts_by_horizon": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fixed_phase_suboptimal_horizons": [],
+      "largest_best_phase_to_optimum": "1",
+      "largest_fixed_to_optimum": "1",
+      "total_word_population_checks": 25
+    },
+    "correlated/no11": {
+      "best_phase_suboptimal_horizons": [],
+      "counts_by_horizon": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        13,
+        21,
+        34,
+        55,
+        89,
+        144,
+        233,
+        377
+      ],
+      "fixed_phase_suboptimal_horizons": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "largest_best_phase_to_optimum": "1",
+      "largest_fixed_to_optimum": "3519/551",
+      "total_word_population_checks": 985
+    },
+    "correlated/unrestricted": {
+      "best_phase_suboptimal_horizons": [],
+      "counts_by_horizon": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ],
+      "fixed_phase_suboptimal_horizons": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "largest_best_phase_to_optimum": "1",
+      "largest_fixed_to_optimum": "69/29",
+      "total_word_population_checks": 8191
+    },
+    "uniform/alternating": {
+      "best_phase_suboptimal_horizons": [],
+      "counts_by_horizon": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fixed_phase_suboptimal_horizons": [],
+      "largest_best_phase_to_optimum": "1",
+      "largest_fixed_to_optimum": "1",
+      "total_word_population_checks": 25
+    },
+    "uniform/no11": {
+      "best_phase_suboptimal_horizons": [],
+      "counts_by_horizon": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        13,
+        21,
+        34,
+        55,
+        89,
+        144,
+        233,
+        377
+      ],
+      "fixed_phase_suboptimal_horizons": [
+        4,
+        7,
+        10
+      ],
+      "largest_best_phase_to_optimum": "1",
+      "largest_fixed_to_optimum": "51/19",
+      "total_word_population_checks": 985
+    },
+    "uniform/unrestricted": {
+      "best_phase_suboptimal_horizons": [],
+      "counts_by_horizon": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ],
+      "fixed_phase_suboptimal_horizons": [],
+      "largest_best_phase_to_optimum": "1",
+      "largest_fixed_to_optimum": "1",
+      "total_word_population_checks": 8191
+    }
+  },
+  "schema": "finite-control-transient-study.v1",
+  "status": "passed"
+}

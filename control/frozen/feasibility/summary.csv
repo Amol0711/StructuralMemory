@@ -1,0 +1,8 @@
+name,n,fitness_ancestry_size,actions,max_fitness_scope_arity,graphical_full_horizon,graphical_growth_horizon,reachable_pair_states,status
+serial_2_u2,2,2,2,1,2,2,3,exact_weights_certified
+serial_4_u2,4,4,2,1,4,4,5,exact_weights_certified
+serial_6_u2,6,6,2,1,6,6,7,exact_weights_certified
+serial_4_u3,4,4,3,1,4,4,5,exact_weights_certified
+parallel_2x2_u2,4,4,2,2,2,2,3,exact_weights_certified
+parallel_2x3_u2,6,6,2,2,3,3,4,exact_weights_certified
+serial_4_adjacent_joint_negative,4,4,2,2,infinite,infinite,4,structurally_infinite_stop

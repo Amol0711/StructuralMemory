@@ -1,0 +1,193 @@
+{
+  "exploration": {
+    "complete": true,
+    "fully_expanded_states": 4,
+    "implementation": "explicit reachable pair-state graph",
+    "max_states": 100000,
+    "max_transitions": 1000000,
+    "state_description_bits": 10,
+    "states_discovered": 4,
+    "stop_reason": null,
+    "transitions_evaluated": 8,
+    "transitions_stored": 8
+  },
+  "full": {
+    "certificate": {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": null,
+        "prefix": [
+          0,
+          0,
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "full",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "horizon": null,
+    "status": "infinite"
+  },
+  "growth": {
+    "certificate": {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": 0,
+        "prefix": [
+          0,
+          0,
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "growth",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "horizon": null,
+    "status": "infinite"
+  },
+  "schema": "structural-memory.compact-solver.v1",
+  "structure": {
+    "U": 2,
+    "fac": [
+      [
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "n": 4,
+    "pa": [
+      [
+        [],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      [
+        [],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    ]
+  }
+}

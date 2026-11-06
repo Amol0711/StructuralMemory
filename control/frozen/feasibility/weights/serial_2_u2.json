@@ -1,0 +1,150 @@
+{
+  "evidence": {
+    "all_column_ratio_evaluations": 32,
+    "factorization_domain_checked": true,
+    "histories": 4,
+    "shorter_uniform_memory_failure": {
+      "action": 0,
+      "columns": [
+        0,
+        2
+      ],
+      "history": [
+        0
+      ],
+      "ratios": [
+        "21/20",
+        "3/4"
+      ]
+    },
+    "weights": 8
+  },
+  "memory": 2,
+  "model": {
+    "branches": 1,
+    "depth": 2,
+    "downstream_probabilities": [
+      "1/4",
+      "3/4"
+    ],
+    "expected_graphical_horizon": 2,
+    "factorization_allowed": true,
+    "fitness_non_all_ones_and_all_ones": [
+      [
+        "6/5",
+        "3/5"
+      ],
+      [
+        "3/5",
+        "6/5"
+      ]
+    ],
+    "name": "serial_2_u2",
+    "root_probabilities": [
+      "1/4",
+      "3/4"
+    ],
+    "scope": [
+      1
+    ],
+    "structure": {
+      "U": 2,
+      "fac": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ]
+        ]
+      ],
+      "n": 2,
+      "pa": [
+        [
+          [],
+          [
+            0
+          ]
+        ],
+        [
+          [],
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    "terminal_coordinates": [
+      1
+    ]
+  },
+  "weights": [
+    {
+      "action": 0,
+      "history": [
+        0,
+        0
+      ],
+      "value": "39/40"
+    },
+    {
+      "action": 1,
+      "history": [
+        0,
+        0
+      ],
+      "value": "33/40"
+    },
+    {
+      "action": 0,
+      "history": [
+        0,
+        1
+      ],
+      "value": "39/40"
+    },
+    {
+      "action": 1,
+      "history": [
+        0,
+        1
+      ],
+      "value": "33/40"
+    },
+    {
+      "action": 0,
+      "history": [
+        1,
+        0
+      ],
+      "value": "33/40"
+    },
+    {
+      "action": 1,
+      "history": [
+        1,
+        0
+      ],
+      "value": "39/40"
+    },
+    {
+      "action": 0,
+      "history": [
+        1,
+        1
+      ],
+      "value": "33/40"
+    },
+    {
+      "action": 1,
+      "history": [
+        1,
+        1
+      ],
+      "value": "39/40"
+    }
+  ]
+}

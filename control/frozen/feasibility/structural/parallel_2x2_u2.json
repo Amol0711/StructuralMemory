@@ -1,0 +1,267 @@
+{
+  "exploration": {
+    "complete": true,
+    "fully_expanded_states": 3,
+    "implementation": "explicit reachable pair-state graph",
+    "max_states": 100000,
+    "max_transitions": 1000000,
+    "state_description_bits": 10,
+    "states_discovered": 3,
+    "stop_reason": null,
+    "transitions_evaluated": 6,
+    "transitions_stored": 6
+  },
+  "full": {
+    "certificate": {
+      "horizon": 2,
+      "proof": {
+        "initial": 0,
+        "rank": [
+          1,
+          0,
+          -1
+        ],
+        "states": [
+          {
+            "pairs": [
+              15,
+              15,
+              15,
+              15
+            ],
+            "root": 15
+          },
+          {
+            "pairs": [
+              1,
+              10,
+              4,
+              10
+            ],
+            "root": 10
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "root": 0
+          }
+        ],
+        "transitions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "type": "closed_graph_rank",
+        "witness_next_action": null,
+        "witness_word": [
+          0
+        ]
+      },
+      "query": "full",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "finite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "horizon": 2,
+    "status": "finite"
+  },
+  "growth": {
+    "certificate": {
+      "horizon": 2,
+      "proof": {
+        "initial": 0,
+        "rank": [
+          1,
+          0,
+          -1
+        ],
+        "states": [
+          {
+            "pairs": [
+              15,
+              15,
+              15,
+              15
+            ],
+            "root": 15
+          },
+          {
+            "pairs": [
+              1,
+              10,
+              4,
+              10
+            ],
+            "root": 10
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "root": 0
+          }
+        ],
+        "transitions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "type": "closed_graph_rank",
+        "witness_next_action": 0,
+        "witness_word": [
+          0
+        ]
+      },
+      "query": "growth",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "finite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "horizon": 2,
+    "status": "finite"
+  },
+  "schema": "structural-memory.compact-solver.v1",
+  "structure": {
+    "U": 2,
+    "fac": [
+      [
+        [
+          1,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ]
+      ]
+    ],
+    "n": 4,
+    "pa": [
+      [
+        [],
+        [
+          0
+        ],
+        [],
+        [
+          2
+        ]
+      ],
+      [
+        [],
+        [
+          0
+        ],
+        [],
+        [
+          2
+        ]
+      ]
+    ]
+  }
+}

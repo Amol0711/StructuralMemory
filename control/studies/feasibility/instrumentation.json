@@ -1,0 +1,24 @@
+{
+  "original": "checks/scheduling_tools/solver.py",
+  "original_sha256": "f982d6d2a25fac34a846b47620289ca7fd95c1d5120cef7819cd88d18e31ce90",
+  "instrumented": "studies/feasibility/profiled_solver.py",
+  "literal_changes": [
+    {
+      "old": "from .model import as_model, integer, encode",
+      "new": "from scheduling_tools.model import as_model, integer, encode\nimport time"
+    },
+    {
+      "old": "    model = as_model(model)",
+      "new": "    phase_started = time.perf_counter()\n    cycle_started = None\n    model = as_model(model)"
+    },
+    {
+      "old": "    def stop(reason):",
+      "new": "    def save_timings():\n        now = time.perf_counter()\n        result['stage_seconds'] = {\n            'model_and_graph_construction': (now if cycle_started is None else cycle_started) - phase_started,\n            'cycle_optimization': None if cycle_started is None else now - cycle_started}\n\n    def stop(reason):"
+    },
+    {
+      "old": "    extrema={'minimum':None,'maximum':None}",
+      "new": "    cycle_started = time.perf_counter()\n    extrema={'minimum':None,'maximum':None}"
+    }
+  ],
+  "other_change": "Insert save_timings() at the same indentation immediately before every return result. No algorithm, limit, edge, weight or comparison changes."
+}

@@ -1,0 +1,571 @@
+{
+  "constraints": [
+    "unrestricted",
+    "one_recovery_step",
+    "two_recovery_steps"
+  ],
+  "dense_verification": "For n=2 all length-L histories and all pure columns. Otherwise four deterministic histories and four deterministic columns (duplicates removed); also correlated endpoint mixture for those histories.",
+  "independent_cycle_oracle_max_viable_vertices": 24,
+  "models": [
+    {
+      "branches": 1,
+      "depth": 2,
+      "downstream_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "expected_graphical_horizon": 2,
+      "factorization_allowed": true,
+      "fitness_non_all_ones_and_all_ones": [
+        [
+          "6/5",
+          "3/5"
+        ],
+        [
+          "3/5",
+          "6/5"
+        ]
+      ],
+      "name": "serial_2_u2",
+      "root_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "scope": [
+        1
+      ],
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              1
+            ]
+          ],
+          [
+            [
+              1
+            ]
+          ]
+        ],
+        "n": 2,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ]
+          ]
+        ]
+      },
+      "terminal_coordinates": [
+        1
+      ]
+    },
+    {
+      "branches": 1,
+      "depth": 4,
+      "downstream_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "expected_graphical_horizon": 4,
+      "factorization_allowed": true,
+      "fitness_non_all_ones_and_all_ones": [
+        [
+          "6/5",
+          "3/5"
+        ],
+        [
+          "3/5",
+          "6/5"
+        ]
+      ],
+      "name": "serial_4_u2",
+      "root_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "scope": [
+        3
+      ],
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              3
+            ]
+          ],
+          [
+            [
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      },
+      "terminal_coordinates": [
+        3
+      ]
+    },
+    {
+      "branches": 1,
+      "depth": 6,
+      "downstream_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "expected_graphical_horizon": 6,
+      "factorization_allowed": true,
+      "fitness_non_all_ones_and_all_ones": [
+        [
+          "6/5",
+          "3/5"
+        ],
+        [
+          "3/5",
+          "6/5"
+        ]
+      ],
+      "name": "serial_6_u2",
+      "root_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "scope": [
+        5
+      ],
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              5
+            ]
+          ],
+          [
+            [
+              5
+            ]
+          ]
+        ],
+        "n": 6,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ]
+        ]
+      },
+      "terminal_coordinates": [
+        5
+      ]
+    },
+    {
+      "branches": 1,
+      "depth": 4,
+      "downstream_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "expected_graphical_horizon": 4,
+      "factorization_allowed": true,
+      "fitness_non_all_ones_and_all_ones": [
+        [
+          "6/5",
+          "3/5"
+        ],
+        [
+          "3/5",
+          "6/5"
+        ],
+        [
+          "9/10",
+          "4/5"
+        ]
+      ],
+      "name": "serial_4_u3",
+      "root_probabilities": [
+        "1/4",
+        "1/2",
+        "3/4"
+      ],
+      "scope": [
+        3
+      ],
+      "structure": {
+        "U": 3,
+        "fac": [
+          [
+            [
+              3
+            ]
+          ],
+          [
+            [
+              3
+            ]
+          ],
+          [
+            [
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      },
+      "terminal_coordinates": [
+        3
+      ]
+    },
+    {
+      "branches": 2,
+      "depth": 2,
+      "downstream_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "expected_graphical_horizon": 2,
+      "factorization_allowed": true,
+      "fitness_non_all_ones_and_all_ones": [
+        [
+          "6/5",
+          "3/5"
+        ],
+        [
+          "3/5",
+          "6/5"
+        ]
+      ],
+      "name": "parallel_2x2_u2",
+      "root_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "scope": [
+        1,
+        3
+      ],
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ]
+        ]
+      },
+      "terminal_coordinates": [
+        1,
+        3
+      ]
+    },
+    {
+      "branches": 2,
+      "depth": 3,
+      "downstream_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "expected_graphical_horizon": 3,
+      "factorization_allowed": true,
+      "fitness_non_all_ones_and_all_ones": [
+        [
+          "6/5",
+          "3/5"
+        ],
+        [
+          "3/5",
+          "6/5"
+        ]
+      ],
+      "name": "parallel_2x3_u2",
+      "root_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "scope": [
+        2,
+        5
+      ],
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              2,
+              5
+            ]
+          ],
+          [
+            [
+              2,
+              5
+            ]
+          ]
+        ],
+        "n": 6,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ]
+        ]
+      },
+      "terminal_coordinates": [
+        2,
+        5
+      ]
+    },
+    {
+      "branches": 1,
+      "depth": 4,
+      "downstream_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "expected_graphical_horizon": "infinite",
+      "factorization_allowed": false,
+      "fitness_non_all_ones_and_all_ones": [
+        [
+          "6/5",
+          "3/5"
+        ],
+        [
+          "3/5",
+          "6/5"
+        ]
+      ],
+      "name": "serial_4_adjacent_joint_negative",
+      "root_probabilities": [
+        "1/4",
+        "3/4"
+      ],
+      "scope": [
+        2,
+        3
+      ],
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      },
+      "terminal_coordinates": [
+        3
+      ]
+    }
+  ],
+  "negative_case": "Graphically infinite case is retained and stops before weight construction/optimization; no assertion about every numerical point.",
+  "parameter_family": "Fixed numerical points in free positive local tables with matching-context downstream entries shared across coordinates/actions. No complement relation is imposed on the family.",
+  "scheduling_limits": {
+    "max_cycle_steps": 50000,
+    "max_cycles": 5000,
+    "max_edges": 20000,
+    "max_states": 5000,
+    "max_warmup_steps": 20000
+  },
+  "schema": "structural-memory.control-feasibility.v1",
+  "scope": "Synthetic terminal-fitness response cascades; no calibrated biological claim.",
+  "timing_scope": "One serial illustrative run. Stage times are descriptive, neither repeated comparative benchmarks nor complexity bounds."
+}
