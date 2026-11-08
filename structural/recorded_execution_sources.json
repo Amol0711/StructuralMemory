@@ -1,0 +1,26 @@
+{
+  "benchmark": {
+    "src/benchmark/fixtures.py": "36cb852a3e7ada1061bc2c54edadeea48d76222a7ed282afdacb17ecff9b607a",
+    "src/benchmark/run_benchmark.py": "c09a99ff539c70195b77da38d59acd18d73704966939658fe421852fcadb1f09",
+    "src/benchmark/test_protocol.py": "e892163b63e25c790ed90f8e3b1981b11a466a48781b6aff354db39429f55f33",
+    "src/benchmark/verify_recorded.py": "3d54710f9ba3ea62ec170970dd0d77ee0e58212903d724444a94db156f2b5373",
+    "src/benchmark/worker.py": "9a8fe948442cb36999892fbb88a069e06247d755149b7a30d39662096356a167",
+    "src/benchmark_core.py": "4afad32ba5c2f652351118f37d45fe47e7b410b2ad0df1038ccfd7d957b9c315",
+    "src/compact_memory/certificate_checker.py": "25090d2ea5d1c92e4a762cdfe3ef92a165ef2cefa00063d43e7e68cb2981fc6d",
+    "src/compact_memory/model.py": "10512222a61c4dae7fccf41e68efed48500a114cc8f9b17e0472038f591cb41b",
+    "src/compact_memory/solver.py": "2a8b038350396f4b63152602310c33e3826c7bb3d5fd05d54ea6b7e307b4147f",
+    "src/reference.py": "19fb0cdfe54ccd58877200a9fe3b3b5423a1a3adaa9b226e02a64992840d415a",
+    "src/structural_frontend/__init__.py": "ccdf8165d161475152abb2e8e312e5c6901d507ce02a2d31feab2fcd18aef35c",
+    "src/structural_frontend/certificate_checker.py": "722d83e0adb1147a781cbddf0d28567a13c075ed9138645e17a7550fd1d21929",
+    "src/structural_frontend/precheck.py": "c4256f6508ad438ebc62863dd0039a272dcc080d77ed10964e657f975a66a77b"
+  },
+  "chains": {
+    "src/compact_memory/certificate_checker.py": "25090d2ea5d1c92e4a762cdfe3ef92a165ef2cefa00063d43e7e68cb2981fc6d",
+    "src/compact_memory/model.py": "10512222a61c4dae7fccf41e68efed48500a114cc8f9b17e0472038f591cb41b",
+    "src/compact_memory/solver.py": "2a8b038350396f4b63152602310c33e3826c7bb3d5fd05d54ea6b7e307b4147f",
+    "src/graph_validation/oracles.py": "40a77ecececefbabd5fb408bb9a828863c711015f66bb3c25b9ba1a397b8f6f3",
+    "src/reference.py": "19fb0cdfe54ccd58877200a9fe3b3b5423a1a3adaa9b226e02a64992840d415a",
+    "src/structural_study.py": "2ed50ce323335467cd7a3ed76b3b02c2f7b49ba859b2d54695baf226440ba577"
+  },
+  "scope": "Hashes of original execution sources, identified by release paths. Release copies contain documented relocation and presentation changes; these hashes do not describe release bytes."
+}
