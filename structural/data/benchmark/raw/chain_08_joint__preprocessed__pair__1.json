@@ -1,0 +1,248 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": true,
+  "certificates": [
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": null,
+        "prefix": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "full",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            [
+              6,
+              7
+            ]
+          ]
+        ],
+        "n": 8,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": 0,
+        "prefix": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "growth",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            [
+              6,
+              7
+            ]
+          ]
+        ],
+        "n": 8,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": 0.0012628229960682802,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.000606383997364901,
+  "edges": 16,
+  "family": "matched_chain",
+  "horizons": {
+    "full": "infinite",
+    "growth": "infinite"
+  },
+  "input_sha256": "fae856ed197caf55764b7f7be18e28b92aa191fc33fd21c7cff881bb3bbf637f",
+  "instance": "chain_08_joint",
+  "iteration": 1,
+  "measured": true,
+  "method": "pair",
+  "mode": "preprocessed",
+  "n": 8,
+  "parent_finished_utc": "2026-11-02T11:16:21.105990+00:00",
+  "parent_started_utc": "2026-11-02T11:16:21.047901+00:00",
+  "parent_wall_seconds": 0.057935543001804035,
+  "peak_rss_bytes": 15335424,
+  "peak_rss_decision_bytes": 15335424,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 14,
+    "input_scope_entries": 4,
+    "union_edges": 7
+  },
+  "reachable_states": 8,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 0.0005958479960099794,
+    "certificate_generation": 6.059100269339979e-05,
+    "core_decision": 0.000449056999059394,
+    "input_validation": 9.52240006881766e-05,
+    "matrix_construction": 0.0,
+    "precheck": 6.21029976173304e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.0027611030018306337
+}

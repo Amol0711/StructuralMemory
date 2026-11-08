@@ -1,0 +1,94 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": false,
+  "certificates": [],
+  "certified_total_seconds": null,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 4.838411886004906,
+  "dense_compound_pointer_lower_bound_bytes": 65028096,
+  "dimensions": {
+    "full": [
+      2016,
+      496,
+      120,
+      28,
+      6,
+      1,
+      1
+    ],
+    "growth": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1
+    ],
+    "growth_closure": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      6
+    ]
+  },
+  "edges": null,
+  "exterior_dimension": 2016,
+  "family": "matched_chain",
+  "horizons": {
+    "full": "infinite",
+    "growth": "infinite"
+  },
+  "input_sha256": "4a427b40334dfe1bd89b4178b8d60e48f315aa954febe9dc53e6824f67b56591",
+  "instance": "chain_06_joint",
+  "iteration": 3,
+  "measured": true,
+  "method": "exterior",
+  "mode": "preprocessed",
+  "n": 6,
+  "parent_finished_utc": "2026-11-02T11:16:20.264168+00:00",
+  "parent_started_utc": "2026-11-02T11:16:15.346238+00:00",
+  "parent_wall_seconds": 4.917769747997227,
+  "peak_rss_bytes": 145752064,
+  "peak_rss_decision_bytes": 145752064,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 10,
+    "input_scope_entries": 4,
+    "union_edges": 5
+  },
+  "reachable_states": null,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 2.809974830597639e-07,
+    "certificate_generation": 0.0,
+    "core_decision": 3.9627400290046353,
+    "input_validation": 0.00011001600068993866,
+    "matrix_construction": 0.875434319001215,
+    "precheck": 0.00012752199836540967
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 4.839535630002501
+}

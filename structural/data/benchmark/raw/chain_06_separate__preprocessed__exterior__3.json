@@ -1,0 +1,94 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": false,
+  "certificates": [],
+  "certified_total_seconds": null,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 6.93558398001187,
+  "dense_compound_pointer_lower_bound_bytes": 65028096,
+  "dimensions": {
+    "full": [
+      2016,
+      496,
+      120,
+      28,
+      6,
+      1,
+      0
+    ],
+    "growth": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "growth_closure": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      6
+    ]
+  },
+  "edges": null,
+  "exterior_dimension": 2016,
+  "family": "matched_chain",
+  "horizons": {
+    "full": 6,
+    "growth": 6
+  },
+  "input_sha256": "a126cf9f1e2b80fafeceb684eb8c5b6a020c9ba0737aac93f71bf919ea56e57b",
+  "instance": "chain_06_separate",
+  "iteration": 3,
+  "measured": true,
+  "method": "exterior",
+  "mode": "preprocessed",
+  "n": 6,
+  "parent_finished_utc": "2026-11-02T11:15:59.687933+00:00",
+  "parent_started_utc": "2026-11-02T11:15:52.667103+00:00",
+  "parent_wall_seconds": 7.0206798009967315,
+  "peak_rss_bytes": 155713536,
+  "peak_rss_decision_bytes": 155713536,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 10,
+    "input_scope_entries": 4,
+    "union_edges": 5
+  },
+  "reachable_states": null,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 3.0999945010989904e-07,
+    "certificate_generation": 0.0,
+    "core_decision": 5.948203214000387,
+    "input_validation": 8.828300633467734e-05,
+    "matrix_construction": 0.9872369889999391,
+    "precheck": 5.549400520976633e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 6.936891940000351
+}
