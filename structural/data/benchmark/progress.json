@@ -1,0 +1,74 @@
+{
+  "completed_jobs": 95,
+  "last": {
+    "J_size": null,
+    "actions": 12,
+    "certified_total_seconds": null,
+    "completed_repetitions": 3,
+    "decision_seconds": {
+      "max": 2.134246638001059,
+      "median": 2.1171971349976957,
+      "min": 2.0804173259966774
+    },
+    "discarded_warmups": 1,
+    "edges": 49152,
+    "family": "refresh",
+    "horizons": {
+      "full": "infinite",
+      "growth": "infinite"
+    },
+    "instance": "refresh_12",
+    "measured_repetitions": 3,
+    "method": "antichain",
+    "mode": "unpruned_stress",
+    "n": 12,
+    "parent_wall_seconds": {
+      "max": 2.191478264001489,
+      "median": 2.1724071270000422,
+      "min": 2.1343715569964843
+    },
+    "peak_rss_bytes": {
+      "max": 28180480,
+      "median": 28049408,
+      "min": 27971584
+    },
+    "precheck_horizons": null,
+    "reachable_states": 4096,
+    "stages_seconds": {
+      "certificate_checking": {
+        "max": 0.0,
+        "median": 0.0,
+        "min": 0.0
+      },
+      "certificate_generation": {
+        "max": 0.0,
+        "median": 0.0,
+        "min": 0.0
+      },
+      "core_decision": {
+        "max": 2.133995939999295,
+        "median": 2.1169131159986136,
+        "min": 2.080167888998403
+      },
+      "input_validation": {
+        "max": 0.0002840189990820363,
+        "median": 0.00025069800176424906,
+        "min": 0.0002494369982741773
+      },
+      "matrix_construction": {
+        "max": 0.0,
+        "median": 0.0,
+        "min": 0.0
+      },
+      "precheck": {
+        "max": 0.0,
+        "median": 0.0,
+        "min": 0.0
+      }
+    },
+    "status": "completed",
+    "statuses": [
+      "completed"
+    ]
+  }
+}

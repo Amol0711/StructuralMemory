@@ -1,0 +1,6800 @@
+{
+  "environment": {
+    "cpu_isolated": false,
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "logical_cpu_count": 9,
+    "machine": "x86_64",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "shared_host": true
+  },
+  "finished_utc": "2026-11-02T11:18:17.347147+00:00",
+  "fresh_process_runs": 380,
+  "method_instances": 95,
+  "protocol_sha256": "afa300f4019ea697bc3d1fd29740f6d3e169bde79c61367adfe957cbe1756442",
+  "schema": "structural-memory.benchmark-summary.v1",
+  "source_stable_during_run": true,
+  "started_utc": "2026-11-02T11:15:30.567613+00:00",
+  "status": "passed",
+  "summaries": [
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0008775089954724535,
+        "median": 0.0007886880121077411,
+        "min": 0.0006321409964584745
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0003538619930623099,
+        "median": 0.0003331920088385232,
+        "min": 0.00027217899332754314
+      },
+      "discarded_warmups": 1,
+      "edges": 6,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 2,
+        "growth": 2
+      },
+      "instance": "chain_02_separate",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.05873439800052438,
+        "median": 0.054401850000431295,
+        "min": 0.05372715400153538
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 3,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0004734819958684966,
+          "median": 0.0003092860060860403,
+          "min": 0.00021936000121058896
+        },
+        "certificate_generation": {
+          "max": 0.00023613600205862895,
+          "median": 5.067599704489112e-05,
+          "min": 5.016500654164702e-05
+        },
+        "core_decision": {
+          "max": 0.00021044700406491756,
+          "median": 0.0001394200007780455,
+          "min": 0.00011070599430240691
+        },
+        "input_validation": {
+          "max": 0.00010464800288900733,
+          "median": 8.907399751478806e-05,
+          "min": 7.840800390113145e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00013850799587089568,
+          "median": 4.4337000872474164e-05,
+          "min": 4.368499503470957e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0003711379977175966,
+        "median": 0.00026061199605464935,
+        "min": 0.00022361700393958017
+      },
+      "discarded_warmups": 1,
+      "edges": 6,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 2,
+        "growth": 2
+      },
+      "instance": "chain_02_separate",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.05586572600441286,
+        "median": 0.053471457002160605,
+        "min": 0.050467672997910995
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 3,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.1100353226065636e-07,
+          "median": 3.1100353226065636e-07,
+          "min": 3.1100353226065636e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.00020816299365833402,
+          "median": 0.0001359149973723106,
+          "min": 0.00010812300024554133
+        },
+        "input_validation": {
+          "max": 8.013100159587339e-05,
+          "median": 8.00300040282309e-05,
+          "min": 7.548400026280433e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 8.284400246338919e-05,
+          "median": 4.466699465410784e-05,
+          "min": 4.001000343123451e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.000496117994771339,
+        "median": 0.00034285800211364403,
+        "min": 0.00032681100128684193
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 2,
+        "growth": 2
+      },
+      "instance": "chain_02_separate",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.060166071001731325,
+        "median": 0.0564368459963589,
+        "min": 0.0535314489970915
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.609973984770477e-07,
+          "median": 3.899986040778458e-07,
+          "min": 3.1100353226065636e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0002867820003302768,
+          "median": 8.712099952390417e-05,
+          "min": 8.559900015825406e-05
+        },
+        "input_validation": {
+          "max": 0.00013172900071367621,
+          "median": 0.00011248899681959301,
+          "min": 8.213399996748194e-05
+        },
+        "matrix_construction": {
+          "max": 8.294500003103167e-05,
+          "median": 8.262399933300912e-05,
+          "min": 8.260499453172088e-05
+        },
+        "precheck": {
+          "max": 4.4596999941859394e-05,
+          "median": 4.457700561033562e-05,
+          "min": 4.2585001210682094e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0013989089929964393,
+        "median": 0.0004752360182465054,
+        "min": 0.00033912000799318776
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0010353100005886517,
+        "median": 0.0002172270105802454,
+        "min": 0.00018409700714983046
+      },
+      "discarded_warmups": 1,
+      "edges": 4,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_02_joint",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.056694253005844075,
+        "median": 0.05468433700298192,
+        "min": 0.045491855002183
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 2,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0003207339905202389,
+          "median": 0.00021520400332519785,
+          "min": 0.00011568400077521801
+        },
+        "certificate_generation": {
+          "max": 4.2865001887548715e-05,
+          "median": 4.280500434106216e-05,
+          "min": 3.9339000068139285e-05
+        },
+        "core_decision": {
+          "max": 0.0001270119973924011,
+          "median": 8.412700117332861e-05,
+          "min": 6.433700036723167e-05
+        },
+        "input_validation": {
+          "max": 0.0008650829986436293,
+          "median": 8.621000597486272e-05,
+          "min": 7.924900273792446e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 4.689000343205407e-05,
+          "median": 4.3215004552621394e-05,
+          "min": 4.051100404467434e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0003834870003629476,
+        "median": 0.00027406300068832934,
+        "min": 0.00022531899594468996
+      },
+      "discarded_warmups": 1,
+      "edges": 4,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_02_joint",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.059232463005173486,
+        "median": 0.05783202299789991,
+        "min": 0.054609462997177616
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 2,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.5100023271515965e-07,
+          "median": 2.809974830597639e-07,
+          "min": 2.5999906938523054e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0001302660020883195,
+          "median": 0.0001008019971777685,
+          "min": 8.744200022192672e-05
+        },
+        "input_validation": {
+          "max": 0.0001318180002272129,
+          "median": 7.849800022086129e-05,
+          "min": 7.829799869796261e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00017492299957666546,
+          "median": 5.4803000239189714e-05,
+          "min": 4.6018998546060175e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00032954699418041855,
+        "median": 0.0002857309955288656,
+        "min": 0.00027970200608251616
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_02_joint",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.05311662800522754,
+        "median": 0.050415698999131564,
+        "min": 0.045540218001406174
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.410023055039346e-07,
+          "median": 3.0100636649876833e-07,
+          "min": 2.800006768666208e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.00012700099614448845,
+          "median": 9.830800263443962e-05,
+          "min": 9.790700278244913e-05
+        },
+        "input_validation": {
+          "max": 7.891899440437555e-05,
+          "median": 7.857900345697999e-05,
+          "min": 7.587500294903293e-05
+        },
+        "matrix_construction": {
+          "max": 8.20239947643131e-05,
+          "median": 6.620000203838572e-05,
+          "min": 6.585999653907493e-05
+        },
+        "precheck": {
+          "max": 4.264400195097551e-05,
+          "median": 4.1942999814637005e-05,
+          "min": 3.9719998312648386e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.001036553003359586,
+        "median": 0.001025122997816652,
+        "min": 0.0009853769952314906
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0005172900055185892,
+        "median": 0.000425990998337511,
+        "min": 0.00037358499685069546
+      },
+      "discarded_warmups": 1,
+      "edges": 10,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 4,
+        "growth": 4
+      },
+      "instance": "chain_04_separate",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.0605081510002492,
+        "median": 0.0553419979987666,
+        "min": 0.053193122999800835
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 5,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0005560680001508445,
+          "median": 0.0005372590021579526,
+          "min": 0.00046243699762271717
+        },
+        "certificate_generation": {
+          "max": 6.187299732118845e-05,
+          "median": 5.682600021827966e-05,
+          "min": 5.5723998229950666e-05
+        },
+        "core_decision": {
+          "max": 0.00037692800106015056,
+          "median": 0.00023640700237592682,
+          "min": 0.00022498899488709867
+        },
+        "input_validation": {
+          "max": 8.955500379670411e-05,
+          "median": 8.901499677449465e-05,
+          "min": 8.041100227274e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0001205910011776723,
+          "median": 5.080700066173449e-05,
+          "min": 4.816299770027399e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0003581689961720258,
+        "median": 0.0003319909956189804,
+        "min": 0.0003004530008183792
+      },
+      "discarded_warmups": 1,
+      "edges": 10,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 4,
+        "growth": 4
+      },
+      "instance": "chain_04_separate",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.05950663099793019,
+        "median": 0.052289997998741455,
+        "min": 0.04851313900144305
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 5,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.910034476779401e-07,
+          "median": 4.909961717203259e-07,
+          "min": 2.9999500839039683e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.00020589999621734023,
+          "median": 0.00019416299619479105,
+          "min": 0.00016667100135236979
+        },
+        "input_validation": {
+          "max": 9.890900400932878e-05,
+          "median": 8.60799991642125e-05,
+          "min": 8.329599950229749e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 5.3359995945356786e-05,
+          "median": 5.1748000259976834e-05,
+          "min": 5.048599996371195e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.019555443999706767,
+        "median": 0.019135372996970546,
+        "min": 0.01794836299814051
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 4,
+        "growth": 4
+      },
+      "instance": "chain_04_separate",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.08692733800126007,
+        "median": 0.0857756330005941,
+        "min": 0.07649913499335526
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.109970177523792e-07,
+          "median": 4.1000021155923605e-07,
+          "min": 4.0099985199049115e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.015202996997686569,
+          "median": 0.014739568003278691,
+          "min": 0.01408419099607272
+        },
+        "input_validation": {
+          "max": 0.00013556499470723793,
+          "median": 0.0001116579951485619,
+          "min": 8.780200005276129e-05
+        },
+        "matrix_construction": {
+          "max": 0.0046485040002153255,
+          "median": 0.0037046819998067804,
+          "min": 0.003536008000082802
+        },
+        "precheck": {
+          "max": 0.00024036200193222612,
+          "median": 9.212900476995856e-05,
+          "min": 5.571400106418878e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.002241367008537054,
+        "median": 0.0005672849947586656,
+        "min": 0.0005256140066194348
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0007672259962419048,
+        "median": 0.0003666929987957701,
+        "min": 0.00029871101287426427
+      },
+      "discarded_warmups": 1,
+      "edges": 8,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_04_joint",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.07077054199908162,
+        "median": 0.06604170899663586,
+        "min": 0.05983403499703854
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 4,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0013944910097052343,
+          "median": 0.00017419299547327682,
+          "min": 0.00015141799667617306
+        },
+        "certificate_generation": {
+          "max": 7.965000258991495e-05,
+          "median": 5.270999827189371e-05,
+          "min": 4.917399928672239e-05
+        },
+        "core_decision": {
+          "max": 0.0006208250051713549,
+          "median": 0.00015942100435495377,
+          "min": 0.000126240003737621
+        },
+        "input_validation": {
+          "max": 0.00011026700667571276,
+          "median": 8.733199501875788e-05,
+          "min": 8.214399713324383e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00012512799730757251,
+          "median": 6.22040024609305e-05,
+          "min": 5.9068996051792055e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0010157900032936595,
+        "median": 0.0006703899998683482,
+        "min": 0.000513734994456172
+      },
+      "discarded_warmups": 1,
+      "edges": 8,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_04_joint",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.06805149700085167,
+        "median": 0.060819594997155946,
+        "min": 0.05688565799937351
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 4,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.5099947126582265e-07,
+          "median": 3.210006980225444e-07,
+          "min": 2.4999462766572833e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0005557070035138167,
+          "median": 0.0003020650037797168,
+          "min": 0.0001860899938037619
+        },
+        "input_validation": {
+          "max": 0.0002544129965826869,
+          "median": 0.00016211500042118132,
+          "min": 8.664000051794574e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0002816849955706857,
+          "median": 0.0002056700031971559,
+          "min": 0.00016553000023122877
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.016856116999406368,
+        "median": 0.01471918101015035,
+        "min": 0.013348103006137535
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_04_joint",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.07483565899747191,
+        "median": 0.07217501899867784,
+        "min": 0.07059065800422104
+      },
+      "peak_rss_bytes": {
+        "max": 15204352,
+        "median": 15204352,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.1999661587178707e-07,
+          "median": 3.00002284348011e-07,
+          "min": 2.910019247792661e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.011387146994820796,
+          "median": 0.010509746003663167,
+          "min": 0.009641618002206087
+        },
+        "input_validation": {
+          "max": 0.00020019100338686258,
+          "median": 8.552800136385486e-05,
+          "min": 8.037099905777723e-05
+        },
+        "matrix_construction": {
+          "max": 0.005316511000273749,
+          "median": 0.003955043001042213,
+          "min": 0.0035181909988750704
+        },
+        "precheck": {
+          "max": 0.00010792300599860027,
+          "median": 6.69310029479675e-05,
+          "min": 5.4201002058107406e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0027888219919987023,
+        "median": 0.0016642680056975223,
+        "min": 0.0015755040076328442
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0014288229940575548,
+        "median": 0.000504751005792059,
+        "min": 0.00044644200534094125
+      },
+      "discarded_warmups": 1,
+      "edges": 14,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 6,
+        "growth": 6
+      },
+      "instance": "chain_06_separate",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 0.05794368799979566,
+        "median": 0.057639597995148506,
+        "min": 0.05685833600000478
+      },
+      "peak_rss_bytes": {
+        "max": 15335424,
+        "median": 15335424,
+        "min": 15204352
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 7,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.001289473002543673,
+          "median": 0.0010809590021381155,
+          "min": 0.0009840029961196706
+        },
+        "certificate_generation": {
+          "max": 0.0001368669982184656,
+          "median": 8.675000572111458e-05,
+          "min": 7.052599539747462e-05
+        },
+        "core_decision": {
+          "max": 0.0012840549970860593,
+          "median": 0.00030757300555706024,
+          "min": 0.00027880000561708584
+        },
+        "input_validation": {
+          "max": 8.943499415181577e-05,
+          "median": 8.388599962927401e-05,
+          "min": 8.329599950229749e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00014265500067267567,
+          "median": 5.533300281967968e-05,
+          "min": 5.4983000154607e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0005135940009495243,
+        "median": 0.0004950270085828379,
+        "min": 0.000425983002060093
+      },
+      "discarded_warmups": 1,
+      "edges": 14,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 6,
+        "growth": 6
+      },
+      "instance": "chain_06_separate",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 0.06454523900174536,
+        "median": 0.06258532500214642,
+        "min": 0.05182413500006078
+      },
+      "peak_rss_bytes": {
+        "max": 15335424,
+        "median": 15335424,
+        "min": 15335424
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 7,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.1100429370999336e-07,
+          "median": 3.710010787472129e-07,
+          "min": 2.800006768666208e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.00037599600182147697,
+          "median": 0.00035596700035966933,
+          "min": 0.0002854000049410388
+        },
+        "input_validation": {
+          "max": 8.704199717612937e-05,
+          "median": 8.490800246363506e-05,
+          "min": 8.406700362684205e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 5.4152005759533495e-05,
+          "median": 5.354099994292483e-05,
+          "min": 5.3530995501205325e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 6.93558398001187,
+        "median": 6.306549936001829,
+        "min": 6.119324295003025
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 6,
+        "growth": 6
+      },
+      "instance": "chain_06_separate",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 7.0206798009967315,
+        "median": 6.396451647000504,
+        "min": 6.209987259004265
+      },
+      "peak_rss_bytes": {
+        "max": 155713536,
+        "median": 155713536,
+        "min": 155451392
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.109970177523792e-07,
+          "median": 4.109970177523792e-07,
+          "min": 3.0999945010989904e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 5.948203214000387,
+          "median": 5.436967506997462,
+          "min": 5.20618708999973
+        },
+        "input_validation": {
+          "max": 0.00011719599569914863,
+          "median": 8.828300633467734e-05,
+          "min": 8.667099609738216e-05
+        },
+        "matrix_construction": {
+          "max": 0.9872369889999391,
+          "median": 0.9129942090003169,
+          "min": 0.8694113520032261
+        },
+        "precheck": {
+          "max": 5.6325006880797446e-05,
+          "median": 5.549400520976633e-05,
+          "min": 5.388100544223562e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0015057070049806498,
+        "median": 0.0010674279983504675,
+        "min": 0.0010283990122843534
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0008711720001883805,
+        "median": 0.0006506509962491691,
+        "min": 0.0005123710070620291
+      },
+      "discarded_warmups": 1,
+      "edges": 12,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_06_joint",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 0.07457531600084621,
+        "median": 0.06733459800307173,
+        "min": 0.0607310220002546
+      },
+      "peak_rss_bytes": {
+        "max": 15335424,
+        "median": 15335424,
+        "min": 15335424
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 6,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0005767180045950226,
+          "median": 0.00037728800816694275,
+          "min": 0.00036036199890077114
+        },
+        "certificate_generation": {
+          "max": 0.00013873999705538154,
+          "median": 5.781700019724667e-05,
+          "min": 5.641500320052728e-05
+        },
+        "core_decision": {
+          "max": 0.0004244399970048107,
+          "median": 0.00031404299807036296,
+          "min": 0.0002514389998395927
+        },
+        "input_validation": {
+          "max": 0.00040030299714999273,
+          "median": 0.00016364699695259333,
+          "min": 8.354500459972769e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00017738700262270868,
+          "median": 0.0001568260049680248,
+          "min": 6.256400229176506e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0005329030100256205,
+        "median": 0.00045059999683871865,
+        "min": 0.00043879100849153474
+      },
+      "discarded_warmups": 1,
+      "edges": 12,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_06_joint",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 0.060345105004671495,
+        "median": 0.057688460998178925,
+        "min": 0.054296403999614995
+      },
+      "peak_rss_bytes": {
+        "max": 15335424,
+        "median": 15335424,
+        "min": 15335424
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 6,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.6000710679218173e-07,
+          "median": 2.899978426285088e-07,
+          "min": 2.7000351110473275e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0003168280018144287,
+          "median": 0.0002883440029108897,
+          "min": 0.00027194999711355194
+        },
+        "input_validation": {
+          "max": 9.537400183035061e-05,
+          "median": 9.449200297240168e-05,
+          "min": 9.256900375476107e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00012158300523879007,
+          "median": 8.32759978948161e-05,
+          "min": 5.7878001825883985e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 5.420473326987121,
+        "median": 4.838411886004906,
+        "min": 4.703233286003524
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_06_joint",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 5.4992224569941754,
+        "median": 4.917769747997227,
+        "min": 4.7745517490038765
+      },
+      "peak_rss_bytes": {
+        "max": 145752064,
+        "median": 145620992,
+        "min": 145620992
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.410023055039346e-07,
+          "median": 2.90005118586123e-07,
+          "min": 2.809974830597639e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 4.535705265996512,
+          "median": 3.9627400290046353,
+          "min": 3.8872579430026235
+        },
+        "input_validation": {
+          "max": 0.00011001600068993866,
+          "median": 8.611899829702452e-05,
+          "min": 8.420699305133894e-05
+        },
+        "matrix_construction": {
+          "max": 0.8844598159994348,
+          "median": 0.875434319001215,
+          "min": 0.8158346220006933
+        },
+        "precheck": {
+          "max": 0.00022403799812309444,
+          "median": 0.00012752199836540967,
+          "min": 5.46020019100979e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.003771425996092148,
+        "median": 0.003019391013367567,
+        "min": 0.002734283007157501
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0008498110037180595,
+        "median": 0.000752644999010954,
+        "min": 0.000485693002701737
+      },
+      "discarded_warmups": 1,
+      "edges": 18,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 8,
+        "growth": 8
+      },
+      "instance": "chain_08_separate",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.06810680300259264,
+        "median": 0.061128232002374716,
+        "min": 0.0599652730015805
+      },
+      "peak_rss_bytes": {
+        "max": 15335424,
+        "median": 15335424,
+        "min": 15335424
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 9,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0026040660013677552,
+          "median": 0.0020927940058754757,
+          "min": 0.0020275570059311576
+        },
+        "certificate_generation": {
+          "max": 0.00041471499571343884,
+          "median": 0.00022103299852460623,
+          "min": 7.6786003774032e-05
+        },
+        "core_decision": {
+          "max": 0.0004922419975628145,
+          "median": 0.0004380410027806647,
+          "min": 0.00030612100090365857
+        },
+        "input_validation": {
+          "max": 0.00031475399737246335,
+          "median": 0.000108713997178711,
+          "min": 8.502900163875893e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00015168900426942855,
+          "median": 9.701600356493145e-05,
+          "min": 9.454300015931949e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0008219490046030842,
+        "median": 0.0007499109997297637,
+        "min": 0.0006136840020189993
+      },
+      "discarded_warmups": 1,
+      "edges": 18,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 8,
+        "growth": 8
+      },
+      "instance": "chain_08_separate",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.06441055000323104,
+        "median": 0.05741107799985912,
+        "min": 0.05400034700141987
+      },
+      "peak_rss_bytes": {
+        "max": 15335424,
+        "median": 15335424,
+        "min": 15335424
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 9,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.4100306695327163e-07,
+          "median": 3.410023055039346e-07,
+          "min": 3.2000389182940125e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0005359780043363571,
+          "median": 0.0004747560014948249,
+          "min": 0.0004727319974335842
+        },
+        "input_validation": {
+          "max": 0.00022422800248023123,
+          "median": 0.00021483399905264378,
+          "min": 8.480700489599258e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 6.174299778649583e-05,
+          "median": 6.0320999182295054e-05,
+          "min": 5.614499968942255e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 2,
+      "censoring_reasons": [
+        "Dense compound pointer storage exceeds the common cap for this reference implementation."
+      ],
+      "certified_total_seconds": null,
+      "completed_repetitions": 0,
+      "decision_seconds": null,
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": null,
+        "growth": null
+      },
+      "instance": "chain_08_separate",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": null,
+      "peak_rss_bytes": null,
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {},
+      "status": "unknown_memory_preflight",
+      "statuses": [
+        "unknown_memory_preflight"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.001324707001913339,
+        "median": 0.0012628229960682802,
+        "min": 0.0011361619835952297
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0007038920011837035,
+        "median": 0.000606383997364901,
+        "min": 0.00044104499102104455
+      },
+      "discarded_warmups": 1,
+      "edges": 16,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_08_joint",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.07695091999630677,
+        "median": 0.06688432399823796,
+        "min": 0.057935543001804035
+      },
+      "peak_rss_bytes": {
+        "max": 15335424,
+        "median": 15335424,
+        "min": 15335424
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 8,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0006255419939407147,
+          "median": 0.0005958479960099794,
+          "min": 0.0005581009972956963
+        },
+        "certificate_generation": {
+          "max": 6.957499863347039e-05,
+          "median": 6.271400343393907e-05,
+          "min": 6.059100269339979e-05
+        },
+        "core_decision": {
+          "max": 0.000449056999059394,
+          "median": 0.00029271200037328526,
+          "min": 0.00028898599703097716
+        },
+        "input_validation": {
+          "max": 0.00012324599811108783,
+          "median": 9.52240006881766e-05,
+          "min": 8.902399713406339e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00028793400269933045,
+          "median": 6.3034996856004e-05,
+          "min": 6.21029976173304e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0005855330018675886,
+        "median": 0.0004963269966538064,
+        "min": 0.00048153499665204436
+      },
+      "discarded_warmups": 1,
+      "edges": 16,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_08_joint",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.06057075999706285,
+        "median": 0.05802302499796497,
+        "min": 0.055536517000291497
+      },
+      "peak_rss_bytes": {
+        "max": 15335424,
+        "median": 15335424,
+        "min": 15335424
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 8,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.210006980225444e-07,
+          "median": 2.9099464882165194e-07,
+          "min": 2.799934009090066e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0003746450020116754,
+          "median": 0.0003392910002730787,
+          "min": 0.0003382299983059056
+        },
+        "input_validation": {
+          "max": 0.00015283999528037384,
+          "median": 9.922900062520057e-05,
+          "min": 8.674099808558822e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 5.886799772270024e-05,
+          "median": 5.804800457553938e-05,
+          "min": 5.550299829337746e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 2,
+      "censoring_reasons": [
+        "Dense compound pointer storage exceeds the common cap for this reference implementation."
+      ],
+      "certified_total_seconds": null,
+      "completed_repetitions": 0,
+      "decision_seconds": null,
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": null,
+        "growth": null
+      },
+      "instance": "chain_08_joint",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": null,
+      "peak_rss_bytes": null,
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {},
+      "status": "unknown_memory_preflight",
+      "statuses": [
+        "unknown_memory_preflight"
+      ]
+    },
+    {
+      "J_size": 10,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.004972385999280959,
+        "median": 0.004251908001606353,
+        "min": 0.003654148989880923
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.001156022997747641,
+        "median": 0.0010837829977390356,
+        "min": 0.0006758679955964908
+      },
+      "discarded_warmups": 1,
+      "edges": 22,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 10,
+        "growth": 10
+      },
+      "instance": "chain_10_separate",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 10,
+      "parent_wall_seconds": {
+        "max": 0.0692841070049326,
+        "median": 0.06763564600259997,
+        "min": 0.06365215600089869
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15335424,
+        "min": 15335424
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 11,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.003503942003590055,
+          "median": 0.003074434003792703,
+          "min": 0.002894984994782135
+        },
+        "certificate_generation": {
+          "max": 0.0003124209979432635,
+          "median": 9.369100007461384e-05,
+          "min": 8.329599950229749e-05
+        },
+        "core_decision": {
+          "max": 0.0009917749994201586,
+          "median": 0.00091160400188528,
+          "min": 0.00047247199836419895
+        },
+        "input_validation": {
+          "max": 0.00013898900215281174,
+          "median": 0.00010509799903957173,
+          "min": 9.667599806562066e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 6.757200026186183e-05,
+          "median": 6.708099681418389e-05,
+          "min": 6.440699507948011e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 10,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.001255271999980323,
+        "median": 0.0010717550030676648,
+        "min": 0.0008510229963576421
+      },
+      "discarded_warmups": 1,
+      "edges": 22,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 10,
+        "growth": 10
+      },
+      "instance": "chain_10_separate",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 10,
+      "parent_wall_seconds": {
+        "max": 0.0720965860018623,
+        "median": 0.06304918700334383,
+        "min": 0.062132425999152474
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 11,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 5.010006134398282e-07,
+          "median": 4.910034476779401e-07,
+          "min": 4.0099985199049115e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0010204079953837208,
+          "median": 0.0009052640016307123,
+          "min": 0.0006903510002302937
+        },
+        "input_validation": {
+          "max": 0.00011292999988654628,
+          "median": 9.807800233829767e-05,
+          "min": 9.734699415275827e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00012193400471005589,
+          "median": 6.841299909865484e-05,
+          "min": 6.332500197459012e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 10,
+      "actions": 2,
+      "censoring_reasons": [
+        "Dense compound pointer storage exceeds the common cap for this reference implementation."
+      ],
+      "certified_total_seconds": null,
+      "completed_repetitions": 0,
+      "decision_seconds": null,
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": null,
+        "growth": null
+      },
+      "instance": "chain_10_separate",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 10,
+      "parent_wall_seconds": null,
+      "peak_rss_bytes": null,
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {},
+      "status": "unknown_memory_preflight",
+      "statuses": [
+        "unknown_memory_preflight"
+      ]
+    },
+    {
+      "J_size": 10,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0022363340031006373,
+        "median": 0.0020875069894827902,
+        "min": 0.0020315819929237477
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0010663169960025698,
+        "median": 0.0009115629945881665,
+        "min": 0.0007783039982314222
+      },
+      "discarded_warmups": 1,
+      "edges": 20,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_10_joint",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 10,
+      "parent_wall_seconds": {
+        "max": 0.06304508700122824,
+        "median": 0.061481861004722305,
+        "min": 0.0607350200007204
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 10,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0011928220046684146,
+          "median": 0.0009942579927155748,
+          "min": 0.0008955899975262582
+        },
+        "certificate_generation": {
+          "max": 0.0003149449985357933,
+          "median": 0.00013194900384405628,
+          "min": 6.967499939491972e-05
+        },
+        "core_decision": {
+          "max": 0.0008930759940994903,
+          "median": 0.0006414759991457686,
+          "min": 0.000605002001975663
+        },
+        "input_validation": {
+          "max": 0.00020448800205485895,
+          "median": 0.00010512799781281501,
+          "min": 0.00010496899631107226
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 6.833299994468689e-05,
+          "median": 6.811300409026444e-05,
+          "min": 6.559899338753894e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 10,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0008345769965671934,
+        "median": 0.0007974719992489554,
+        "min": 0.0006791240011807531
+      },
+      "discarded_warmups": 1,
+      "edges": 20,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_10_joint",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 10,
+      "parent_wall_seconds": {
+        "max": 0.06063992200506618,
+        "median": 0.060472260003734846,
+        "min": 0.05603255800087936
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 10,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.410023055039346e-07,
+          "median": 3.1100353226065636e-07,
+          "min": 2.9999500839039683e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0006474760011769831,
+          "median": 0.0005504700020537712,
+          "min": 0.000523900002008304
+        },
+        "input_validation": {
+          "max": 0.00022134299797471613,
+          "median": 9.25190033740364e-05,
+          "min": 8.700099715497345e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 6.299500091699883e-05,
+          "median": 6.276399653870612e-05,
+          "min": 6.270499579841271e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 10,
+      "actions": 2,
+      "censoring_reasons": [
+        "Dense compound pointer storage exceeds the common cap for this reference implementation."
+      ],
+      "certified_total_seconds": null,
+      "completed_repetitions": 0,
+      "decision_seconds": null,
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": null,
+        "growth": null
+      },
+      "instance": "chain_10_joint",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 10,
+      "parent_wall_seconds": null,
+      "peak_rss_bytes": null,
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {},
+      "status": "unknown_memory_preflight",
+      "statuses": [
+        "unknown_memory_preflight"
+      ]
+    },
+    {
+      "J_size": 12,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.00944871301180683,
+        "median": 0.007901589997345582,
+        "min": 0.007261162994836923
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0015466820041183382,
+        "median": 0.0013305159955052659,
+        "min": 0.0009065070044016466
+      },
+      "discarded_warmups": 1,
+      "edges": 26,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 12,
+        "growth": 12
+      },
+      "instance": "chain_12_separate",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 12,
+      "parent_wall_seconds": {
+        "max": 0.07173753700044472,
+        "median": 0.06778810599644203,
+        "min": 0.06626636200235225
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 13,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.008453762005956378,
+          "median": 0.00606613299169112,
+          "min": 0.005629564002447296
+        },
+        "certificate_generation": {
+          "max": 0.0003010829968843609,
+          "median": 0.00028877500153612345,
+          "min": 8.844400144880638e-05
+        },
+        "core_decision": {
+          "max": 0.001119608001317829,
+          "median": 0.0010584359988570213,
+          "min": 0.0007115830012480728
+        },
+        "input_validation": {
+          "max": 0.00012460799916880205,
+          "median": 9.562400373397395e-05,
+          "min": 9.455200051888824e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0003314499990665354,
+          "median": 0.00017752799612935632,
+          "min": 7.031600398477167e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 12,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0014996299942140467,
+        "median": 0.0014746630113222636,
+        "min": 0.001186478002637159
+      },
+      "discarded_warmups": 1,
+      "edges": 26,
+      "family": "matched_chain",
+      "horizons": {
+        "full": 12,
+        "growth": 12
+      },
+      "instance": "chain_12_separate",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 12,
+      "parent_wall_seconds": {
+        "max": 0.07908586300618481,
+        "median": 0.06432883600064088,
+        "min": 0.057135210001433734
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 13,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.2000389182940125e-07,
+          "median": 3.0999945010989904e-07,
+          "min": 3.0999945010989904e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0013221530025475658,
+          "median": 0.0013118670030962676,
+          "min": 0.0008116530007100664
+        },
+        "input_validation": {
+          "max": 0.00010285499593010172,
+          "median": 9.714600309962407e-05,
+          "min": 9.01160019566305e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0002776789988274686,
+          "median": 7.462199573637918e-05,
+          "min": 7.268000626936555e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 12,
+      "actions": 2,
+      "censoring_reasons": [
+        "Dense compound pointer storage exceeds the common cap for this reference implementation."
+      ],
+      "certified_total_seconds": null,
+      "completed_repetitions": 0,
+      "decision_seconds": null,
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": null,
+        "growth": null
+      },
+      "instance": "chain_12_separate",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 12,
+      "parent_wall_seconds": null,
+      "peak_rss_bytes": null,
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {},
+      "status": "unknown_memory_preflight",
+      "statuses": [
+        "unknown_memory_preflight"
+      ]
+    },
+    {
+      "J_size": 12,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0030531410011462867,
+        "median": 0.0022656940054730512,
+        "min": 0.0021807949960930273
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0010338079955545254,
+        "median": 0.0008276879962068051,
+        "min": 0.0008271260085166432
+      },
+      "discarded_warmups": 1,
+      "edges": 24,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_12_joint",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 12,
+      "parent_wall_seconds": {
+        "max": 0.07428229300421663,
+        "median": 0.06391951499972492,
+        "min": 0.058957706998626236
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 12,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0017067720036720857,
+          "median": 0.001365998999972362,
+          "min": 0.0012775440045516007
+        },
+        "certificate_generation": {
+          "max": 0.0003125610019196756,
+          "median": 7.556299533462152e-05,
+          "min": 7.256899698404595e-05
+        },
+        "core_decision": {
+          "max": 0.0008656040008645505,
+          "median": 0.000658122000459116,
+          "min": 0.0006564890063600615
+        },
+        "input_validation": {
+          "max": 0.00010072199802380055,
+          "median": 0.00010016099986387417,
+          "min": 9.873899398371577e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 7.047600229270756e-05,
+          "median": 6.946500070625916e-05,
+          "min": 6.88439977238886e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 12,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0015049490029923618,
+        "median": 0.0012366040027700365,
+        "min": 0.0009045439946930856
+      },
+      "discarded_warmups": 1,
+      "edges": 24,
+      "family": "matched_chain",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "chain_12_joint",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 12,
+      "parent_wall_seconds": {
+        "max": 0.09800748500128975,
+        "median": 0.08721971599879907,
+        "min": 0.0728031140024541
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 12,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 6.710033630952239e-07,
+          "median": 3.210006980225444e-07,
+          "min": 2.899978426285088e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0010562020033830777,
+          "median": 0.0009864970052149147,
+          "min": 0.0007212169948616065
+        },
+        "input_validation": {
+          "max": 0.00017955100338440388,
+          "median": 0.00016016099834814668,
+          "min": 0.00011209900549147278
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0002691959962248802,
+          "median": 8.99459992069751e-05,
+          "min": 7.122799434000626e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 12,
+      "actions": 2,
+      "censoring_reasons": [
+        "Dense compound pointer storage exceeds the common cap for this reference implementation."
+      ],
+      "certified_total_seconds": null,
+      "completed_repetitions": 0,
+      "decision_seconds": null,
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "matched_chain",
+      "horizons": {
+        "full": null,
+        "growth": null
+      },
+      "instance": "chain_12_joint",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 12,
+      "parent_wall_seconds": null,
+      "peak_rss_bytes": null,
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {},
+      "status": "unknown_memory_preflight",
+      "statuses": [
+        "unknown_memory_preflight"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.003360222988703754,
+        "median": 0.002349602997128386,
+        "min": 0.0016133629978867248
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0012170159970992245,
+        "median": 0.0006676749981124885,
+        "min": 0.0004641600025934167
+      },
+      "discarded_warmups": 1,
+      "edges": 24,
+      "family": "selection_delay",
+      "horizons": {
+        "full": 6,
+        "growth": 6
+      },
+      "instance": "delay_04_selected",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.10110091699607437,
+        "median": 0.08840898400376318,
+        "min": 0.07284746999357594
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 12,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0026145199954044074,
+          "median": 0.0010492110013728961,
+          "min": 0.0009351999979116954
+        },
+        "certificate_generation": {
+          "max": 0.00021400299738161266,
+          "median": 8.337599865626544e-05,
+          "min": 7.802799518685788e-05
+        },
+        "core_decision": {
+          "max": 0.0007936269976198673,
+          "median": 0.0002830459998222068,
+          "min": 0.00021560500317718834
+        },
+        "input_validation": {
+          "max": 0.00019473399879643694,
+          "median": 0.00010047200339613482,
+          "min": 8.976500248536468e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00032291699608322233,
+          "median": 0.00029486399580491707,
+          "min": 5.382100061979145e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.001548264001030475,
+        "median": 0.0007888190011726692,
+        "min": 0.0005256429867586121
+      },
+      "discarded_warmups": 1,
+      "edges": 24,
+      "family": "selection_delay",
+      "horizons": {
+        "full": 6,
+        "growth": 6
+      },
+      "instance": "delay_04_selected",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.0741134019990568,
+        "median": 0.07345308900403325,
+        "min": 0.07198734000121476
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 12,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.109970177523792e-07,
+          "median": 4.0099985199049115e-07,
+          "min": 3.799941623583436e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0007932959997560829,
+          "median": 0.0005572200025198981,
+          "min": 0.00037570599670289084
+        },
+        "input_validation": {
+          "max": 0.00024944599863374606,
+          "median": 9.952999971574172e-05,
+          "min": 8.927499584387988e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.000505522002640646,
+          "median": 0.0001320689989370294,
+          "min": 6.0661994211841375e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.04288017199723981,
+        "median": 0.04250821100140456,
+        "min": 0.03841745598765556
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "selection_delay",
+      "horizons": {
+        "full": 6,
+        "growth": 6
+      },
+      "instance": "delay_04_selected",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.11842506199900527,
+        "median": 0.11355487199762138,
+        "min": 0.11258345399983227
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.6100467443466187e-07,
+          "median": 3.9999576983973384e-07,
+          "min": 3.9099541027098894e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.03690703699976439,
+          "median": 0.03577695300191408,
+          "min": 0.033645530995272566
+        },
+        "input_validation": {
+          "max": 0.00015147899830481037,
+          "median": 0.00013793799735140055,
+          "min": 9.898900316329673e-05
+        },
+        "matrix_construction": {
+          "max": 0.006914874997164588,
+          "median": 0.005448743999295402,
+          "min": 0.004566714997054078
+        },
+        "precheck": {
+          "max": 5.3730997024104e-05,
+          "median": 5.344099918147549e-05,
+          "min": 5.0406000809744e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 0,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0013383569967118092,
+        "median": 0.0011227129871258512,
+        "min": 0.0010326269984943792
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0005529229965759441,
+        "median": 0.00042642399785108864,
+        "min": 0.0003468830036581494
+      },
+      "discarded_warmups": 1,
+      "edges": 24,
+      "family": "selection_delay",
+      "horizons": {
+        "full": 4,
+        "growth": 0
+      },
+      "instance": "delay_04_selection_free",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.07065362900175387,
+        "median": 0.06622757099830778,
+        "min": 0.0658667429961497
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": 0
+      },
+      "reachable_states": 12,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0007440120025421493,
+          "median": 0.0006553579951287247,
+          "min": 0.0006393639923771843
+        },
+        "certificate_generation": {
+          "max": 4.63800024590455e-05,
+          "median": 4.142199759371579e-05,
+          "min": 4.093099414603785e-05
+        },
+        "core_decision": {
+          "max": 0.000423367993789725,
+          "median": 0.00026485000125830993,
+          "min": 0.00021851900237379596
+        },
+        "input_validation": {
+          "max": 8.575900574214756e-05,
+          "median": 8.523899305146188e-05,
+          "min": 8.11930003692396e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 7.633500354131684e-05,
+          "median": 4.7171000915113837e-05,
+          "min": 4.3795997044071555e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 0,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0007087390040396713,
+        "median": 0.0005445600036182441,
+        "min": 0.00045089100603945553
+      },
+      "discarded_warmups": 1,
+      "edges": 24,
+      "family": "selection_delay",
+      "horizons": {
+        "full": 4,
+        "growth": 0
+      },
+      "instance": "delay_04_selection_free",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.08161397300136741,
+        "median": 0.07060020499920938,
+        "min": 0.0658184589992743
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": 0
+      },
+      "reachable_states": 12,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0002646690045366995,
+          "median": 7.791800453560427e-05,
+          "min": 4.736099799629301e-05
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0005610559965134598,
+          "median": 0.0004045290042995475,
+          "min": 0.00032274700060952455
+        },
+        "input_validation": {
+          "max": 9.348100138595328e-05,
+          "median": 8.738200267544016e-05,
+          "min": 8.251500548794866e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 5.420200614025816e-05,
+          "median": 5.2648996643256396e-05,
+          "min": 4.562899994198233e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 0,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.010487131003174,
+        "median": 0.007931889005703852,
+        "min": 0.0077678819943685085
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "selection_delay",
+      "horizons": {
+        "full": 4,
+        "growth": 0
+      },
+      "instance": "delay_04_selection_free",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.09736781499668723,
+        "median": 0.07053115999588044,
+        "min": 0.057531685997673776
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": 0
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0001638670000829734,
+          "median": 4.311500379117206e-05,
+          "min": 4.277500556781888e-05
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.006326308001007419,
+          "median": 0.004692654998507351,
+          "min": 0.004625984001904726
+        },
+        "input_validation": {
+          "max": 0.00012095300189685076,
+          "median": 8.574900130042806e-05,
+          "min": 7.946999539854005e-05
+        },
+        "matrix_construction": {
+          "max": 0.004028413000924047,
+          "median": 0.0030746050033485517,
+          "min": 0.0030182609989424236
+        },
+        "precheck": {
+          "max": 4.6660999942105263e-05,
+          "median": 4.416699812281877e-05,
+          "min": 4.367600195109844e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0010501350043341517,
+        "median": 0.0008721429985598661,
+        "min": 0.000791100988863036
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00045501700515160337,
+        "median": 0.00030732199229532853,
+        "min": 0.0002665009960765019
+      },
+      "discarded_warmups": 1,
+      "edges": 10,
+      "family": "branching_dag",
+      "horizons": {
+        "full": 2,
+        "growth": 2
+      },
+      "instance": "dag_04_u2_a1",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.06999656900006812,
+        "median": 0.05757764599547954,
+        "min": 0.05017060899990611
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 5,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0005497880047187209,
+          "median": 0.00042803499673027545,
+          "min": 0.0004001540000899695
+        },
+        "certificate_generation": {
+          "max": 0.0001949639990925789,
+          "median": 5.585399776464328e-05,
+          "min": 5.574399983743206e-05
+        },
+        "core_decision": {
+          "max": 0.0001700369975878857,
+          "median": 0.0001592399930814281,
+          "min": 0.00012792299821740016
+        },
+        "input_validation": {
+          "max": 9.191800199914724e-05,
+          "median": 9.05070046428591e-05,
+          "min": 8.461700053885579e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00019447300292085856,
+          "median": 5.616399721475318e-05,
+          "min": 5.396099732024595e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0007529849972343072,
+        "median": 0.000342547005857341,
+        "min": 0.00034122500801458955
+      },
+      "discarded_warmups": 1,
+      "edges": 10,
+      "family": "branching_dag",
+      "horizons": {
+        "full": 2,
+        "growth": 2
+      },
+      "instance": "dag_04_u2_a1",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.0642025540000759,
+        "median": 0.05141201000515139,
+        "min": 0.051062033999187406
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 5,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.300010575912893e-07,
+          "median": 2.9099464882165194e-07,
+          "min": 2.809974830597639e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0004990029992768541,
+          "median": 0.00020346700330264866,
+          "min": 0.00020331700216047466
+        },
+        "input_validation": {
+          "max": 0.00019908999820472673,
+          "median": 8.571900252718478e-05,
+          "min": 8.472800254821777e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 5.4891999752726406e-05,
+          "median": 5.351100116968155e-05,
+          "min": 5.303000216372311e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.009580484009347856,
+        "median": 0.007356692003668286,
+        "min": 0.007094366003002506
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "branching_dag",
+      "horizons": {
+        "full": 2,
+        "growth": 2
+      },
+      "instance": "dag_04_u2_a1",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.07124542700330494,
+        "median": 0.059268500001053326,
+        "min": 0.05663867100520292
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 2.9999500839039683e-07,
+          "median": 2.809974830597639e-07,
+          "min": 2.710003172978759e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.006256191998545546,
+          "median": 0.004065960005391389,
+          "min": 0.003973461003624834
+        },
+        "input_validation": {
+          "max": 9.199800115311518e-05,
+          "median": 8.737200550967827e-05,
+          "min": 8.666099893162027e-05
+        },
+        "matrix_construction": {
+          "max": 0.0031866440040175803,
+          "median": 0.0031507200037594885,
+          "min": 0.002976117000798695
+        },
+        "precheck": {
+          "max": 5.335099558578804e-05,
+          "median": 5.278999742586166e-05,
+          "min": 5.0276001275051385e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 3,
+      "certified_total_seconds": {
+        "max": 0.0008611499943071976,
+        "median": 0.0006750769971404225,
+        "min": 0.0006122019913163967
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0004036579994135536,
+        "median": 0.00036943699524272233,
+        "min": 0.0003632889929576777
+      },
+      "discarded_warmups": 1,
+      "edges": 18,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_04_u3_a2",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.055689339998934884,
+        "median": 0.05226079600106459,
+        "min": 0.050484402003348805
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 6,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00043973400170216337,
+          "median": 0.00021006599854445085,
+          "min": 0.00018367599841440096
+        },
+        "certificate_generation": {
+          "max": 6.135299918241799e-05,
+          "median": 5.9088997659273446e-05,
+          "min": 5.812699964735657e-05
+        },
+        "core_decision": {
+          "max": 0.00022040299518266693,
+          "median": 0.00021975099662085995,
+          "min": 0.00020955599757144228
+        },
+        "input_validation": {
+          "max": 0.00012930500088259578,
+          "median": 0.00010233400098513812,
+          "min": 8.828299905871972e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 5.754699668614194e-05,
+          "median": 5.460299871629104e-05,
+          "min": 5.46020019100979e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 3,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0005297899988363497,
+        "median": 0.00041970300662796944,
+        "min": 0.00041944199620047584
+      },
+      "discarded_warmups": 1,
+      "edges": 18,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_04_u3_a2",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.05785521399957361,
+        "median": 0.056662335999135394,
+        "min": 0.052324365999083966
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 6,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.0099985199049115e-07,
+          "median": 3.0099909054115415e-07,
+          "min": 3.0099909054115415e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.00033271199936280027,
+          "median": 0.0002738130060606636,
+          "min": 0.00024738299543969333
+        },
+        "input_validation": {
+          "max": 0.00014178399578668177,
+          "median": 9.893900278257206e-05,
+          "min": 9.128799865720794e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 7.311999797821045e-05,
+          "median": 5.5294003686867654e-05,
+          "min": 5.46020019100979e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 3,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.02580509400286246,
+        "median": 0.02548725400265539,
+        "min": 0.024361137999221683
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_04_u3_a2",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.08539107800606871,
+        "median": 0.08460098200157518,
+        "min": 0.07648020399938105
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.210006980225444e-07,
+          "median": 2.90005118586123e-07,
+          "min": 2.800006768666208e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.020337670997832902,
+          "median": 0.019849655000143684,
+          "min": 0.01968300600128714
+        },
+        "input_validation": {
+          "max": 9.630500426283106e-05,
+          "median": 9.290999878430739e-05,
+          "min": 9.187799878418446e-05
+        },
+        "matrix_construction": {
+          "max": 0.005486891997861676,
+          "median": 0.00524918400333263,
+          "min": 0.004532012004347052
+        },
+        "precheck": {
+          "max": 0.00012532900291262195,
+          "median": 5.440200038719922e-05,
+          "min": 5.4241994803305715e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 3,
+      "certified_total_seconds": {
+        "max": 0.000986327009741217,
+        "median": 0.0007447609896189533,
+        "min": 0.0006685580083285458
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00044821501069236547,
+        "median": 0.00039920100243762136,
+        "min": 0.0003800630001933314
+      },
+      "discarded_warmups": 1,
+      "edges": 12,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_04_u3_a3",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.05987114799791016,
+        "median": 0.05552764500316698,
+        "min": 0.053150485997321084
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 4,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0004280860011931509,
+          "median": 0.00028871498943772167,
+          "min": 0.00017980100528802723
+        },
+        "certificate_generation": {
+          "max": 0.00011002599785570055,
+          "median": 0.00010869400284718722,
+          "min": 5.684499774361029e-05
+        },
+        "core_decision": {
+          "max": 0.0002987100015161559,
+          "median": 0.0002460809992044233,
+          "min": 0.00018711200391408056
+        },
+        "input_validation": {
+          "max": 0.00013581499661086127,
+          "median": 9.679500362835824e-05,
+          "min": 9.238900383934379e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 5.713599966838956e-05,
+          "median": 5.711600533686578e-05,
+          "min": 5.632499960483983e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 3,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0007572619942948222,
+        "median": 0.00037717899249400944,
+        "min": 0.00032564200228080153
+      },
+      "discarded_warmups": 1,
+      "edges": 12,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_04_u3_a3",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.06215744499786524,
+        "median": 0.054505013999005314,
+        "min": 0.049524053996719886
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 4,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.210006980225444e-07,
+          "median": 2.710003172978759e-07,
+          "min": 2.6999623514711857e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.000347103996318765,
+          "median": 0.0002188099970226176,
+          "min": 0.00017879000370157883
+        },
+        "input_validation": {
+          "max": 0.00015903999883448705,
+          "median": 0.00010276499961037189,
+          "min": 9.20590027817525e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0002511179991415702,
+          "median": 5.560399586101994e-05,
+          "min": 5.479299579747021e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 3,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.022062379997805692,
+        "median": 0.02170173700869782,
+        "min": 0.017773616003978532
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_04_u3_a3",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.11536597400117898,
+        "median": 0.08398040099564241,
+        "min": 0.06939458200213267
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 2.910019247792661e-07,
+          "median": 2.899978426285088e-07,
+          "min": 2.800006768666208e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.01659795299929101,
+          "median": 0.01619765999930678,
+          "min": 0.012955512000189628
+        },
+        "input_validation": {
+          "max": 0.0002562560039223172,
+          "median": 9.744599810801446e-05,
+          "min": 8.899400563677773e-05
+        },
+        "matrix_construction": {
+          "max": 0.00527507300284924,
+          "median": 0.005190265001147054,
+          "min": 0.0046736759977648035
+        },
+        "precheck": {
+          "max": 9.190799755742773e-05,
+          "median": 5.75560043216683e-05,
+          "min": 5.543400038732216e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 5,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0010192359914071858,
+        "median": 0.0008763910082052462,
+        "min": 0.0007296300027519464
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0005979409979772754,
+        "median": 0.0004028470066259615,
+        "min": 0.0004008840041933581
+      },
+      "discarded_warmups": 1,
+      "edges": 12,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_06_u2_a1",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 0.09318808399984846,
+        "median": 0.08068355599971255,
+        "min": 0.07840846500039333
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 6,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0003383599978405982,
+          "median": 0.00032067400752566755,
+          "min": 0.00027041800058213994
+        },
+        "certificate_generation": {
+          "max": 0.0001548329964862205,
+          "median": 8.293499558931217e-05,
+          "min": 5.6364995543845e-05
+        },
+        "core_decision": {
+          "max": 0.00027422300627222285,
+          "median": 0.0002556750041549094,
+          "min": 0.00020846400002483279
+        },
+        "input_validation": {
+          "max": 0.00025927099341060966,
+          "median": 0.00010945500253001228,
+          "min": 8.640099986223504e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 8.296500163851306e-05,
+          "median": 6.444699829444289e-05,
+          "min": 6.077100260881707e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 5,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0005057920061517507,
+        "median": 0.00044735399569617584,
+        "min": 0.0004227070094202645
+      },
+      "discarded_warmups": 1,
+      "edges": 12,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_06_u2_a1",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 0.07674079600110417,
+        "median": 0.07324433000030695,
+        "min": 0.06440645200200379
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 6,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 2.5999906938523054e-07,
+          "median": 2.500019036233425e-07,
+          "min": 2.399974619038403e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.00028976600151509047,
+          "median": 0.0002663510022102855,
+          "min": 0.00021755800116807222
+        },
+        "input_validation": {
+          "max": 0.00019793800311163068,
+          "median": 9.473299724049866e-05,
+          "min": 9.240900544682518e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 9.029600187204778e-05,
+          "median": 6.394700176315382e-05,
+          "min": 6.285499694058672e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 5,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 2.0382735390157904,
+        "median": 1.9513579229969764,
+        "min": 1.8643933519997518
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_06_u2_a1",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 2.108931538001343,
+        "median": 2.024007181003981,
+        "min": 1.9460473750004894
+      },
+      "peak_rss_bytes": {
+        "max": 122945536,
+        "median": 122945536,
+        "min": 122552320
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.399982233531773e-07,
+          "median": 3.0099909054115415e-07,
+          "min": 2.6999623514711857e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 1.151757807994727,
+          "median": 1.1185684610027238,
+          "min": 1.0585020760045154
+        },
+        "input_validation": {
+          "max": 9.186899842461571e-05,
+          "median": 9.13680050871335e-05,
+          "min": 8.835399785311893e-05
+        },
+        "matrix_construction": {
+          "max": 0.9193029920061235,
+          "median": 0.8057372219991521,
+          "min": 0.7994454900035635
+        },
+        "precheck": {
+          "max": 0.00031071800185600296,
+          "median": 6.569999823113903e-05,
+          "min": 6.275600026128814e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 3,
+      "certified_total_seconds": {
+        "max": 0.0009001560101751238,
+        "median": 0.0007621359909535386,
+        "min": 0.0006528509984491393
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0005228330046520568,
+        "median": 0.0004284289971110411,
+        "min": 0.00037383799644885585
+      },
+      "discarded_warmups": 1,
+      "edges": 15,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_06_u3_a2",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 0.06042646800051443,
+        "median": 0.05168801599938888,
+        "min": 0.04823363600007724
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 5,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0003194460005033761,
+          "median": 0.00027390699688112363,
+          "min": 0.000218522000068333
+        },
+        "certificate_generation": {
+          "max": 6.049100193195045e-05,
+          "median": 5.9799996961373836e-05,
+          "min": 5.787700501969084e-05
+        },
+        "core_decision": {
+          "max": 0.00029567800083896145,
+          "median": 0.0002729539992287755,
+          "min": 0.00021495699911611155
+        },
+        "input_validation": {
+          "max": 9.70980036072433e-05,
+          "median": 9.674699686001986e-05,
+          "min": 9.411200153408572e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0001300570002058521,
+          "median": 6.213400047272444e-05,
+          "min": 6.136299634817988e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 3,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0005506870074896142,
+        "median": 0.0004128079963265918,
+        "min": 0.0004107430067961104
+      },
+      "discarded_warmups": 1,
+      "edges": 15,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_06_u3_a2",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 0.052271376000135206,
+        "median": 0.04746144400269259,
+        "min": 0.04562856099801138
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 5,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.2000389182940125e-07,
+          "median": 3.00002284348011e-07,
+          "min": 2.7000351110473275e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0002531450008973479,
+          "median": 0.00023722000332782045,
+          "min": 0.00022983900271356106
+        },
+        "input_validation": {
+          "max": 0.00011758800246752799,
+          "median": 9.69280008575879e-05,
+          "min": 9.512499673292041e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00021653900330420583,
+          "median": 6.453799869632348e-05,
+          "min": 6.331600161502138e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 3,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 9.213630954007385,
+        "median": 8.826496296009282,
+        "min": 8.534583260006912
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_06_u3_a2",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 9.303010451003502,
+        "median": 8.90965298399533,
+        "min": 8.613543848005065
+      },
+      "peak_rss_bytes": {
+        "max": 229707776,
+        "median": 229703680,
+        "min": 229703680
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 6.109985406510532e-07,
+          "median": 4.300018190406263e-07,
+          "min": 2.899978426285088e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 7.816577473000507,
+          "median": 7.558084152005904,
+          "min": 7.331575149000855
+        },
+        "input_validation": {
+          "max": 9.598500037100166e-05,
+          "median": 9.452300582779571e-05,
+          "min": 9.420200512977317e-05
+        },
+        "matrix_construction": {
+          "max": 1.3968907350063091,
+          "median": 1.26825363500393,
+          "min": 1.2028514339981484
+        },
+        "precheck": {
+          "max": 6.67610001983121e-05,
+          "median": 6.430699431803077e-05,
+          "min": 6.215400208020583e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 3,
+      "certified_total_seconds": {
+        "max": 0.0008023999980650842,
+        "median": 0.0007596589930471964,
+        "min": 0.0007502259904867969
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0004758180002681911,
+        "median": 0.0004584240014082752,
+        "min": 0.0004557189968181774
+      },
+      "discarded_warmups": 1,
+      "edges": 9,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_06_u3_a3",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 0.05604468599631218,
+        "median": 0.04740760000277078,
+        "min": 0.04622121699503623
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 3,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0002677669981494546,
+          "median": 0.00024283200036734343,
+          "min": 0.00023731399414828047
+        },
+        "certificate_generation": {
+          "max": 6.110799586167559e-05,
+          "median": 5.8814999647438526e-05,
+          "min": 5.448799493024126e-05
+        },
+        "core_decision": {
+          "max": 0.0002960089987027459,
+          "median": 0.0002893089986173436,
+          "min": 0.00017626600310904905
+        },
+        "input_validation": {
+          "max": 0.00018815200019162148,
+          "median": 0.00012196600437164307,
+          "min": 9.453600068809465e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 9.400599810760468e-05,
+          "median": 6.517399742733687e-05,
+          "min": 6.454299727920443e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 3,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0004927650079480372,
+        "median": 0.0004758989962283522,
+        "min": 0.00042793999455170706
+      },
+      "discarded_warmups": 1,
+      "edges": 9,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_06_u3_a3",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": {
+        "max": 0.05792683699837653,
+        "median": 0.048168561996135395,
+        "min": 0.04815635900013149
+      },
+      "peak_rss_bytes": {
+        "max": 15466496,
+        "median": 15466496,
+        "min": 15466496
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 3,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 2.910019247792661e-07,
+          "median": 2.910019247792661e-07,
+          "min": 2.400047378614545e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.00017602499428903684,
+          "median": 0.00014997700054664165,
+          "min": 0.00013808999938191846
+        },
+        "input_validation": {
+          "max": 0.0001239300036104396,
+          "median": 9.600899647921324e-05,
+          "min": 9.57689990173094e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00023074500495567918,
+          "median": 0.00023015299666440114,
+          "min": 0.00015590600378345698
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 6,
+      "actions": 3,
+      "censoring_reasons": [
+        "Common10-second subprocess wall cap; unfinished queries unresolved"
+      ],
+      "certified_total_seconds": null,
+      "completed_repetitions": 0,
+      "decision_seconds": null,
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "branching_dag",
+      "horizons": {
+        "full": null,
+        "growth": null
+      },
+      "instance": "dag_06_u3_a3",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 6,
+      "parent_wall_seconds": null,
+      "peak_rss_bytes": null,
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {},
+      "status": "unknown_timeout",
+      "statuses": [
+        "unknown_timeout"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.002777000001515262,
+        "median": 0.0012729800073429942,
+        "min": 0.0011098540053353645
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0006279170047491789,
+        "median": 0.0005526640015887097,
+        "min": 0.0005240300015429966
+      },
+      "discarded_warmups": 1,
+      "edges": 12,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_08_u2_a1",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.07441575099801412,
+        "median": 0.06355589200393297,
+        "min": 0.059196504997089505
+      },
+      "peak_rss_bytes": {
+        "max": 15597568,
+        "median": 15597568,
+        "min": 15597568
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 6,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.002193349995650351,
+          "median": 0.0005855929994140752,
+          "min": 0.0004981009988114238
+        },
+        "certificate_generation": {
+          "max": 5.9620004321914166e-05,
+          "median": 5.947000317974016e-05,
+          "min": 5.908900493523106e-05
+        },
+        "core_decision": {
+          "max": 0.00038221599970711395,
+          "median": 0.0003786310044233687,
+          "min": 0.00032777400338090956
+        },
+        "input_validation": {
+          "max": 0.0001273419984499924,
+          "median": 9.707700519356877e-05,
+          "min": 8.822300151223317e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00014862399984849617,
+          "median": 8.580999565310776e-05,
+          "min": 6.891399971209466e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0004838009990635328,
+        "median": 0.00046858599671395496,
+        "min": 0.00045658899762202054
+      },
+      "discarded_warmups": 1,
+      "edges": 12,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_08_u2_a1",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.06346932300220942,
+        "median": 0.05641406600625487,
+        "min": 0.052301836003607605
+      },
+      "peak_rss_bytes": {
+        "max": 15597568,
+        "median": 15597568,
+        "min": 15597568
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 6,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 5.609981599263847e-07,
+          "median": 4.910034476779401e-07,
+          "min": 2.9999500839039683e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0003262030004407279,
+          "median": 0.000309235998429358,
+          "min": 0.0002901679981732741
+        },
+        "input_validation": {
+          "max": 9.2198999482207e-05,
+          "median": 9.159799810731784e-05,
+          "min": 9.058700379682705e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 7.58339956519194e-05,
+          "median": 6.775200017727911e-05,
+          "min": 6.539899914059788e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 2,
+      "censoring_reasons": [
+        "Dense compound pointer storage exceeds the common cap for this reference implementation."
+      ],
+      "certified_total_seconds": null,
+      "completed_repetitions": 0,
+      "decision_seconds": null,
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "branching_dag",
+      "horizons": {
+        "full": null,
+        "growth": null
+      },
+      "instance": "dag_08_u2_a1",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": null,
+      "peak_rss_bytes": null,
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {},
+      "status": "unknown_memory_preflight",
+      "statuses": [
+        "unknown_memory_preflight"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 3,
+      "certified_total_seconds": {
+        "max": 0.0014255909991334192,
+        "median": 0.0013606349893962033,
+        "min": 0.0012712190073216334
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0008830829974613152,
+        "median": 0.0007742679954390042,
+        "min": 0.0007214590077637695
+      },
+      "discarded_warmups": 1,
+      "edges": 30,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_08_u3_a2",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.06250427699706051,
+        "median": 0.06121436900139088,
+        "min": 0.05709521900280379
+      },
+      "peak_rss_bytes": {
+        "max": 15597568,
+        "median": 15597568,
+        "min": 15597568
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 10,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00047516699851257727,
+          "median": 0.0004099790021427907,
+          "min": 0.00040387999615632
+        },
+        "certificate_generation": {
+          "max": 0.0002413440015516244,
+          "median": 7.459300104528666e-05,
+          "min": 7.367199577856809e-05
+        },
+        "core_decision": {
+          "max": 0.0005759689956903458,
+          "median": 0.0005254830030025914,
+          "min": 0.000513995997607708
+        },
+        "input_validation": {
+          "max": 0.0002916000012191944,
+          "median": 0.00011201899906154722,
+          "min": 0.00010255500092171133
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 9.342100383946672e-05,
+          "median": 8.628000068711117e-05,
+          "min": 7.748699863441288e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 3,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0010988780049956404,
+        "median": 0.0008843940086080693,
+        "min": 0.0007648530008736998
+      },
+      "discarded_warmups": 1,
+      "edges": 30,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_08_u3_a2",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.05898556100146379,
+        "median": 0.05597145399951842,
+        "min": 0.05460193200269714
+      },
+      "peak_rss_bytes": {
+        "max": 15597568,
+        "median": 15597568,
+        "min": 15597568
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 10,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.899986040778458e-07,
+          "median": 3.5099947126582265e-07,
+          "min": 3.2000389182940125e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0009190870041493326,
+          "median": 0.0007137670036172494,
+          "min": 0.0005973910010652617
+        },
+        "input_validation": {
+          "max": 0.00010557899804553017,
+          "median": 9.58540040301159e-05,
+          "min": 9.490299999015406e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 7.477300096070394e-05,
+          "median": 7.421200280077755e-05,
+          "min": 7.255899981828406e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 3,
+      "censoring_reasons": [
+        "Dense compound pointer storage exceeds the common cap for this reference implementation."
+      ],
+      "certified_total_seconds": null,
+      "completed_repetitions": 0,
+      "decision_seconds": null,
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "branching_dag",
+      "horizons": {
+        "full": null,
+        "growth": null
+      },
+      "instance": "dag_08_u3_a2",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": null,
+      "peak_rss_bytes": null,
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {},
+      "status": "unknown_memory_preflight",
+      "statuses": [
+        "unknown_memory_preflight"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 3,
+      "certified_total_seconds": {
+        "max": 0.0010924879970843904,
+        "median": 0.0009240870058420114,
+        "min": 0.0007924370002001524
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0006830310012446716,
+        "median": 0.0005366310069803149,
+        "min": 0.0004287369956728071
+      },
+      "discarded_warmups": 1,
+      "edges": 12,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_08_u3_a3",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.05210965100559406,
+        "median": 0.05120129099668702,
+        "min": 0.05003763899730984
+      },
+      "peak_rss_bytes": {
+        "max": 15728640,
+        "median": 15597568,
+        "min": 15597568
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 4,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0003436379993217997,
+          "median": 0.00032850699790287763,
+          "min": 0.0003036190028069541
+        },
+        "certificate_generation": {
+          "max": 6.5818996517919e-05,
+          "median": 6.0081001720391214e-05,
+          "min": 5.894900095881894e-05
+        },
+        "core_decision": {
+          "max": 0.0004182619959465228,
+          "median": 0.00033952300145756453,
+          "min": 0.0002576589977252297
+        },
+        "input_validation": {
+          "max": 0.00018945600459119305,
+          "median": 0.00012483900354709476,
+          "min": 9.892899834085256e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 7.531300070695579e-05,
+          "median": 7.226900197565556e-05,
+          "min": 7.214899960672483e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 3,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0004687870023190044,
+        "median": 0.00046350999764399603,
+        "min": 0.0004372500043245964
+      },
+      "discarded_warmups": 1,
+      "edges": 12,
+      "family": "branching_dag",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "dag_08_u3_a3",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.05368382600136101,
+        "median": 0.04644223899958888,
+        "min": 0.04596077300084289
+      },
+      "peak_rss_bytes": {
+        "max": 15728640,
+        "median": 15728640,
+        "min": 15728640
+      },
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": 4,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 3.309978637844324e-07,
+          "median": 3.00002284348011e-07,
+          "min": 2.7000351110473275e-07
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.00029956200160086155,
+          "median": 0.00024673299776623026,
+          "min": 0.00023771799897076562
+        },
+        "input_validation": {
+          "max": 0.0001254599992535077,
+          "median": 9.745699935592711e-05,
+          "min": 9.581500489730388e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0001209619949804619,
+          "median": 7.407200610032305e-05,
+          "min": 7.176800136221573e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 3,
+      "censoring_reasons": [
+        "Dense compound pointer storage exceeds the common cap for this reference implementation."
+      ],
+      "certified_total_seconds": null,
+      "completed_repetitions": 0,
+      "decision_seconds": null,
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "branching_dag",
+      "horizons": {
+        "full": null,
+        "growth": null
+      },
+      "instance": "dag_08_u3_a3",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": null,
+      "peak_rss_bytes": null,
+      "precheck_horizons": {
+        "full": null,
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {},
+      "status": "unknown_memory_preflight",
+      "statuses": [
+        "unknown_memory_preflight"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.00036793600156670436,
+        "median": 0.00023914099438115954,
+        "min": 0.00022704299772158265
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00021638700127368793,
+        "median": 0.0001400519977323711,
+        "min": 0.0001336719942628406
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_02",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.05374371699872427,
+        "median": 0.05208401199342916,
+        "min": 0.049837973005196545
+      },
+      "peak_rss_bytes": {
+        "max": 15728640,
+        "median": 15728640,
+        "min": 15728640
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00015154900029301643,
+          "median": 0.00010546900011831895,
+          "min": 8.699099998921156e-05
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.00015087800420587882,
+          "median": 8.663100015837699e-05,
+          "min": 8.029099990380928e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 6.55089970678091e-05,
+          "median": 5.34209975739941e-05,
+          "min": 5.338099435903132e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.00028517099417513236,
+        "median": 0.00023534599313279614,
+        "min": 0.00021762799588032067
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00020051299361512065,
+        "median": 0.00014673199621029198,
+        "min": 0.0001357749933958985
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_02",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.049215289000130724,
+        "median": 0.04834391899930779,
+        "min": 0.04780016800214071
+      },
+      "peak_rss_bytes": {
+        "max": 15728640,
+        "median": 15728640,
+        "min": 15728640
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 8.861399692250416e-05,
+          "median": 8.465800056001171e-05,
+          "min": 8.185300248442218e-05
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.00015150899707805365,
+          "median": 8.332599827554077e-05,
+          "min": 7.67759993323125e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 6.995599687797949e-05,
+          "median": 5.244899512035772e-05,
+          "min": 4.9003996537066996e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.00030482999864034355,
+        "median": 0.00023518400121247396,
+        "min": 0.00023276099818758667
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00015258000348694623,
+        "median": 0.0001386989970342256,
+        "min": 0.00012881399743491784
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_02",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.04860707999614533,
+        "median": 0.045091296000464354,
+        "min": 0.04435150299832458
+      },
+      "peak_rss_bytes": {
+        "max": 15728640,
+        "median": 15728640,
+        "min": 15728640
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00016613100160611793,
+          "median": 0.00010394700075266883,
+          "min": 8.260399772552773e-05
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.00010311599908163771,
+          "median": 8.213399996748194e-05,
+          "min": 7.738699787296355e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 5.656499706674367e-05,
+          "median": 5.142699956195429e-05,
+          "min": 4.9464004405308515e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 4,
+      "certified_total_seconds": {
+        "max": 0.000415186004829593,
+        "median": 0.00032002200896386057,
+        "min": 0.0003160150008625351
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00026110400358447805,
+        "median": 0.00017288000526605174,
+        "min": 0.00016986500122584403
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_04",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.053342823004641104,
+        "median": 0.04813065700000152,
+        "min": 0.04461332899518311
+      },
+      "peak_rss_bytes": {
+        "max": 15728640,
+        "median": 15728640,
+        "min": 15728640
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00015408200124511495,
+          "median": 0.00014714200369780883,
+          "min": 0.00014614999963669106
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.00018554000416770577,
+          "median": 9.63950005825609e-05,
+          "min": 9.466199844609946e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 7.648500468349084e-05,
+          "median": 7.556399941677228e-05,
+          "min": 7.520300277974457e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 4,
+      "certified_total_seconds": {
+        "max": 0.0007327560088015161,
+        "median": 0.0003141639972454868,
+        "min": 0.00031389298965223134
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0004658330071833916,
+        "median": 0.000169826002093032,
+        "min": 0.00016917499306146055
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_04",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.05568583800049964,
+        "median": 0.04980274000263307,
+        "min": 0.047456295003939886
+      },
+      "peak_rss_bytes": {
+        "max": 15728640,
+        "median": 15728640,
+        "min": 15728640
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00026692300161812454,
+          "median": 0.00014471799659077078,
+          "min": 0.00014433799515245482
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.0003393920051166788,
+          "median": 9.424199379282072e-05,
+          "min": 9.355100337415934e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00012644100206671283,
+          "median": 7.627499871887267e-05,
+          "min": 7.493299926863983e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 4,
+      "actions": 4,
+      "certified_total_seconds": {
+        "max": 0.000583739994908683,
+        "median": 0.0005775009994977154,
+        "min": 0.0005495699952007271
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0003698389991768636,
+        "median": 0.00032689299405319616,
+        "min": 0.00024027199833653867
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_04",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.058754376994329505,
+        "median": 0.05436686299799476,
+        "min": 0.04801043000043137
+      },
+      "peak_rss_bytes": {
+        "max": 15728640,
+        "median": 15728640,
+        "min": 15728640
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00034346799657214433,
+          "median": 0.0002506080054445192,
+          "min": 0.00017973099602386355
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.0002451999971526675,
+          "median": 0.0001607730009709485,
+          "min": 9.864899766398594e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0002090659982059151,
+          "median": 0.00014162300067255273,
+          "min": 8.169299690052867e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 8,
+      "certified_total_seconds": {
+        "max": 0.0009887620035442524,
+        "median": 0.000826967996545136,
+        "min": 0.0008038119995035231
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0003609749983297661,
+        "median": 0.0003570589979062788,
+        "min": 0.0003345340010127984
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_08",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.04974146700260462,
+        "median": 0.04905256300116889,
+        "min": 0.04699558400170645
+      },
+      "peak_rss_bytes": {
+        "max": 15859712,
+        "median": 15859712,
+        "min": 15728640
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0006277870052144863,
+          "median": 0.00046990899863885716,
+          "min": 0.0004692779984907247
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.0001988200019695796,
+          "median": 0.00015954099944792688,
+          "min": 0.00015570499817840755
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00019751799845835194,
+          "median": 0.00017882900283439085,
+          "min": 0.0001621549963601865
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 8,
+      "certified_total_seconds": {
+        "max": 0.0009506429923931137,
+        "median": 0.0008118749974528328,
+        "min": 0.0008013589977053925
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00035985199065180495,
+        "median": 0.00034577200131025165,
+        "min": 0.0003134829967166297
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_08",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.06247908799559809,
+        "median": 0.04982362099690363,
+        "min": 0.04872768200584687
+      },
+      "peak_rss_bytes": {
+        "max": 15990784,
+        "median": 15859712,
+        "min": 15859712
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0005907910017413087,
+          "median": 0.0004878760009887628,
+          "min": 0.0004661029961425811
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.00016618999507045373,
+          "median": 0.00015895000251475722,
+          "min": 0.0001542530008009635
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00019366199558135122,
+          "median": 0.00018682199879549444,
+          "min": 0.00015922999591566622
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 8,
+      "actions": 8,
+      "certified_total_seconds": {
+        "max": 0.001074040999810677,
+        "median": 0.00091791499289684,
+        "min": 0.0009094239940168336
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00042050599586218596,
+        "median": 0.00041991399484686553,
+        "min": 0.00036922699655406177
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_08",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.05853647900221404,
+        "median": 0.0507813510048436,
+        "min": 0.049817086000985
+      },
+      "peak_rss_bytes": {
+        "max": 15990784,
+        "median": 15990784,
+        "min": 15990784
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0007048140032566153,
+          "median": 0.0004980009980499744,
+          "min": 0.0004889179981546476
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.000262526998994872,
+          "median": 0.00020614099776139483,
+          "min": 0.00018560999887995422
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00023430399596691132,
+          "median": 0.00016308599879266694,
+          "min": 0.00015797899686731398
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 12,
+      "actions": 12,
+      "certified_total_seconds": {
+        "max": 0.0018487589986762032,
+        "median": 0.0018448839837219566,
+        "min": 0.0017061250036931597
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0009327369989478029,
+        "median": 0.0008979549893410876,
+        "min": 0.0008421110032941215
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_12",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 12,
+      "parent_wall_seconds": {
+        "max": 0.05948356300359592,
+        "median": 0.049572586998692714,
+        "min": 0.04936817399720894
+      },
+      "peak_rss_bytes": {
+        "max": 16121856,
+        "median": 15990784,
+        "min": 15990784
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.000946928994380869,
+          "median": 0.0009160219997284003,
+          "min": 0.0008640140003990382
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.0005681469992850907,
+          "median": 0.00033712899312376976,
+          "min": 0.0002659210003912449
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0005761900029028766,
+          "median": 0.0005608259962173179,
+          "min": 0.0003645899996627122
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 12,
+      "actions": 12,
+      "certified_total_seconds": {
+        "max": 0.0019264760048827156,
+        "median": 0.0018656960019143298,
+        "min": 0.0015643200022168458
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0009304129998781718,
+        "median": 0.0008602190064266324,
+        "min": 0.0006395850068656728
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_12",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 12,
+      "parent_wall_seconds": {
+        "max": 0.07192789100372465,
+        "median": 0.06162186800065683,
+        "min": 0.05860921899875393
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16121856,
+        "min": 16121856
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0010054769954876974,
+          "median": 0.0009960630050045438,
+          "min": 0.000924734995351173
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.00036615300632547587,
+          "median": 0.0003522510014590807,
+          "min": 0.00025337200349895284
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0005781619984190911,
+          "median": 0.0004940660001011565,
+          "min": 0.00038621300336671993
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 12,
+      "actions": 12,
+      "certified_total_seconds": {
+        "max": 0.002110003995767329,
+        "median": 0.001739293998980429,
+        "min": 0.001703141002508346
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0009196379978675395,
+        "median": 0.0007352989996434189,
+        "min": 0.0007324960024561733
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_12",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 12,
+      "parent_wall_seconds": {
+        "max": 0.055753439002728555,
+        "median": 0.054883041004359256,
+        "min": 0.050706023001112044
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0011903659978997894,
+          "median": 0.00100399499933701,
+          "min": 0.0009706450000521727
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.000544841997907497,
+          "median": 0.0003000720025738701,
+          "min": 0.00024650200066389516
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00048599400179227814,
+          "median": 0.0004352269970695488,
+          "min": 0.00037479599996004254
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 0,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.00016717299877200276,
+        "median": 0.00015423300646943972,
+        "min": 0.00015422399883391336
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00011760800407500938,
+        "median": 0.00010308500350220129,
+        "min": 0.00010202499834122136
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "zero",
+      "horizons": {
+        "full": 0,
+        "growth": 0
+      },
+      "instance": "zero_coordinates",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 0,
+      "parent_wall_seconds": {
+        "max": 0.05209358700085431,
+        "median": 0.049145233002491295,
+        "min": 0.04903605399886146
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": {
+        "full": 0,
+        "growth": 0
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 5.2199000492691994e-05,
+          "median": 5.1148002967238426e-05,
+          "min": 4.956499469699338e-05
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 7.464300142601132e-05,
+          "median": 7.37610025680624e-05,
+          "min": 7.322100282181054e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 4.438700125319883e-05,
+          "median": 2.9324000934138894e-05,
+          "min": 2.738199691521004e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 0,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0006088889931561425,
+        "median": 0.000407264000386931,
+        "min": 0.0001455089877708815
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0004573399928631261,
+        "median": 0.00018449799972586334,
+        "min": 9.780698746908456e-05
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "zero",
+      "horizons": {
+        "full": 0,
+        "growth": 0
+      },
+      "instance": "zero_coordinates",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 0,
+      "parent_wall_seconds": {
+        "max": 0.058721497996884864,
+        "median": 0.057235560001572594,
+        "min": 0.045454479004547466
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": {
+        "full": 0,
+        "growth": 0
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00022276600066106766,
+          "median": 0.00015154900029301643,
+          "min": 4.770200030179694e-05
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 0.00018945599731523544,
+          "median": 0.0001524500039522536,
+          "min": 6.843299343017861e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.00026788399554789066,
+          "median": 3.204799577360973e-05,
+          "min": 2.937399403890595e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 0,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.00016662100097164512,
+        "median": 0.00015794800128787756,
+        "min": 0.00015650700515834615
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00011424200056353584,
+        "median": 0.00010670100164134055,
+        "min": 0.0001052290026564151
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "zero",
+      "horizons": {
+        "full": 0,
+        "growth": 0
+      },
+      "instance": "zero_coordinates",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 0,
+      "parent_wall_seconds": {
+        "max": 0.05919283399998676,
+        "median": 0.04975966500205686,
+        "min": 0.049592721996305045
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": {
+        "full": 0,
+        "growth": 0
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 5.237900040810928e-05,
+          "median": 5.127800250193104e-05,
+          "min": 5.1246999646537006e-05
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "input_validation": {
+          "max": 8.299500041175634e-05,
+          "median": 7.666600140510127e-05,
+          "min": 7.51530023990199e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 3.154799924232066e-05,
+          "median": 3.12470001517795e-05,
+          "min": 2.8563001251313835e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0005152769954293035,
+        "median": 0.00048404099652543664,
+        "min": 0.0004705300088971853
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00022651199833489954,
+        "median": 0.00022496899327961728,
+        "min": 0.0002168380087823607
+      },
+      "discarded_warmups": 1,
+      "edges": 6,
+      "family": "partial_precheck",
+      "horizons": {
+        "full": "infinite",
+        "growth": 2
+      },
+      "instance": "cycle_outside_ancestry",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "preprocessed",
+      "n": 3,
+      "parent_wall_seconds": {
+        "max": 0.06006054400495486,
+        "median": 0.0573360380003578,
+        "min": 0.05275006200099597
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": null
+      },
+      "reachable_states": 3,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00026024300314020365,
+          "median": 0.00022413700207835063,
+          "min": 0.0002233869963674806
+        },
+        "certificate_generation": {
+          "max": 3.414200182305649e-05,
+          "median": 3.0064999009482563e-05,
+          "min": 2.955499803647399e-05
+        },
+        "core_decision": {
+          "max": 8.307499956572428e-05,
+          "median": 8.127299952320755e-05,
+          "min": 8.079200051724911e-05
+        },
+        "input_validation": {
+          "max": 9.185799717670307e-05,
+          "median": 8.955600060289726e-05,
+          "min": 8.381700172321871e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 5.3880998166278005e-05,
+          "median": 5.2229006541892886e-05,
+          "min": 5.183799657970667e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0003359670008649118,
+        "median": 0.00031736999517306685,
+        "min": 0.00023004799732007086
+      },
+      "discarded_warmups": 1,
+      "edges": 6,
+      "family": "partial_precheck",
+      "horizons": {
+        "full": "infinite",
+        "growth": 2
+      },
+      "instance": "cycle_outside_ancestry",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "preprocessed",
+      "n": 3,
+      "parent_wall_seconds": {
+        "max": 0.05349012799706543,
+        "median": 0.05036219300382072,
+        "min": 0.050241748002008535
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": null
+      },
+      "reachable_states": 3,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 4.8191999667324126e-05,
+          "median": 4.574899503495544e-05,
+          "min": 4.484799865167588e-05
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0002071130002150312,
+          "median": 0.0001335319975623861,
+          "min": 9.571500413585454e-05
+        },
+        "input_validation": {
+          "max": 8.422700193477795e-05,
+          "median": 8.249499660450965e-05,
+          "min": 7.97100001364015e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 9.961099567590281e-05,
+          "median": 5.183799657970667e-05,
+          "min": 4.9144000513479114e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": 2,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0008760519922361709,
+        "median": 0.0006577329986612312,
+        "min": 0.0006551679980475456
+      },
+      "discarded_warmups": 1,
+      "edges": null,
+      "family": "partial_precheck",
+      "horizons": {
+        "full": "infinite",
+        "growth": 2
+      },
+      "instance": "cycle_outside_ancestry",
+      "measured_repetitions": 3,
+      "method": "exterior",
+      "mode": "preprocessed",
+      "n": 3,
+      "parent_wall_seconds": {
+        "max": 0.04939475400169613,
+        "median": 0.04807440299919108,
+        "min": 0.04646165900339838
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": {
+        "full": "infinite",
+        "growth": null
+      },
+      "reachable_states": null,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00022190500021679327,
+          "median": 4.7311004891525954e-05,
+          "min": 4.649999755201861e-05
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.00037130999407963827,
+          "median": 0.00025669699971331283,
+          "min": 0.00024690300051588565
+        },
+        "input_validation": {
+          "max": 8.414700278081e-05,
+          "median": 8.2204001955688e-05,
+          "min": 7.899999764049426e-05
+        },
+        "matrix_construction": {
+          "max": 0.00037036900175735354,
+          "median": 0.00027402299747336656,
+          "min": 0.00026992800121661276
+        },
+        "precheck": {
+          "max": 5.21080000908114e-05,
+          "median": 5.203799810260534e-05,
+          "min": 5.02259936183691e-05
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": null,
+      "actions": 2,
+      "certified_total_seconds": {
+        "max": 0.0003949349993490614,
+        "median": 0.0003842110018013045,
+        "min": 0.0003645189935923554
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.00020346699602669105,
+        "median": 0.00019921999773941934,
+        "min": 0.00018827500025508925
+      },
+      "discarded_warmups": 1,
+      "edges": 8,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_02",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "unpruned_stress",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.05135027500364231,
+        "median": 0.04849261700292118,
+        "min": 0.04669847599870991
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": null,
+      "reachable_states": 4,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00015071700181579217,
+          "median": 0.0001482130028307438,
+          "min": 0.00012154299474786967
+        },
+        "certificate_generation": {
+          "max": 4.521899973042309e-05,
+          "median": 4.375600110506639e-05,
+          "min": 4.325500049162656e-05
+        },
+        "core_decision": {
+          "max": 0.00012077199789928272,
+          "median": 0.00011859899677801877,
+          "min": 0.00010376700083725154
+        },
+        "input_validation": {
+          "max": 8.486799924867228e-05,
+          "median": 8.450799941783771e-05,
+          "min": 7.844799984013662e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": null,
+      "actions": 2,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0002299170009791851,
+        "median": 0.00022358800197253004,
+        "min": 0.00022281699784798548
+      },
+      "discarded_warmups": 1,
+      "edges": 8,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_02",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "unpruned_stress",
+      "n": 2,
+      "parent_wall_seconds": {
+        "max": 0.05109441300010076,
+        "median": 0.05007845700311009,
+        "min": 0.049134811997646466
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": null,
+      "reachable_states": 4,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.00015193899889709428,
+          "median": 0.00013983099779579788,
+          "min": 0.0001396509978803806
+        },
+        "input_validation": {
+          "max": 8.375700417673215e-05,
+          "median": 8.316599996760488e-05,
+          "min": 7.797800208209082e-05
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": null,
+      "actions": 4,
+      "certified_total_seconds": {
+        "max": 0.0013114980029058643,
+        "median": 0.0010960139916278422,
+        "min": 0.0009660689975135028
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0008952010030043311,
+        "median": 0.0008015589992282912,
+        "min": 0.000648898996587377
+      },
+      "discarded_warmups": 1,
+      "edges": 64,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_04",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "unpruned_stress",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.05924541399872396,
+        "median": 0.05443869999726303,
+        "min": 0.05042394799966132
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": null,
+      "reachable_states": 16,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.00022084299416746944,
+          "median": 0.00022034200082998723,
+          "min": 0.00021090899826958776
+        },
+        "certificate_generation": {
+          "max": 0.0001959549990715459,
+          "median": 0.00010626100265653804,
+          "min": 7.361199823208153e-05
+        },
+        "core_decision": {
+          "max": 0.0007943090022308752,
+          "median": 0.0006094089985708706,
+          "min": 0.0005426189964055084
+        },
+        "input_validation": {
+          "max": 0.0001921500006574206,
+          "median": 0.00010628000018186867,
+          "min": 0.00010089200077345595
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": null,
+      "actions": 4,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.001045867997163441,
+        "median": 0.001015551999444142,
+        "min": 0.0010097240010509267
+      },
+      "discarded_warmups": 1,
+      "edges": 64,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_04",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "unpruned_stress",
+      "n": 4,
+      "parent_wall_seconds": {
+        "max": 0.06121948800137034,
+        "median": 0.05485511900042184,
+        "min": 0.047744322997459676
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": null,
+      "reachable_states": 16,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.0009116959990933537,
+          "median": 0.0008830730002955534,
+          "min": 0.0007156299980124459
+        },
+        "input_validation": {
+          "max": 0.00033023799915099517,
+          "median": 0.0001266510007553734,
+          "min": 0.00010385600035078824
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": null,
+      "actions": 8,
+      "certified_total_seconds": {
+        "max": 0.03653665599995293,
+        "median": 0.0361637889945996,
+        "min": 0.03389771899674088
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.035224874001869466,
+        "median": 0.034819961998437066,
+        "min": 0.03270442900247872
+      },
+      "discarded_warmups": 1,
+      "edges": 2048,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_08",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "unpruned_stress",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.0963344639967545,
+        "median": 0.09426942400023108,
+        "min": 0.09037284799705958
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": null,
+      "reachable_states": 256,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0007026699968264438,
+          "median": 0.0006553599960170686,
+          "min": 0.0005855529961991124
+        },
+        "certificate_generation": {
+          "max": 0.0006564220020663925,
+          "median": 0.0006411569993360899,
+          "min": 0.0006077369980630465
+        },
+        "core_decision": {
+          "max": 0.03468848199554486,
+          "median": 0.0346516379941022,
+          "min": 0.03251181800442282
+        },
+        "input_validation": {
+          "max": 0.0005363920063246042,
+          "median": 0.00019261099805589765,
+          "min": 0.00016832400433486328
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": null,
+      "actions": 8,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 0.0533035279950127,
+        "median": 0.04681433400401147,
+        "min": 0.045024688995908946
+      },
+      "discarded_warmups": 1,
+      "edges": 2048,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_08",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "unpruned_stress",
+      "n": 8,
+      "parent_wall_seconds": {
+        "max": 0.11585815800208366,
+        "median": 0.10164180100400699,
+        "min": 0.096630386004108
+      },
+      "peak_rss_bytes": {
+        "max": 16252928,
+        "median": 16252928,
+        "min": 16252928
+      },
+      "precheck_horizons": null,
+      "reachable_states": 256,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 0.05301141099334927,
+          "median": 0.04664851599955,
+          "min": 0.04486377899593208
+        },
+        "input_validation": {
+          "max": 0.0002921170016634278,
+          "median": 0.000165818004461471,
+          "min": 0.00016090999997686595
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": null,
+      "actions": 12,
+      "certified_total_seconds": {
+        "max": 1.5479447570178309,
+        "median": 1.5137497249888838,
+        "min": 1.4855473500065273
+      },
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 1.523591026008944,
+        "median": 1.492821241998172,
+        "min": 1.4643102120026015
+      },
+      "discarded_warmups": 1,
+      "edges": 49152,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_12",
+      "measured_repetitions": 3,
+      "method": "pair",
+      "mode": "unpruned_stress",
+      "n": 12,
+      "parent_wall_seconds": {
+        "max": 1.609552171001269,
+        "median": 1.568176462998963,
+        "min": 1.5386424910029746
+      },
+      "peak_rss_bytes": {
+        "max": 21549056,
+        "median": 21544960,
+        "min": 21544960
+      },
+      "precheck_horizons": null,
+      "reachable_states": 4096,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.001981359993806109,
+          "median": 0.0013761470036115497,
+          "min": 0.001345631004369352
+        },
+        "certificate_generation": {
+          "max": 0.023008100004517473,
+          "median": 0.019860991000314243,
+          "min": 0.01894712299690582
+        },
+        "core_decision": {
+          "max": 1.5232255150040146,
+          "median": 1.4924714340013452,
+          "min": 1.4639671850018203
+        },
+        "input_validation": {
+          "max": 0.0003655110049294308,
+          "median": 0.00034980799682671204,
+          "min": 0.00034302700078114867
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    },
+    {
+      "J_size": null,
+      "actions": 12,
+      "certified_total_seconds": null,
+      "completed_repetitions": 3,
+      "decision_seconds": {
+        "max": 2.134246638001059,
+        "median": 2.1171971349976957,
+        "min": 2.0804173259966774
+      },
+      "discarded_warmups": 1,
+      "edges": 49152,
+      "family": "refresh",
+      "horizons": {
+        "full": "infinite",
+        "growth": "infinite"
+      },
+      "instance": "refresh_12",
+      "measured_repetitions": 3,
+      "method": "antichain",
+      "mode": "unpruned_stress",
+      "n": 12,
+      "parent_wall_seconds": {
+        "max": 2.191478264001489,
+        "median": 2.1724071270000422,
+        "min": 2.1343715569964843
+      },
+      "peak_rss_bytes": {
+        "max": 28180480,
+        "median": 28049408,
+        "min": 27971584
+      },
+      "precheck_horizons": null,
+      "reachable_states": 4096,
+      "stages_seconds": {
+        "certificate_checking": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "certificate_generation": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "core_decision": {
+          "max": 2.133995939999295,
+          "median": 2.1169131159986136,
+          "min": 2.080167888998403
+        },
+        "input_validation": {
+          "max": 0.0002840189990820363,
+          "median": 0.00025069800176424906,
+          "min": 0.0002494369982741773
+        },
+        "matrix_construction": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "precheck": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        }
+      },
+      "status": "completed",
+      "statuses": [
+        "completed"
+      ]
+    }
+  ],
+  "unknown_method_instances": 10
+}

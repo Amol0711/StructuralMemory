@@ -1,0 +1,413 @@
+{
+  "frozen_utc": "2026-11-02T11:14:27.462529+00:00",
+  "inputs": [
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": 2,
+          "growth": 2
+        },
+        "fitness": "separate"
+      },
+      "name": "chain_02_separate",
+      "path": "inputs/chain_02_separate.json",
+      "sha256": "0fcdcb06ee0ce9287482cd024c0ac90175692f5ae6d4b4212c603a1bc479203d"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": "infinite"
+        },
+        "fitness": "joint"
+      },
+      "name": "chain_02_joint",
+      "path": "inputs/chain_02_joint.json",
+      "sha256": "413f7ab23129ca7ca267f01e102bfd494e6ac267e01c4abab65f19a1b5fc0074"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": 4,
+          "growth": 4
+        },
+        "fitness": "separate"
+      },
+      "name": "chain_04_separate",
+      "path": "inputs/chain_04_separate.json",
+      "sha256": "edd73eb4e952918a3c06b72cf9a2e90fb39af15ceb57dc1754682e14dc560720"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": "infinite"
+        },
+        "fitness": "joint"
+      },
+      "name": "chain_04_joint",
+      "path": "inputs/chain_04_joint.json",
+      "sha256": "c305fafd249fc24761902170bd489fab97a411680006c6fb16c884afb8f53297"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": 6,
+          "growth": 6
+        },
+        "fitness": "separate"
+      },
+      "name": "chain_06_separate",
+      "path": "inputs/chain_06_separate.json",
+      "sha256": "a126cf9f1e2b80fafeceb684eb8c5b6a020c9ba0737aac93f71bf919ea56e57b"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": "infinite"
+        },
+        "fitness": "joint"
+      },
+      "name": "chain_06_joint",
+      "path": "inputs/chain_06_joint.json",
+      "sha256": "4a427b40334dfe1bd89b4178b8d60e48f315aa954febe9dc53e6824f67b56591"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": 8,
+          "growth": 8
+        },
+        "fitness": "separate"
+      },
+      "name": "chain_08_separate",
+      "path": "inputs/chain_08_separate.json",
+      "sha256": "95cd5bf55365e9f040f921140194bdeca05937d382dbc6280ba8a4b89938a248"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": "infinite"
+        },
+        "fitness": "joint"
+      },
+      "name": "chain_08_joint",
+      "path": "inputs/chain_08_joint.json",
+      "sha256": "fae856ed197caf55764b7f7be18e28b92aa191fc33fd21c7cff881bb3bbf637f"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": 10,
+          "growth": 10
+        },
+        "fitness": "separate"
+      },
+      "name": "chain_10_separate",
+      "path": "inputs/chain_10_separate.json",
+      "sha256": "cf6b4299277691f9bd7f314e3fd3d31c650580a814adf9d6ee4d8246effa7a3a"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": "infinite"
+        },
+        "fitness": "joint"
+      },
+      "name": "chain_10_joint",
+      "path": "inputs/chain_10_joint.json",
+      "sha256": "b9a7964aa20ade711a4fc7c44d4450dc07a0ce4f617f84f9aa4e4c90a6685f0d"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": 12,
+          "growth": 12
+        },
+        "fitness": "separate"
+      },
+      "name": "chain_12_separate",
+      "path": "inputs/chain_12_separate.json",
+      "sha256": "980315df323cb9f986563131cd40947fa51656f701942befd736bfae94ceebe0"
+    },
+    {
+      "family": "matched_chain",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": "infinite"
+        },
+        "fitness": "joint"
+      },
+      "name": "chain_12_joint",
+      "path": "inputs/chain_12_joint.json",
+      "sha256": "2a2d0d0412b4ec657fa45a39a0114ca6ac4e3a0bc2888fd67fc2fdaafde46aae"
+    },
+    {
+      "family": "selection_delay",
+      "metadata": {
+        "expected_horizons": {
+          "full": 6,
+          "growth": 6
+        }
+      },
+      "name": "delay_04_selected",
+      "path": "inputs/delay_04_selected.json",
+      "sha256": "7c08175bf0c9b522789279814a9ce75b6121b690c662ddc4ca373afb8a96be0e"
+    },
+    {
+      "family": "selection_delay",
+      "metadata": {
+        "expected_horizons": {
+          "full": 4,
+          "growth": 0
+        }
+      },
+      "name": "delay_04_selection_free",
+      "path": "inputs/delay_04_selection_free.json",
+      "sha256": "ce28410c4273289a54efab93937207a5ae2d563ed0ca1e9a18791191ac250964"
+    },
+    {
+      "family": "branching_dag",
+      "metadata": {
+        "generation": "parent j<i with Bernoulli .35, at most2; node2 parents0,1; two scopes per action; no screening",
+        "scope_arity": 1,
+        "seed": 4622026
+      },
+      "name": "dag_04_u2_a1",
+      "path": "inputs/dag_04_u2_a1.json",
+      "sha256": "6a09b2b215ff2b1561af638c53d1aaee2a32829677d77ed308744c671a27f2c9"
+    },
+    {
+      "family": "branching_dag",
+      "metadata": {
+        "generation": "parent j<i with Bernoulli .35, at most2; node2 parents0,1; two scopes per action; no screening",
+        "scope_arity": 2,
+        "seed": 4622026
+      },
+      "name": "dag_04_u3_a2",
+      "path": "inputs/dag_04_u3_a2.json",
+      "sha256": "55cd53b0d2f7478beeba8666ba7b11b90474a5bd77a9ba4c6d86951bcfa95fb2"
+    },
+    {
+      "family": "branching_dag",
+      "metadata": {
+        "generation": "parent j<i with Bernoulli .35, at most2; node2 parents0,1; two scopes per action; no screening",
+        "scope_arity": 3,
+        "seed": 4622026
+      },
+      "name": "dag_04_u3_a3",
+      "path": "inputs/dag_04_u3_a3.json",
+      "sha256": "535df078fca44a8445beaf8b2d2dfebfc85bcd0f2011225fd4fd7ca81a7c1b87"
+    },
+    {
+      "family": "branching_dag",
+      "metadata": {
+        "generation": "parent j<i with Bernoulli .35, at most2; node2 parents0,1; two scopes per action; no screening",
+        "scope_arity": 1,
+        "seed": 4622026
+      },
+      "name": "dag_06_u2_a1",
+      "path": "inputs/dag_06_u2_a1.json",
+      "sha256": "4338a6e687cd6fea47ee96d3db805babdfc45e0d56049a3239992a9c6cb3fe56"
+    },
+    {
+      "family": "branching_dag",
+      "metadata": {
+        "generation": "parent j<i with Bernoulli .35, at most2; node2 parents0,1; two scopes per action; no screening",
+        "scope_arity": 2,
+        "seed": 4622026
+      },
+      "name": "dag_06_u3_a2",
+      "path": "inputs/dag_06_u3_a2.json",
+      "sha256": "7becf94ae634494bdf20297b9de26e30322ce85c50a1e4b46fc44c23de7f9a1a"
+    },
+    {
+      "family": "branching_dag",
+      "metadata": {
+        "generation": "parent j<i with Bernoulli .35, at most2; node2 parents0,1; two scopes per action; no screening",
+        "scope_arity": 3,
+        "seed": 4622026
+      },
+      "name": "dag_06_u3_a3",
+      "path": "inputs/dag_06_u3_a3.json",
+      "sha256": "c48184890ead6b62010fa90f8da63895215bac986a1a3028b89f453f3f28867f"
+    },
+    {
+      "family": "branching_dag",
+      "metadata": {
+        "generation": "parent j<i with Bernoulli .35, at most2; node2 parents0,1; two scopes per action; no screening",
+        "scope_arity": 1,
+        "seed": 4622026
+      },
+      "name": "dag_08_u2_a1",
+      "path": "inputs/dag_08_u2_a1.json",
+      "sha256": "90c1694a9c79e588271d85f6cb59ec9ddca3304bac45561618d9657c91db31e6"
+    },
+    {
+      "family": "branching_dag",
+      "metadata": {
+        "generation": "parent j<i with Bernoulli .35, at most2; node2 parents0,1; two scopes per action; no screening",
+        "scope_arity": 2,
+        "seed": 4622026
+      },
+      "name": "dag_08_u3_a2",
+      "path": "inputs/dag_08_u3_a2.json",
+      "sha256": "24d9c93daf9c975ef7a9aefeb446f236f6164c8b013dbfbcda8f32c09085e854"
+    },
+    {
+      "family": "branching_dag",
+      "metadata": {
+        "generation": "parent j<i with Bernoulli .35, at most2; node2 parents0,1; two scopes per action; no screening",
+        "scope_arity": 3,
+        "seed": 4622026
+      },
+      "name": "dag_08_u3_a3",
+      "path": "inputs/dag_08_u3_a3.json",
+      "sha256": "f36a56960706900f56de8fd19754f0ab487c9f0f09e9bb8764b0d6843d2f28c1"
+    },
+    {
+      "family": "refresh",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": "infinite"
+        },
+        "expected_unpruned_states": 4
+      },
+      "name": "refresh_02",
+      "path": "inputs/refresh_02.json",
+      "sha256": "b4e405f1d15ec01465acdc326579ebd13ed2c80a784c4f215219832ec75d9d1d"
+    },
+    {
+      "family": "refresh",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": "infinite"
+        },
+        "expected_unpruned_states": 16
+      },
+      "name": "refresh_04",
+      "path": "inputs/refresh_04.json",
+      "sha256": "09c8b0afdcf2dbefd91d92f83fa5e8cde28a427892449fd3db36bc3970af3781"
+    },
+    {
+      "family": "refresh",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": "infinite"
+        },
+        "expected_unpruned_states": 256
+      },
+      "name": "refresh_08",
+      "path": "inputs/refresh_08.json",
+      "sha256": "f645732f5a1ca35d21460eda7a09199333cbbd098c2be28d02be921aab9fb927"
+    },
+    {
+      "family": "refresh",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": "infinite"
+        },
+        "expected_unpruned_states": 4096
+      },
+      "name": "refresh_12",
+      "path": "inputs/refresh_12.json",
+      "sha256": "6af4ffb5ebc751f220c551164265956fa37804c446b763b1b07e8b23daa8a0dc"
+    },
+    {
+      "family": "zero",
+      "metadata": {
+        "expected_horizons": {
+          "full": 0,
+          "growth": 0
+        }
+      },
+      "name": "zero_coordinates",
+      "path": "inputs/zero_coordinates.json",
+      "sha256": "2593a713382cd356e97914e5dbc69e0fda4d90ef9eb6c24ad3bcb4ceff1822ff"
+    },
+    {
+      "family": "partial_precheck",
+      "metadata": {
+        "expected_horizons": {
+          "full": "infinite",
+          "growth": 2
+        }
+      },
+      "name": "cycle_outside_ancestry",
+      "path": "inputs/cycle_outside_ancestry.json",
+      "sha256": "6bc50ff1660075c0115b0986d46b78cd133911ad1dfbfc60684fbb1ad5e5eb3b"
+    }
+  ],
+  "protocol": {
+    "address_space_cap_bytes": 1073741824,
+    "certification_timing": "Common precheck certificate checking plus additional pair certificate generation/checking reported separately. Certified total is provided only when both query answers have checked certificates.",
+    "common_preprocessing": "The same union-cycle/empty-fitness precheck runs for every method. Known per-query answers persist on resource stops; acyclic is inconclusive.",
+    "decision_timing": "Sum of JSON input validation, common precheck including its certificate construction, matrix construction if needed, and unresolved-query core. Excludes checking, pair certificate generation and process startup.",
+    "execution": "Sequential fresh subprocesses, common caps; one discarded warmup then three measured repetitions. Shared host, not CPU-isolated.",
+    "exterior": "Exact integer canonical boundary matrices, dense second compounds and sparse fraction-free row bases. Dense-pointer preflight is implementation-specific; a stop is unresolved.",
+    "fresh_process_runs": 380,
+    "input_selection": "All 29 generated inputs retained; no outcome-based screening. Nine branching DAGs generated by fixed rule and seed.",
+    "main_method_instances": 87,
+    "main_table_landmarks": [
+      "chain_04_separate",
+      "chain_12_separate",
+      "chain_04_joint",
+      "chain_12_joint",
+      "delay_04_selected",
+      "dag_08_u3_a3",
+      "refresh_12",
+      "cycle_outside_ancestry"
+    ],
+    "measured_repetitions": 3,
+    "memory": "1GiB RLIMIT_AS; ru_maxrss is resident high-water mark including interpreter/import cost, reported in bytes. No intrinsic memory lower bound claimed.",
+    "methods": [
+      "pair",
+      "antichain",
+      "exterior"
+    ],
+    "parent_timing": "Whole subprocess wall time includes imports, startup, output checkpoints and certificates; 10-second cap applies here.",
+    "queries": "Original full-composition and next-growth graphical uniform horizons over all action words, with an explicitly encoded one-state quotient boundary case; no nontrivial quotient substitution.",
+    "schema": "structural-memory.benchmark-protocol.v1",
+    "seed": 4622026,
+    "stress_method_instances": 8,
+    "unknown_semantics": "Every cap is unresolved for unresolved queries, never an infinite answer; certified precheck answers are retained.",
+    "unpruned_stress": "The same four refresh inputs run additionally with pair/support complete enumeration and preprocessing disabled; this is not an end-to-end decision comparison.",
+    "wall_cap_seconds": 10,
+    "warmups": 1
+  },
+  "schema": "structural-memory.benchmark-freeze.v1",
+  "source_sha256": {
+    "src/compact_memory/certificate_checker.py": "25090d2ea5d1c92e4a762cdfe3ef92a165ef2cefa00063d43e7e68cb2981fc6d",
+    "src/compact_memory/model.py": "10512222a61c4dae7fccf41e68efed48500a114cc8f9b17e0472038f591cb41b",
+    "src/compact_memory/solver.py": "2a8b038350396f4b63152602310c33e3826c7bb3d5fd05d54ea6b7e307b4147f",
+    "src/structural_frontend/__init__.py": "ccdf8165d161475152abb2e8e312e5c6901d507ce02a2d31feab2fcd18aef35c",
+    "src/structural_frontend/certificate_checker.py": "722d83e0adb1147a781cbddf0d28567a13c075ed9138645e17a7550fd1d21929",
+    "src/structural_frontend/precheck.py": "c4256f6508ad438ebc62863dd0039a272dcc080d77ed10964e657f975a66a77b",
+    "src/reference.py": "19fb0cdfe54ccd58877200a9fe3b3b5423a1a3adaa9b226e02a64992840d415a",
+    "src/benchmark_core.py": "4afad32ba5c2f652351118f37d45fe47e7b410b2ad0df1038ccfd7d957b9c315",
+    "src/benchmark/fixtures.py": "36cb852a3e7ada1061bc2c54edadeea48d76222a7ed282afdacb17ecff9b607a",
+    "src/benchmark/run_benchmark.py": "c09a99ff539c70195b77da38d59acd18d73704966939658fe421852fcadb1f09",
+    "src/benchmark/test_protocol.py": "e892163b63e25c790ed90f8e3b1981b11a466a48781b6aff354db39429f55f33",
+    "src/benchmark/verify_recorded.py": "3d54710f9ba3ea62ec170970dd0d77ee0e58212903d724444a94db156f2b5373",
+    "src/benchmark/worker.py": "9a8fe948442cb36999892fbb88a069e06247d755149b7a30d39662096356a167"
+  }
+}
