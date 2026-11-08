@@ -1,0 +1,69 @@
+{
+  "case_id": "control__cross_chi_exception",
+  "entries": [
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:cross_chi",
+      "context": [
+        0
+      ],
+      "index": 0,
+      "type": "theta",
+      "value": "3/7"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:cross_chi",
+      "context": [
+        1
+      ],
+      "index": 0,
+      "type": "theta",
+      "value": "3/7"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:0",
+      "context": [
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "1"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "psi:0:0:1",
+      "context": [
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "2"
+    }
+  ],
+  "family": "C",
+  "input_id": "cross_chi_exception",
+  "structure": {
+    "U": 1,
+    "fac": [
+      [
+        [
+          0
+        ]
+      ]
+    ],
+    "n": 1,
+    "pa": [
+      [
+        [
+          0
+        ]
+      ]
+    ]
+  }
+}

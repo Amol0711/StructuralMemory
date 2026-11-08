@@ -1,0 +1,41 @@
+{
+  "agreeing_points": 124,
+  "control_outputs": 6,
+  "control_points": 3,
+  "distinct_initial_unknown_queries": 5,
+  "exceptional_points": 1,
+  "exceptions": [
+    "chain_04_joint__T__01"
+  ],
+  "free_points": 65,
+  "horizon_outputs": 250,
+  "horizon_value_counts": {
+    "infinite": 128,
+    "positive_finite": 102,
+    "zero": 20
+  },
+  "initial_backend_run_counts": {
+    "normal": {
+      "error": 0,
+      "resolved": 502,
+      "unknown": 10
+    },
+    "optimized": {
+      "error": 0,
+      "resolved": 502,
+      "unknown": 10
+    }
+  },
+  "initial_unknown_execution_records": 20,
+  "no_resampling": true,
+  "normal_optimized_resolved_payloads_identical": true,
+  "points": 125,
+  "resolved_by_constant_word_certificate": [
+    "refresh_04__U__01",
+    "refresh_04__U__02",
+    "refresh_04__U__03",
+    "refresh_04__U__04",
+    "refresh_04__U__05"
+  ],
+  "tied_points": 60
+}

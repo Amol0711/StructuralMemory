@@ -1,0 +1,30 @@
+{
+  "benchmark_timings": "unchanged; these are validation runs, not a replacement performance benchmark",
+  "cap_semantics": "unknown with cause, retain other component/backend outcomes; no infinity inference",
+  "controls_outside_cohort": 3,
+  "draws_per_structure_family": 5,
+  "entry_order": "action ascending; theta then psi; local index ascending; context lexicographic",
+  "fitness_grid": "{1,...,388}/97",
+  "free_family": "distinct declared equality class per local table entry; chance numeric coincidences retained",
+  "free_points": 65,
+  "generator": "Python random.Random(case_seed), randint inclusive; actual rational tables retained",
+  "generator_python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "global_seed": 20261102,
+  "horizon_outputs": 250,
+  "infinity_semantics": "nonzero exact stable exterior space or independent valid numerical certificate",
+  "limits": {
+    "address_space_bytes_per_worker": 2147483648,
+    "maximum_workers": 4,
+    "wall_seconds_per_component_backend": 120
+  },
+  "normal_and_optimized": "run both backends on all cases and controls in normal and -O modes; compare scientific decisions",
+  "scalar_semantics": "zero_coordinates is the one-state quotient for J empty; encoded with n=0. Its full horizon is the quotient horizon, not the original unreduced composition horizon.",
+  "seed_rule": "Use the integer seed stored in each frozen case; do not derive a seed from a renamed identifier.",
+  "status": "Frozen numerical study; exported inputs preserve all original integer seeds and rational tables.",
+  "tied_family": "maximal separate (entry type,chi) equality classes; chi is all(context), including empty context",
+  "tied_points": 60,
+  "total_points": 125,
+  "transition_grid": "{1,...,96}/97",
+  "unexpected_outcomes": "retain every mismatch, error and unknown; no resampling or silent retry",
+  "version": 1
+}
