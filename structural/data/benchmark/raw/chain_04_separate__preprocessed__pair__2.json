@@ -1,0 +1,342 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": true,
+  "certificates": [
+    {
+      "horizon": 4,
+      "proof": {
+        "initial": 0,
+        "rank": [
+          3,
+          2,
+          1,
+          0,
+          -1
+        ],
+        "states": [
+          {
+            "pairs": [
+              15,
+              15,
+              15,
+              15
+            ],
+            "root": 15
+          },
+          {
+            "pairs": [
+              1,
+              14,
+              14,
+              14
+            ],
+            "root": 14
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              12,
+              12
+            ],
+            "root": 12
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "root": 8
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "root": 0
+          }
+        ],
+        "transitions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "type": "closed_graph_rank",
+        "witness_next_action": null,
+        "witness_word": [
+          0,
+          0,
+          0
+        ]
+      },
+      "query": "full",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "finite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "horizon": 4,
+      "proof": {
+        "initial": 0,
+        "rank": [
+          3,
+          2,
+          1,
+          0,
+          -1
+        ],
+        "states": [
+          {
+            "pairs": [
+              15,
+              15,
+              15,
+              15
+            ],
+            "root": 15
+          },
+          {
+            "pairs": [
+              1,
+              14,
+              14,
+              14
+            ],
+            "root": 14
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              12,
+              12
+            ],
+            "root": 12
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "root": 8
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "root": 0
+          }
+        ],
+        "transitions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "type": "closed_graph_rank",
+        "witness_next_action": 0,
+        "witness_word": [
+          0,
+          0,
+          0
+        ]
+      },
+      "query": "growth",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "finite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": 0.001036553003359586,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.0005172900055185892,
+  "edges": 10,
+  "family": "matched_chain",
+  "horizons": {
+    "full": 4,
+    "growth": 4
+  },
+  "input_sha256": "edd73eb4e952918a3c06b72cf9a2e90fb39af15ceb57dc1754682e14dc560720",
+  "instance": "chain_04_separate",
+  "iteration": 2,
+  "measured": true,
+  "method": "pair",
+  "mode": "preprocessed",
+  "n": 4,
+  "parent_finished_utc": "2026-11-02T11:15:32.031725+00:00",
+  "parent_started_utc": "2026-11-02T11:15:31.978244+00:00",
+  "parent_wall_seconds": 0.053193122999800835,
+  "peak_rss_bytes": 15204352,
+  "peak_rss_decision_bytes": 15204352,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 6,
+    "input_scope_entries": 4,
+    "union_edges": 3
+  },
+  "reachable_states": 5,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 0.00046243699762271717,
+    "certificate_generation": 5.682600021827966e-05,
+    "core_decision": 0.00037692800106015056,
+    "input_validation": 8.955500379670411e-05,
+    "matrix_construction": 0.0,
+    "precheck": 5.080700066173449e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.0022889190004207194
+}

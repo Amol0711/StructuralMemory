@@ -1,0 +1,188 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": true,
+  "certificates": [
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": null,
+        "prefix": [
+          0,
+          0,
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "full",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": 0,
+        "prefix": [
+          0,
+          0,
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "growth",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": 0.0005672849947586656,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.0003666929987957701,
+  "edges": 8,
+  "family": "matched_chain",
+  "horizons": {
+    "full": "infinite",
+    "growth": "infinite"
+  },
+  "input_sha256": "c305fafd249fc24761902170bd489fab97a411680006c6fb16c884afb8f53297",
+  "instance": "chain_04_joint",
+  "iteration": 3,
+  "measured": true,
+  "method": "pair",
+  "mode": "preprocessed",
+  "n": 4,
+  "parent_finished_utc": "2026-11-02T11:15:32.911307+00:00",
+  "parent_started_utc": "2026-11-02T11:15:32.851338+00:00",
+  "parent_wall_seconds": 0.05983403499703854,
+  "peak_rss_bytes": 15204352,
+  "peak_rss_decision_bytes": 15204352,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 6,
+    "input_scope_entries": 4,
+    "union_edges": 3
+  },
+  "reachable_states": 4,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 0.00015141799667617306,
+    "certificate_generation": 4.917399928672239e-05,
+    "core_decision": 0.00015942100435495377,
+    "input_validation": 8.214399713324383e-05,
+    "matrix_construction": 0.0,
+    "precheck": 0.00012512799730757251
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.0019993169989902526
+}

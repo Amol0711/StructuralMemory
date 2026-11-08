@@ -1,0 +1,86 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": false,
+  "certificates": [],
+  "certified_total_seconds": null,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.01754489598533837,
+  "dense_compound_pointer_lower_bound_bytes": 230400,
+  "dimensions": {
+    "full": [
+      120,
+      28,
+      6,
+      1,
+      0
+    ],
+    "growth": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "growth_closure": [
+      1,
+      2,
+      3,
+      4,
+      4
+    ]
+  },
+  "edges": null,
+  "exterior_dimension": 120,
+  "family": "matched_chain",
+  "horizons": {
+    "full": 4,
+    "growth": 4
+  },
+  "input_sha256": "edd73eb4e952918a3c06b72cf9a2e90fb39af15ceb57dc1754682e14dc560720",
+  "instance": "chain_04_separate",
+  "iteration": "warmup",
+  "measured": false,
+  "method": "exterior",
+  "mode": "preprocessed",
+  "n": 4,
+  "parent_finished_utc": "2026-11-02T11:15:32.401468+00:00",
+  "parent_started_utc": "2026-11-02T11:15:32.318262+00:00",
+  "parent_wall_seconds": 0.08305479700356955,
+  "peak_rss_bytes": 15204352,
+  "peak_rss_decision_bytes": 15204352,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 6,
+    "input_scope_entries": 4,
+    "union_edges": 3
+  },
+  "reachable_states": null,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 3.800014383159578e-07,
+    "certificate_generation": 0.0,
+    "core_decision": 0.014101176995609421,
+    "input_validation": 8.379599603358656e-05,
+    "matrix_construction": 0.003310477994091343,
+    "precheck": 4.944499960402027e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.018479254002158996
+}
