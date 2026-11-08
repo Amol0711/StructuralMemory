@@ -1,0 +1,207 @@
+{
+  "canonical_boundary_caveat": "The algebra comparison uses fixed rational boundary matrices whose transition entries can vanish. These matrices are distinct from strictly positive parameter draws.",
+  "checks": {
+    "antichain_instances": 12,
+    "canonical_algebra_instances": 4,
+    "certificates": 24,
+    "moralized_endpoint_queries": 1016,
+    "raw_state_comparisons": 204
+  },
+  "instances": [
+    {
+      "dimension": 2,
+      "fitness_scopes": "separate",
+      "full": {
+        "horizon": 2,
+        "status": "finite"
+      },
+      "growth": {
+        "horizon": 2,
+        "status": "finite"
+      },
+      "instance": "chain_02_separate",
+      "reachable_pair_states": 3,
+      "transitions": 6
+    },
+    {
+      "dimension": 2,
+      "fitness_scopes": "joint",
+      "full": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "growth": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "instance": "chain_02_joint",
+      "reachable_pair_states": 2,
+      "transitions": 4
+    },
+    {
+      "dimension": 4,
+      "fitness_scopes": "separate",
+      "full": {
+        "horizon": 4,
+        "status": "finite"
+      },
+      "growth": {
+        "horizon": 4,
+        "status": "finite"
+      },
+      "instance": "chain_04_separate",
+      "reachable_pair_states": 5,
+      "transitions": 10
+    },
+    {
+      "dimension": 4,
+      "fitness_scopes": "joint",
+      "full": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "growth": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "instance": "chain_04_joint",
+      "reachable_pair_states": 4,
+      "transitions": 8
+    },
+    {
+      "dimension": 6,
+      "fitness_scopes": "separate",
+      "full": {
+        "horizon": 6,
+        "status": "finite"
+      },
+      "growth": {
+        "horizon": 6,
+        "status": "finite"
+      },
+      "instance": "chain_06_separate",
+      "reachable_pair_states": 7,
+      "transitions": 14
+    },
+    {
+      "dimension": 6,
+      "fitness_scopes": "joint",
+      "full": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "growth": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "instance": "chain_06_joint",
+      "reachable_pair_states": 6,
+      "transitions": 12
+    },
+    {
+      "dimension": 8,
+      "fitness_scopes": "separate",
+      "full": {
+        "horizon": 8,
+        "status": "finite"
+      },
+      "growth": {
+        "horizon": 8,
+        "status": "finite"
+      },
+      "instance": "chain_08_separate",
+      "reachable_pair_states": 9,
+      "transitions": 18
+    },
+    {
+      "dimension": 8,
+      "fitness_scopes": "joint",
+      "full": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "growth": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "instance": "chain_08_joint",
+      "reachable_pair_states": 8,
+      "transitions": 16
+    },
+    {
+      "dimension": 10,
+      "fitness_scopes": "separate",
+      "full": {
+        "horizon": 10,
+        "status": "finite"
+      },
+      "growth": {
+        "horizon": 10,
+        "status": "finite"
+      },
+      "instance": "chain_10_separate",
+      "reachable_pair_states": 11,
+      "transitions": 22
+    },
+    {
+      "dimension": 10,
+      "fitness_scopes": "joint",
+      "full": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "growth": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "instance": "chain_10_joint",
+      "reachable_pair_states": 10,
+      "transitions": 20
+    },
+    {
+      "dimension": 12,
+      "fitness_scopes": "separate",
+      "full": {
+        "horizon": 12,
+        "status": "finite"
+      },
+      "growth": {
+        "horizon": 12,
+        "status": "finite"
+      },
+      "instance": "chain_12_separate",
+      "reachable_pair_states": 13,
+      "transitions": 26
+    },
+    {
+      "dimension": 12,
+      "fitness_scopes": "joint",
+      "full": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "growth": {
+        "horizon": null,
+        "status": "infinite"
+      },
+      "instance": "chain_12_joint",
+      "reachable_pair_states": 12,
+      "transitions": 24
+    }
+  ],
+  "interpretation": "For the six tested dimensions, separate scopes yield both horizons equal to the dimension; joint scopes yield both infinite. All 24 horizon answers have separately accepted certificates.",
+  "python_version": "3.12.14",
+  "query_caveat": "Both queries are on the original full chain; every coordinate is fitness-ancestral here, so no coordinate was discarded.",
+  "question": "Same feedforward transition scopes, separate final-two unary fitness scopes versus one joint scope",
+  "scope_caveat": "These are different declared free fitness families. Refactorizing an identical numerical fitness function leaves its numerical dynamics unchanged. No new all-dimension formula or statistical inference is asserted.",
+  "source_sha256": {
+    "src/compact_memory/certificate_checker.py": "25090d2ea5d1c92e4a762cdfe3ef92a165ef2cefa00063d43e7e68cb2981fc6d",
+    "src/compact_memory/model.py": "10512222a61c4dae7fccf41e68efed48500a114cc8f9b17e0472038f591cb41b",
+    "src/compact_memory/solver.py": "2a8b038350396f4b63152602310c33e3826c7bb3d5fd05d54ea6b7e307b4147f",
+    "src/graph_validation/oracles.py": "40a77ecececefbabd5fb408bb9a828863c711015f66bb3c25b9ba1a397b8f6f3",
+    "src/reference.py": "19fb0cdfe54ccd58877200a9fe3b3b5423a1a3adaa9b226e02a64992840d415a",
+    "src/structural_study.py": "2ed50ce323335467cd7a3ed76b3b02c2f7b49ba859b2d54695baf226440ba577"
+  },
+  "status": "passed",
+  "success": true
+}

@@ -1,0 +1,92 @@
+{
+  "horizon": 2,
+  "proof": {
+    "initial": 0,
+    "rank": [
+      1,
+      0,
+      -1
+    ],
+    "states": [
+      {
+        "pairs": [
+          3,
+          3
+        ],
+        "root": 3
+      },
+      {
+        "pairs": [
+          1,
+          2
+        ],
+        "root": 2
+      },
+      {
+        "pairs": [
+          1,
+          2
+        ],
+        "root": 0
+      }
+    ],
+    "transitions": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "type": "closed_graph_rank",
+    "witness_next_action": 0,
+    "witness_word": [
+      0
+    ]
+  },
+  "query": "growth",
+  "schema": "structural-memory.pair-certificate.v1",
+  "status": "finite",
+  "structure": {
+    "U": 2,
+    "fac": [
+      [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ]
+    ],
+    "n": 2,
+    "pa": [
+      [
+        [],
+        [
+          0
+        ]
+      ],
+      [
+        [],
+        [
+          0
+        ]
+      ]
+    ]
+  }
+}

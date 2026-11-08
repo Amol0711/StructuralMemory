@@ -1,0 +1,993 @@
+{
+  "canonical_algebra": null,
+  "dimension": 10,
+  "fitness_scopes": "separate",
+  "instance": "chain_10_separate",
+  "marked_trajectory": [
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 0,
+      "marked_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 1,
+      "marked_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 2,
+      "marked_coordinates": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 3,
+      "marked_coordinates": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 4,
+      "marked_coordinates": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 5,
+      "marked_coordinates": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 6,
+      "marked_coordinates": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 7,
+      "marked_coordinates": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 8,
+      "marked_coordinates": [
+        8,
+        9
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 9,
+      "marked_coordinates": [
+        9
+      ]
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 10,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 11,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 12,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 13,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 14,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 15,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 16,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 17,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 18,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 19,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 20,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 21,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 22,
+      "marked_coordinates": []
+    }
+  ],
+  "pair_result": {
+    "exploration": {
+      "complete": true,
+      "fully_expanded_states": 11,
+      "implementation": "explicit reachable pair-state graph",
+      "max_states": 100000,
+      "max_transitions": 1000000,
+      "state_description_bits": 55,
+      "states_discovered": 11,
+      "stop_reason": null,
+      "transitions_evaluated": 22,
+      "transitions_stored": 22
+    },
+    "full": {
+      "certificate": {
+        "horizon": 10,
+        "proof": {
+          "initial": 0,
+          "rank": [
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            -1
+          ],
+          "states": [
+            {
+              "pairs": [
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023
+              ],
+              "root": 1023
+            },
+            {
+              "pairs": [
+                1,
+                1022,
+                1022,
+                1022,
+                1022,
+                1022,
+                1022,
+                1022,
+                1022,
+                1022
+              ],
+              "root": 1022
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                1020,
+                1020,
+                1020,
+                1020,
+                1020,
+                1020,
+                1020,
+                1020
+              ],
+              "root": 1020
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                1016,
+                1016,
+                1016,
+                1016,
+                1016,
+                1016,
+                1016
+              ],
+              "root": 1016
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                1008,
+                1008,
+                1008,
+                1008,
+                1008,
+                1008
+              ],
+              "root": 1008
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                992,
+                992,
+                992,
+                992,
+                992
+              ],
+              "root": 992
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                960,
+                960,
+                960,
+                960
+              ],
+              "root": 960
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                896,
+                896,
+                896
+              ],
+              "root": 896
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                128,
+                768,
+                768
+              ],
+              "root": 768
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                128,
+                256,
+                512
+              ],
+              "root": 512
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                128,
+                256,
+                512
+              ],
+              "root": 0
+            }
+          ],
+          "transitions": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          "type": "closed_graph_rank",
+          "witness_next_action": null,
+          "witness_word": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "query": "full",
+        "schema": "structural-memory.pair-certificate.v1",
+        "status": "finite",
+        "structure": {
+          "U": 2,
+          "fac": [
+            [
+              [
+                8
+              ],
+              [
+                9
+              ]
+            ],
+            [
+              [
+                8
+              ],
+              [
+                9
+              ]
+            ]
+          ],
+          "n": 10,
+          "pa": [
+            [
+              [],
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ]
+            ],
+            [
+              [],
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ]
+            ]
+          ]
+        }
+      },
+      "horizon": 10,
+      "status": "finite"
+    },
+    "growth": {
+      "certificate": {
+        "horizon": 10,
+        "proof": {
+          "initial": 0,
+          "rank": [
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            -1
+          ],
+          "states": [
+            {
+              "pairs": [
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023
+              ],
+              "root": 1023
+            },
+            {
+              "pairs": [
+                1,
+                1022,
+                1022,
+                1022,
+                1022,
+                1022,
+                1022,
+                1022,
+                1022,
+                1022
+              ],
+              "root": 1022
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                1020,
+                1020,
+                1020,
+                1020,
+                1020,
+                1020,
+                1020,
+                1020
+              ],
+              "root": 1020
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                1016,
+                1016,
+                1016,
+                1016,
+                1016,
+                1016,
+                1016
+              ],
+              "root": 1016
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                1008,
+                1008,
+                1008,
+                1008,
+                1008,
+                1008
+              ],
+              "root": 1008
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                992,
+                992,
+                992,
+                992,
+                992
+              ],
+              "root": 992
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                960,
+                960,
+                960,
+                960
+              ],
+              "root": 960
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                896,
+                896,
+                896
+              ],
+              "root": 896
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                128,
+                768,
+                768
+              ],
+              "root": 768
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                128,
+                256,
+                512
+              ],
+              "root": 512
+            },
+            {
+              "pairs": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                128,
+                256,
+                512
+              ],
+              "root": 0
+            }
+          ],
+          "transitions": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          "type": "closed_graph_rank",
+          "witness_next_action": 0,
+          "witness_word": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "query": "growth",
+        "schema": "structural-memory.pair-certificate.v1",
+        "status": "finite",
+        "structure": {
+          "U": 2,
+          "fac": [
+            [
+              [
+                8
+              ],
+              [
+                9
+              ]
+            ],
+            [
+              [
+                8
+              ],
+              [
+                9
+              ]
+            ]
+          ],
+          "n": 10,
+          "pa": [
+            [
+              [],
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ]
+            ],
+            [
+              [],
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ]
+            ]
+          ]
+        }
+      },
+      "horizon": 10,
+      "status": "finite"
+    },
+    "schema": "structural-memory.compact-solver.v1",
+    "structure": {
+      "U": 2,
+      "fac": [
+        [
+          [
+            8
+          ],
+          [
+            9
+          ]
+        ],
+        [
+          [
+            8
+          ],
+          [
+            9
+          ]
+        ]
+      ],
+      "n": 10,
+      "pa": [
+        [
+          [],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            8
+          ]
+        ],
+        [
+          [],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            8
+          ]
+        ]
+      ]
+    }
+  },
+  "support_antichain": {
+    "full": {
+      "horizon": 10,
+      "status": "finite"
+    },
+    "growth": {
+      "horizon": 10,
+      "status": "finite"
+    },
+    "last_inspected_length": 10
+  }
+}

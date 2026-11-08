@@ -1,0 +1,13 @@
+dimension,fitness_scopes,full_horizon,growth_horizon,reachable_pair_states,transitions
+2,separate,2,2,3,6
+2,joint,infinity,infinity,2,4
+4,separate,4,4,5,10
+4,joint,infinity,infinity,4,8
+6,separate,6,6,7,14
+6,joint,infinity,infinity,6,12
+8,separate,8,8,9,18
+8,joint,infinity,infinity,8,16
+10,separate,10,10,11,22
+10,joint,infinity,infinity,10,20
+12,separate,12,12,13,26
+12,joint,infinity,infinity,12,24

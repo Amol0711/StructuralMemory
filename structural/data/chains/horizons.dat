@@ -1,0 +1,7 @@
+dimension separate_full separate_growth joint_full_infinite joint_growth_infinite separate_states joint_states
+2 2 2 1 1 3 2
+4 4 4 1 1 5 4
+6 6 6 1 1 7 6
+8 8 8 1 1 9 8
+10 10 10 1 1 11 10
+12 12 12 1 1 13 12

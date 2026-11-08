@@ -1,0 +1,331 @@
+{
+  "canonical_algebra": {
+    "arithmetic": "exact integers and rational row reduction; actionwise positive scalar scaling is immaterial to reset",
+    "descending_dimensions": {
+      "f": [
+        6,
+        1,
+        0
+      ],
+      "g": [
+        2,
+        1,
+        0
+      ]
+    },
+    "full": {
+      "horizon": 2,
+      "status": "finite"
+    },
+    "growth": {
+      "horizon": 2,
+      "status": "finite"
+    }
+  },
+  "dimension": 2,
+  "fitness_scopes": "separate",
+  "instance": "chain_02_separate",
+  "marked_trajectory": [
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 0,
+      "marked_coordinates": [
+        0,
+        1
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 1,
+      "marked_coordinates": [
+        1
+      ]
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 2,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 3,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 4,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 5,
+      "marked_coordinates": []
+    },
+    {
+      "full_connected": false,
+      "growth_connected": false,
+      "length": 6,
+      "marked_coordinates": []
+    }
+  ],
+  "pair_result": {
+    "exploration": {
+      "complete": true,
+      "fully_expanded_states": 3,
+      "implementation": "explicit reachable pair-state graph",
+      "max_states": 100000,
+      "max_transitions": 1000000,
+      "state_description_bits": 3,
+      "states_discovered": 3,
+      "stop_reason": null,
+      "transitions_evaluated": 6,
+      "transitions_stored": 6
+    },
+    "full": {
+      "certificate": {
+        "horizon": 2,
+        "proof": {
+          "initial": 0,
+          "rank": [
+            1,
+            0,
+            -1
+          ],
+          "states": [
+            {
+              "pairs": [
+                3,
+                3
+              ],
+              "root": 3
+            },
+            {
+              "pairs": [
+                1,
+                2
+              ],
+              "root": 2
+            },
+            {
+              "pairs": [
+                1,
+                2
+              ],
+              "root": 0
+            }
+          ],
+          "transitions": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "type": "closed_graph_rank",
+          "witness_next_action": null,
+          "witness_word": [
+            0
+          ]
+        },
+        "query": "full",
+        "schema": "structural-memory.pair-certificate.v1",
+        "status": "finite",
+        "structure": {
+          "U": 2,
+          "fac": [
+            [
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            [
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          ],
+          "n": 2,
+          "pa": [
+            [
+              [],
+              [
+                0
+              ]
+            ],
+            [
+              [],
+              [
+                0
+              ]
+            ]
+          ]
+        }
+      },
+      "horizon": 2,
+      "status": "finite"
+    },
+    "growth": {
+      "certificate": {
+        "horizon": 2,
+        "proof": {
+          "initial": 0,
+          "rank": [
+            1,
+            0,
+            -1
+          ],
+          "states": [
+            {
+              "pairs": [
+                3,
+                3
+              ],
+              "root": 3
+            },
+            {
+              "pairs": [
+                1,
+                2
+              ],
+              "root": 2
+            },
+            {
+              "pairs": [
+                1,
+                2
+              ],
+              "root": 0
+            }
+          ],
+          "transitions": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "type": "closed_graph_rank",
+          "witness_next_action": 0,
+          "witness_word": [
+            0
+          ]
+        },
+        "query": "growth",
+        "schema": "structural-memory.pair-certificate.v1",
+        "status": "finite",
+        "structure": {
+          "U": 2,
+          "fac": [
+            [
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            [
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          ],
+          "n": 2,
+          "pa": [
+            [
+              [],
+              [
+                0
+              ]
+            ],
+            [
+              [],
+              [
+                0
+              ]
+            ]
+          ]
+        }
+      },
+      "horizon": 2,
+      "status": "finite"
+    },
+    "schema": "structural-memory.compact-solver.v1",
+    "structure": {
+      "U": 2,
+      "fac": [
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ],
+      "n": 2,
+      "pa": [
+        [
+          [],
+          [
+            0
+          ]
+        ],
+        [
+          [],
+          [
+            0
+          ]
+        ]
+      ]
+    }
+  },
+  "support_antichain": {
+    "full": {
+      "horizon": 2,
+      "status": "finite"
+    },
+    "growth": {
+      "horizon": 2,
+      "status": "finite"
+    },
+    "last_inspected_length": 2
+  }
+}

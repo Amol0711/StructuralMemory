@@ -1,0 +1,140 @@
+{
+  "horizon": 4,
+  "proof": {
+    "initial": 0,
+    "rank": [
+      3,
+      2,
+      1,
+      0,
+      -1
+    ],
+    "states": [
+      {
+        "pairs": [
+          15,
+          15,
+          15,
+          15
+        ],
+        "root": 15
+      },
+      {
+        "pairs": [
+          1,
+          14,
+          14,
+          14
+        ],
+        "root": 14
+      },
+      {
+        "pairs": [
+          1,
+          2,
+          12,
+          12
+        ],
+        "root": 12
+      },
+      {
+        "pairs": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "root": 8
+      },
+      {
+        "pairs": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "root": 0
+      }
+    ],
+    "transitions": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "type": "closed_graph_rank",
+    "witness_next_action": null,
+    "witness_word": [
+      0,
+      0,
+      0
+    ]
+  },
+  "query": "full",
+  "schema": "structural-memory.pair-certificate.v1",
+  "status": "finite",
+  "structure": {
+    "U": 2,
+    "fac": [
+      [
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      [
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    ],
+    "n": 4,
+    "pa": [
+      [
+        [],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      [
+        [],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    ]
+  }
+}

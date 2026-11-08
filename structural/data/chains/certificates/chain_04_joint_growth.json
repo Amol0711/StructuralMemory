@@ -1,0 +1,63 @@
+{
+  "horizon": null,
+  "proof": {
+    "cycle": [
+      0
+    ],
+    "next_action": 0,
+    "prefix": [
+      0,
+      0,
+      0
+    ],
+    "suffix": [],
+    "type": "lasso"
+  },
+  "query": "growth",
+  "schema": "structural-memory.pair-certificate.v1",
+  "status": "infinite",
+  "structure": {
+    "U": 2,
+    "fac": [
+      [
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "n": 4,
+    "pa": [
+      [
+        [],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      [
+        [],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    ]
+  }
+}

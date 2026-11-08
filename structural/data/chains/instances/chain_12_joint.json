@@ -1,0 +1,654 @@
+{
+  "canonical_algebra": null,
+  "dimension": 12,
+  "fitness_scopes": "joint",
+  "instance": "chain_12_joint",
+  "marked_trajectory": [
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 0,
+      "marked_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 1,
+      "marked_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 2,
+      "marked_coordinates": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 3,
+      "marked_coordinates": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 4,
+      "marked_coordinates": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 5,
+      "marked_coordinates": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 6,
+      "marked_coordinates": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 7,
+      "marked_coordinates": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 8,
+      "marked_coordinates": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 9,
+      "marked_coordinates": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 10,
+      "marked_coordinates": [
+        10,
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 11,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 12,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 13,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 14,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 15,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 16,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 17,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 18,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 19,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 20,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 21,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 22,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 23,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 24,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 25,
+      "marked_coordinates": [
+        11
+      ]
+    },
+    {
+      "full_connected": true,
+      "growth_connected": true,
+      "length": 26,
+      "marked_coordinates": [
+        11
+      ]
+    }
+  ],
+  "pair_result": {
+    "exploration": {
+      "complete": true,
+      "fully_expanded_states": 12,
+      "implementation": "explicit reachable pair-state graph",
+      "max_states": 100000,
+      "max_transitions": 1000000,
+      "state_description_bits": 78,
+      "states_discovered": 12,
+      "stop_reason": null,
+      "transitions_evaluated": 24,
+      "transitions_stored": 24
+    },
+    "full": {
+      "certificate": {
+        "horizon": null,
+        "proof": {
+          "cycle": [
+            0
+          ],
+          "next_action": null,
+          "prefix": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "suffix": [],
+          "type": "lasso"
+        },
+        "query": "full",
+        "schema": "structural-memory.pair-certificate.v1",
+        "status": "infinite",
+        "structure": {
+          "U": 2,
+          "fac": [
+            [
+              [
+                10,
+                11
+              ]
+            ],
+            [
+              [
+                10,
+                11
+              ]
+            ]
+          ],
+          "n": 12,
+          "pa": [
+            [
+              [],
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ],
+              [
+                9
+              ],
+              [
+                10
+              ]
+            ],
+            [
+              [],
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ],
+              [
+                9
+              ],
+              [
+                10
+              ]
+            ]
+          ]
+        }
+      },
+      "horizon": null,
+      "status": "infinite"
+    },
+    "growth": {
+      "certificate": {
+        "horizon": null,
+        "proof": {
+          "cycle": [
+            0
+          ],
+          "next_action": 0,
+          "prefix": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "suffix": [],
+          "type": "lasso"
+        },
+        "query": "growth",
+        "schema": "structural-memory.pair-certificate.v1",
+        "status": "infinite",
+        "structure": {
+          "U": 2,
+          "fac": [
+            [
+              [
+                10,
+                11
+              ]
+            ],
+            [
+              [
+                10,
+                11
+              ]
+            ]
+          ],
+          "n": 12,
+          "pa": [
+            [
+              [],
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ],
+              [
+                9
+              ],
+              [
+                10
+              ]
+            ],
+            [
+              [],
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ],
+              [
+                9
+              ],
+              [
+                10
+              ]
+            ]
+          ]
+        }
+      },
+      "horizon": null,
+      "status": "infinite"
+    },
+    "schema": "structural-memory.compact-solver.v1",
+    "structure": {
+      "U": 2,
+      "fac": [
+        [
+          [
+            10,
+            11
+          ]
+        ],
+        [
+          [
+            10,
+            11
+          ]
+        ]
+      ],
+      "n": 12,
+      "pa": [
+        [
+          [],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ]
+        ],
+        [
+          [],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ]
+        ]
+      ]
+    }
+  },
+  "support_antichain": {
+    "full": {
+      "horizon": null,
+      "status": "infinite"
+    },
+    "growth": {
+      "horizon": null,
+      "status": "infinite"
+    },
+    "last_inspected_length": 12
+  }
+}
