@@ -1,0 +1,90 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": false,
+  "certificates": [],
+  "certified_total_seconds": null,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.04250821100140456,
+  "dense_compound_pointer_lower_bound_bytes": 230400,
+  "dimensions": {
+    "full": [
+      120,
+      43,
+      18,
+      8,
+      4,
+      2,
+      0
+    ],
+    "growth": [
+      15,
+      14,
+      12,
+      8,
+      4,
+      2,
+      0
+    ],
+    "growth_closure": [
+      1,
+      3,
+      7,
+      15,
+      15
+    ]
+  },
+  "edges": null,
+  "exterior_dimension": 120,
+  "family": "selection_delay",
+  "horizons": {
+    "full": 6,
+    "growth": 6
+  },
+  "input_sha256": "7c08175bf0c9b522789279814a9ce75b6121b690c662ddc4ca373afb8a96be0e",
+  "instance": "delay_04_selected",
+  "iteration": 3,
+  "measured": true,
+  "method": "exterior",
+  "mode": "preprocessed",
+  "n": 4,
+  "parent_finished_utc": "2026-11-02T11:16:26.037503+00:00",
+  "parent_started_utc": "2026-11-02T11:16:25.918866+00:00",
+  "parent_wall_seconds": 0.11842506199900527,
+  "peak_rss_bytes": 15466496,
+  "peak_rss_decision_bytes": 15466496,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 7,
+    "input_scope_entries": 1,
+    "union_edges": 4
+  },
+  "reachable_states": null,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 3.9999576983973384e-07,
+    "certificate_generation": 0.0,
+    "core_decision": 0.03690703699976439,
+    "input_validation": 9.898900316329673e-05,
+    "matrix_construction": 0.005448743999295402,
+    "precheck": 5.344099918147549e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.04382936299953144
+}

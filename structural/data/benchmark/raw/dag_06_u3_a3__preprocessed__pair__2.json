@@ -1,0 +1,300 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "actions": 3,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": true,
+  "certificates": [
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": null,
+        "prefix": [
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "full",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 3,
+        "fac": [
+          [
+            [
+              0,
+              3,
+              5
+            ],
+            [
+              0,
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              0,
+              1,
+              5
+            ]
+          ],
+          [
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              0,
+              2,
+              3
+            ]
+          ]
+        ],
+        "n": 6,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": 0,
+        "prefix": [
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "growth",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 3,
+        "fac": [
+          [
+            [
+              0,
+              3,
+              5
+            ],
+            [
+              0,
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              0,
+              1,
+              5
+            ]
+          ],
+          [
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              0,
+              2,
+              3
+            ]
+          ]
+        ],
+        "n": 6,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": 0.0008023999980650842,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.0004758180002681911,
+  "edges": 9,
+  "family": "branching_dag",
+  "horizons": {
+    "full": "infinite",
+    "growth": "infinite"
+  },
+  "input_sha256": "c48184890ead6b62010fa90f8da63895215bac986a1a3028b89f453f3f28867f",
+  "instance": "dag_06_u3_a3",
+  "iteration": 2,
+  "measured": true,
+  "method": "pair",
+  "mode": "preprocessed",
+  "n": 6,
+  "parent_finished_utc": "2026-11-02T11:17:14.550706+00:00",
+  "parent_started_utc": "2026-11-02T11:17:14.494527+00:00",
+  "parent_wall_seconds": 0.05604468599631218,
+  "peak_rss_bytes": 15466496,
+  "peak_rss_decision_bytes": 15466496,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 20,
+    "input_scope_entries": 18,
+    "union_edges": 11
+  },
+  "reachable_states": 3,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 0.0002677669981494546,
+    "certificate_generation": 5.8814999647438526e-05,
+    "core_decision": 0.0002893089986173436,
+    "input_validation": 0.00012196600437164307,
+    "matrix_construction": 0.0,
+    "precheck": 6.454299727920443e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.002140720003808383
+}

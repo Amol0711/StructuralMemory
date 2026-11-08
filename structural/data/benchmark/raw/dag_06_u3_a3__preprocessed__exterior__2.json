@@ -1,0 +1,67 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "actions": 3,
+  "address_space_cap_bytes": 1073741824,
+  "certificates": [],
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "dense_compound_pointer_lower_bound_bytes": 97542144,
+  "edges": null,
+  "exterior_dimension": 2016,
+  "family": "branching_dag",
+  "horizons": {
+    "full": null,
+    "growth": null
+  },
+  "input_sha256": "c48184890ead6b62010fa90f8da63895215bac986a1a3028b89f453f3f28867f",
+  "instance": "dag_06_u3_a3",
+  "interrupted_candidate_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "iteration": 2,
+  "measured": true,
+  "method": "exterior",
+  "mode": "preprocessed",
+  "n": 6,
+  "parent_finished_utc": "2026-11-02T11:17:44.861534+00:00",
+  "parent_started_utc": "2026-11-02T11:17:34.843782+00:00",
+  "parent_wall_seconds": 10.017601349005417,
+  "peak_rss_bytes": 193986560,
+  "phase": "core_decision",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 20,
+    "input_scope_entries": 18,
+    "union_edges": 11
+  },
+  "reachable_states": null,
+  "reason": "Common10-second subprocess wall cap; unfinished queries unresolved",
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 2.7000351110473275e-07,
+    "certificate_generation": 0.0,
+    "core_decision": 0.0,
+    "input_validation": 9.370100451633334e-05,
+    "matrix_construction": 1.2058152829995379,
+    "precheck": 6.530799873871729e-05
+  },
+  "status": "unknown_timeout",
+  "timed_out_phase": "core_decision",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 1.2065895510022528
+}

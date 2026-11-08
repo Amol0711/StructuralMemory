@@ -1,0 +1,532 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": true,
+  "certificates": [
+    {
+      "horizon": 6,
+      "proof": {
+        "initial": 0,
+        "rank": [
+          5,
+          4,
+          3,
+          1,
+          2,
+          1,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "states": [
+          {
+            "pairs": [
+              15,
+              15,
+              15,
+              15
+            ],
+            "root": 15
+          },
+          {
+            "pairs": [
+              7,
+              7,
+              7,
+              8
+            ],
+            "root": 7
+          },
+          {
+            "pairs": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "root": 5
+          },
+          {
+            "pairs": [
+              5,
+              2,
+              5,
+              8
+            ],
+            "root": 5
+          },
+          {
+            "pairs": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "root": 1
+          },
+          {
+            "pairs": [
+              5,
+              2,
+              5,
+              8
+            ],
+            "root": 1
+          },
+          {
+            "pairs": [
+              1,
+              6,
+              6,
+              8
+            ],
+            "root": 1
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "root": 1
+          },
+          {
+            "pairs": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "root": 0
+          },
+          {
+            "pairs": [
+              1,
+              6,
+              6,
+              8
+            ],
+            "root": 0
+          },
+          {
+            "pairs": [
+              5,
+              2,
+              5,
+              8
+            ],
+            "root": 0
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "root": 0
+          }
+        ],
+        "transitions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "type": "closed_graph_rank",
+        "witness_next_action": null,
+        "witness_word": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "query": "full",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "finite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [],
+            []
+          ],
+          [
+            [
+              0
+            ],
+            []
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            []
+          ],
+          [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              1
+            ],
+            []
+          ]
+        ]
+      }
+    },
+    {
+      "horizon": 6,
+      "proof": {
+        "initial": 0,
+        "rank": [
+          5,
+          4,
+          3,
+          1,
+          2,
+          1,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "states": [
+          {
+            "pairs": [
+              15,
+              15,
+              15,
+              15
+            ],
+            "root": 15
+          },
+          {
+            "pairs": [
+              7,
+              7,
+              7,
+              8
+            ],
+            "root": 7
+          },
+          {
+            "pairs": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "root": 5
+          },
+          {
+            "pairs": [
+              5,
+              2,
+              5,
+              8
+            ],
+            "root": 5
+          },
+          {
+            "pairs": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "root": 1
+          },
+          {
+            "pairs": [
+              5,
+              2,
+              5,
+              8
+            ],
+            "root": 1
+          },
+          {
+            "pairs": [
+              1,
+              6,
+              6,
+              8
+            ],
+            "root": 1
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "root": 1
+          },
+          {
+            "pairs": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "root": 0
+          },
+          {
+            "pairs": [
+              1,
+              6,
+              6,
+              8
+            ],
+            "root": 0
+          },
+          {
+            "pairs": [
+              5,
+              2,
+              5,
+              8
+            ],
+            "root": 0
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "root": 0
+          }
+        ],
+        "transitions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "type": "closed_graph_rank",
+        "witness_next_action": 1,
+        "witness_word": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "query": "growth",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "finite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [],
+            []
+          ],
+          [
+            [
+              0
+            ],
+            []
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            []
+          ],
+          [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              1
+            ],
+            []
+          ]
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": 0.0016133629978867248,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.0004641600025934167,
+  "edges": 24,
+  "family": "selection_delay",
+  "horizons": {
+    "full": 6,
+    "growth": 6
+  },
+  "input_sha256": "7c08175bf0c9b522789279814a9ce75b6121b690c662ddc4ca373afb8a96be0e",
+  "instance": "delay_04_selected",
+  "iteration": 1,
+  "measured": true,
+  "method": "pair",
+  "mode": "preprocessed",
+  "n": 4,
+  "parent_finished_utc": "2026-11-02T11:16:25.068308+00:00",
+  "parent_started_utc": "2026-11-02T11:16:24.995271+00:00",
+  "parent_wall_seconds": 0.07284746999357594,
+  "peak_rss_bytes": 15466496,
+  "peak_rss_decision_bytes": 15466496,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 7,
+    "input_scope_entries": 1,
+    "union_edges": 4
+  },
+  "reachable_states": 12,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 0.0009351999979116954,
+    "certificate_generation": 0.00021400299738161266,
+    "core_decision": 0.00021560500317718834,
+    "input_validation": 0.00019473399879643694,
+    "matrix_construction": 0.0,
+    "precheck": 5.382100061979145e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.003789722002693452
+}

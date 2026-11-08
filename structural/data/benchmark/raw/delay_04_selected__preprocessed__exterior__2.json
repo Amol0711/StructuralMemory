@@ -1,0 +1,90 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": false,
+  "certificates": [],
+  "certified_total_seconds": null,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.03841745598765556,
+  "dense_compound_pointer_lower_bound_bytes": 230400,
+  "dimensions": {
+    "full": [
+      120,
+      43,
+      18,
+      8,
+      4,
+      2,
+      0
+    ],
+    "growth": [
+      15,
+      14,
+      12,
+      8,
+      4,
+      2,
+      0
+    ],
+    "growth_closure": [
+      1,
+      3,
+      7,
+      15,
+      15
+    ]
+  },
+  "edges": null,
+  "exterior_dimension": 120,
+  "family": "selection_delay",
+  "horizons": {
+    "full": 6,
+    "growth": 6
+  },
+  "input_sha256": "7c08175bf0c9b522789279814a9ce75b6121b690c662ddc4ca373afb8a96be0e",
+  "instance": "delay_04_selected",
+  "iteration": 2,
+  "measured": true,
+  "method": "exterior",
+  "mode": "preprocessed",
+  "n": 4,
+  "parent_finished_utc": "2026-11-02T11:16:25.918429+00:00",
+  "parent_started_utc": "2026-11-02T11:16:25.805717+00:00",
+  "parent_wall_seconds": 0.11258345399983227,
+  "peak_rss_bytes": 15466496,
+  "peak_rss_decision_bytes": 15466496,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 7,
+    "input_scope_entries": 1,
+    "union_edges": 4
+  },
+  "reachable_states": null,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 4.6100467443466187e-07,
+    "certificate_generation": 0.0,
+    "core_decision": 0.033645530995272566,
+    "input_validation": 0.00015147899830481037,
+    "matrix_construction": 0.004566714997054078,
+    "precheck": 5.3730997024104e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.039547267006128095
+}

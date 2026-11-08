@@ -1,0 +1,101 @@
+{
+  "J": [],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": false,
+  "certificates": [
+    {
+      "horizon": 0,
+      "proof": {
+        "type": "empty_fitness"
+      },
+      "query": "growth",
+      "schema": "structural-memory.union-certificate.v1",
+      "semantics": "graphical-unrestricted",
+      "status": "finite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [],
+          []
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            []
+          ],
+          [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              1
+            ],
+            []
+          ]
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": null,
+  "core_queries": [
+    "full"
+  ],
+  "decision_seconds": 0.0005445600036182441,
+  "edges": 24,
+  "family": "selection_delay",
+  "horizons": {
+    "full": 4,
+    "growth": 0
+  },
+  "input_sha256": "ce28410c4273289a54efab93937207a5ae2d563ed0ca1e9a18791191ac250964",
+  "instance": "delay_04_selection_free",
+  "iteration": 2,
+  "measured": true,
+  "method": "antichain",
+  "mode": "preprocessed",
+  "n": 4,
+  "parent_finished_utc": "2026-11-02T11:16:26.534684+00:00",
+  "parent_started_utc": "2026-11-02T11:16:26.468460+00:00",
+  "parent_wall_seconds": 0.0658184589992743,
+  "peak_rss_bytes": 15466496,
+  "peak_rss_decision_bytes": 15466496,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": 0
+  },
+  "precheck_stats": {
+    "input_parent_entries": 7,
+    "input_scope_entries": 0,
+    "union_edges": 4
+  },
+  "reachable_states": 12,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 0.0002646690045366995,
+    "certificate_generation": 0.0,
+    "core_decision": 0.0004045290042995475,
+    "input_validation": 8.738200267544016e-05,
+    "matrix_construction": 0.0,
+    "precheck": 5.2648996643256396e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.002041236999502871
+}
