@@ -1,0 +1,200 @@
+{
+  "case_id": "chain_02_joint__U__04",
+  "draw": 4,
+  "entries": [
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:0:0:",
+      "context": [],
+      "index": 0,
+      "type": "theta",
+      "value": "28/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:0:1:0",
+      "context": [
+        0
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "31/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:0:1:1",
+      "context": [
+        1
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "89/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:00",
+      "context": [
+        0,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "364/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:01",
+      "context": [
+        0,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "20/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:10",
+      "context": [
+        1,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "322/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "psi:0:0:11",
+      "context": [
+        1,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "45/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:1:0:",
+      "context": [],
+      "index": 0,
+      "type": "theta",
+      "value": "57/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "theta:1:1:0",
+      "context": [
+        0
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "48/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:1:1:1",
+      "context": [
+        1
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "60/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:00",
+      "context": [
+        0,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "319/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:01",
+      "context": [
+        0,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "217/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:10",
+      "context": [
+        1,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "215/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "psi:1:0:11",
+      "context": [
+        1,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "344/97"
+    }
+  ],
+  "family": "U",
+  "global_seed": 20261102,
+  "input_id": "chain_02_joint",
+  "seed": 28426363409299785760180203731692959392482712018456085285808798758278033236981,
+  "structure": {
+    "U": 2,
+    "fac": [
+      [
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "n": 2,
+    "pa": [
+      [
+        [],
+        [
+          0
+        ]
+      ],
+      [
+        [],
+        [
+          0
+        ]
+      ]
+    ]
+  }
+}
