@@ -1,0 +1,221 @@
+{
+  "case_id": "delay_04_selection_free__T__01",
+  "draw": 1,
+  "entries": [
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:chi:0",
+      "context": [
+        0
+      ],
+      "index": 0,
+      "type": "theta",
+      "value": "57/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:chi:1",
+      "context": [
+        1
+      ],
+      "index": 0,
+      "type": "theta",
+      "value": "76/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:chi:0",
+      "context": [
+        0
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "57/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:chi:1",
+      "context": [
+        1
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "76/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:chi:0",
+      "context": [
+        0,
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "57/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:chi:0",
+      "context": [
+        0,
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "57/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:chi:0",
+      "context": [
+        1,
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "57/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:chi:1",
+      "context": [
+        1,
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "76/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:chi:1",
+      "context": [],
+      "index": 3,
+      "type": "theta",
+      "value": "76/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "theta:chi:0",
+      "context": [
+        0
+      ],
+      "index": 0,
+      "type": "theta",
+      "value": "57/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:chi:1",
+      "context": [
+        1
+      ],
+      "index": 0,
+      "type": "theta",
+      "value": "76/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "theta:chi:0",
+      "context": [
+        0
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "57/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:chi:1",
+      "context": [
+        1
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "76/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "theta:chi:0",
+      "context": [
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "57/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:chi:1",
+      "context": [
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "76/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:chi:1",
+      "context": [],
+      "index": 3,
+      "type": "theta",
+      "value": "76/97"
+    }
+  ],
+  "family": "T",
+  "global_seed": 20261102,
+  "input_id": "delay_04_selection_free",
+  "seed": 8245655661467277687845205262675682859853562092156665136219513310180669813799,
+  "structure": {
+    "U": 2,
+    "fac": [
+      [],
+      []
+    ],
+    "n": 4,
+    "pa": [
+      [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        []
+      ],
+      [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ],
+        []
+      ]
+    ]
+  }
+}

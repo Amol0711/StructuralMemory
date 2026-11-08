@@ -1,0 +1,1017 @@
+{
+  "case_id": "dag_04_u3_a3__U__05",
+  "draw": 5,
+  "entries": [
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:0:0:",
+      "context": [],
+      "index": 0,
+      "type": "theta",
+      "value": "11/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:0:1:",
+      "context": [],
+      "index": 1,
+      "type": "theta",
+      "value": "2/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:0:2:00",
+      "context": [
+        0,
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "45/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:0:2:01",
+      "context": [
+        0,
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "31/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:0:2:10",
+      "context": [
+        1,
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "52/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:0:2:11",
+      "context": [
+        1,
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "41/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:0:3:00",
+      "context": [
+        0,
+        0
+      ],
+      "index": 3,
+      "type": "theta",
+      "value": "72/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:0:3:01",
+      "context": [
+        0,
+        1
+      ],
+      "index": 3,
+      "type": "theta",
+      "value": "12/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:0:3:10",
+      "context": [
+        1,
+        0
+      ],
+      "index": 3,
+      "type": "theta",
+      "value": "20/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:0:3:11",
+      "context": [
+        1,
+        1
+      ],
+      "index": 3,
+      "type": "theta",
+      "value": "85/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:000",
+      "context": [
+        0,
+        0,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "343/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:001",
+      "context": [
+        0,
+        0,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "136/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:010",
+      "context": [
+        0,
+        1,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "106/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:011",
+      "context": [
+        0,
+        1,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "270/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:100",
+      "context": [
+        1,
+        0,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "181/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:101",
+      "context": [
+        1,
+        0,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "94/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:110",
+      "context": [
+        1,
+        1,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "343/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "psi:0:0:111",
+      "context": [
+        1,
+        1,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "135/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:1:000",
+      "context": [
+        0,
+        0,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "248/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:1:001",
+      "context": [
+        0,
+        0,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "322/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:1:010",
+      "context": [
+        0,
+        1,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "195/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:1:011",
+      "context": [
+        0,
+        1,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "220/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:1:100",
+      "context": [
+        1,
+        0,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "282/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:1:101",
+      "context": [
+        1,
+        0,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "299/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:1:110",
+      "context": [
+        1,
+        1,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "152/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "psi:0:1:111",
+      "context": [
+        1,
+        1,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "115/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:1:0:",
+      "context": [],
+      "index": 0,
+      "type": "theta",
+      "value": "31/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:1:1:",
+      "context": [],
+      "index": 1,
+      "type": "theta",
+      "value": "48/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "theta:1:2:00",
+      "context": [
+        0,
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "6/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "theta:1:2:01",
+      "context": [
+        0,
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "60/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "theta:1:2:10",
+      "context": [
+        1,
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "2/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:1:2:11",
+      "context": [
+        1,
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "67/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "theta:1:3:0",
+      "context": [
+        0
+      ],
+      "index": 3,
+      "type": "theta",
+      "value": "34/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:1:3:1",
+      "context": [
+        1
+      ],
+      "index": 3,
+      "type": "theta",
+      "value": "64/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:000",
+      "context": [
+        0,
+        0,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "251/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:001",
+      "context": [
+        0,
+        0,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "238/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:010",
+      "context": [
+        0,
+        1,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "287/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:011",
+      "context": [
+        0,
+        1,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "282/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:100",
+      "context": [
+        1,
+        0,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "378/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:101",
+      "context": [
+        1,
+        0,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "357/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:110",
+      "context": [
+        1,
+        1,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "332/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "psi:1:0:111",
+      "context": [
+        1,
+        1,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "101/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:1:000",
+      "context": [
+        0,
+        0,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "297/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:1:001",
+      "context": [
+        0,
+        0,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "269/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:1:010",
+      "context": [
+        0,
+        1,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "90/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:1:011",
+      "context": [
+        0,
+        1,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "151/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:1:100",
+      "context": [
+        1,
+        0,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "350/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:1:101",
+      "context": [
+        1,
+        0,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "308/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:1:110",
+      "context": [
+        1,
+        1,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "143/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "psi:1:1:111",
+      "context": [
+        1,
+        1,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "146/97"
+    },
+    {
+      "action": 2,
+      "chi": 1,
+      "class_id": "theta:2:0:",
+      "context": [],
+      "index": 0,
+      "type": "theta",
+      "value": "36/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "theta:2:1:0",
+      "context": [
+        0
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "70/97"
+    },
+    {
+      "action": 2,
+      "chi": 1,
+      "class_id": "theta:2:1:1",
+      "context": [
+        1
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "21/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "theta:2:2:00",
+      "context": [
+        0,
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "74/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "theta:2:2:01",
+      "context": [
+        0,
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "53/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "theta:2:2:10",
+      "context": [
+        1,
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "14/97"
+    },
+    {
+      "action": 2,
+      "chi": 1,
+      "class_id": "theta:2:2:11",
+      "context": [
+        1,
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "6/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "theta:2:3:0",
+      "context": [
+        0
+      ],
+      "index": 3,
+      "type": "theta",
+      "value": "78/97"
+    },
+    {
+      "action": 2,
+      "chi": 1,
+      "class_id": "theta:2:3:1",
+      "context": [
+        1
+      ],
+      "index": 3,
+      "type": "theta",
+      "value": "61/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:0:000",
+      "context": [
+        0,
+        0,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "264/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:0:001",
+      "context": [
+        0,
+        0,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "244/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:0:010",
+      "context": [
+        0,
+        1,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "368/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:0:011",
+      "context": [
+        0,
+        1,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "171/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:0:100",
+      "context": [
+        1,
+        0,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "260/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:0:101",
+      "context": [
+        1,
+        0,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "82/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:0:110",
+      "context": [
+        1,
+        1,
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "297/97"
+    },
+    {
+      "action": 2,
+      "chi": 1,
+      "class_id": "psi:2:0:111",
+      "context": [
+        1,
+        1,
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "280/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:1:000",
+      "context": [
+        0,
+        0,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "295/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:1:001",
+      "context": [
+        0,
+        0,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "77/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:1:010",
+      "context": [
+        0,
+        1,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "344/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:1:011",
+      "context": [
+        0,
+        1,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "15/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:1:100",
+      "context": [
+        1,
+        0,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "235/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:1:101",
+      "context": [
+        1,
+        0,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "378/97"
+    },
+    {
+      "action": 2,
+      "chi": 0,
+      "class_id": "psi:2:1:110",
+      "context": [
+        1,
+        1,
+        0
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "125/97"
+    },
+    {
+      "action": 2,
+      "chi": 1,
+      "class_id": "psi:2:1:111",
+      "context": [
+        1,
+        1,
+        1
+      ],
+      "index": 1,
+      "type": "psi",
+      "value": "217/97"
+    }
+  ],
+  "family": "U",
+  "global_seed": 20261102,
+  "input_id": "dag_04_u3_a3",
+  "seed": 50261512360197009944794956687329610429987041083822487738291301187855352179240,
+  "structure": {
+    "U": 3,
+    "fac": [
+      [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    ],
+    "n": 4,
+    "pa": [
+      [
+        [],
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [],
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    ]
+  }
+}

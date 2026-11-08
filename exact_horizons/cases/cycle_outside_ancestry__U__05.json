@@ -1,0 +1,196 @@
+{
+  "case_id": "cycle_outside_ancestry__U__05",
+  "draw": 5,
+  "entries": [
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:0:0:",
+      "context": [],
+      "index": 0,
+      "type": "theta",
+      "value": "69/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:0:1:0",
+      "context": [
+        0
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "32/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:0:1:1",
+      "context": [
+        1
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "25/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "theta:0:2:0",
+      "context": [
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "34/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "theta:0:2:1",
+      "context": [
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "59/97"
+    },
+    {
+      "action": 0,
+      "chi": 0,
+      "class_id": "psi:0:0:0",
+      "context": [
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "8/97"
+    },
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "psi:0:0:1",
+      "context": [
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "100/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:1:0:",
+      "context": [],
+      "index": 0,
+      "type": "theta",
+      "value": "16/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "theta:1:1:0",
+      "context": [
+        0
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "77/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:1:1:1",
+      "context": [
+        1
+      ],
+      "index": 1,
+      "type": "theta",
+      "value": "87/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "theta:1:2:0",
+      "context": [
+        0
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "93/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "theta:1:2:1",
+      "context": [
+        1
+      ],
+      "index": 2,
+      "type": "theta",
+      "value": "23/97"
+    },
+    {
+      "action": 1,
+      "chi": 0,
+      "class_id": "psi:1:0:0",
+      "context": [
+        0
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "118/97"
+    },
+    {
+      "action": 1,
+      "chi": 1,
+      "class_id": "psi:1:0:1",
+      "context": [
+        1
+      ],
+      "index": 0,
+      "type": "psi",
+      "value": "189/97"
+    }
+  ],
+  "family": "U",
+  "global_seed": 20261102,
+  "input_id": "cycle_outside_ancestry",
+  "seed": 65460898058115400158474566156416303706004644338943857744781794745387178513826,
+  "structure": {
+    "U": 2,
+    "fac": [
+      [
+        [
+          1
+        ]
+      ],
+      [
+        [
+          1
+        ]
+      ]
+    ],
+    "n": 3,
+    "pa": [
+      [
+        [],
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ],
+      [
+        [],
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    ]
+  }
+}

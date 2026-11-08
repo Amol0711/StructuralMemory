@@ -1,0 +1,33 @@
+{
+  "case_id": "zero_coordinates__U__03",
+  "draw": 3,
+  "entries": [
+    {
+      "action": 0,
+      "chi": 1,
+      "class_id": "psi:0:0:",
+      "context": [],
+      "index": 0,
+      "type": "psi",
+      "value": "142/97"
+    }
+  ],
+  "family": "U",
+  "global_seed": 20261102,
+  "input_id": "zero_coordinates",
+  "seed": 115198008142854159730326217114036775637840351299383799079903080835574593081820,
+  "structure": {
+    "U": 2,
+    "fac": [
+      [
+        []
+      ],
+      []
+    ],
+    "n": 0,
+    "pa": [
+      [],
+      []
+    ]
+  }
+}
