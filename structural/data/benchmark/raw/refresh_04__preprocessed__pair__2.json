@@ -1,0 +1,332 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "actions": 4,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": true,
+  "certificates": [
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": {
+          "actions": [
+            1
+          ],
+          "vertices": [
+            0,
+            0
+          ]
+        },
+        "type": "union_cycle"
+      },
+      "query": "full",
+      "schema": "structural-memory.union-certificate.v1",
+      "semantics": "graphical-unrestricted",
+      "status": "infinite",
+      "structure": {
+        "U": 4,
+        "fac": [
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            []
+          ]
+        ]
+      }
+    },
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": {
+          "actions": [
+            1
+          ],
+          "vertices": [
+            0,
+            0
+          ]
+        },
+        "path": {
+          "actions": [],
+          "vertices": [
+            0
+          ]
+        },
+        "target": {
+          "action": 0,
+          "coordinate": 0,
+          "factor": 0
+        },
+        "type": "cycle_to_fitness"
+      },
+      "query": "growth",
+      "schema": "structural-memory.union-certificate.v1",
+      "semantics": "graphical-unrestricted",
+      "status": "infinite",
+      "structure": {
+        "U": 4,
+        "fac": [
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            []
+          ]
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": 0.000415186004829593,
+  "core_queries": [],
+  "decision_seconds": 0.00026110400358447805,
+  "edges": null,
+  "family": "refresh",
+  "horizons": {
+    "full": "infinite",
+    "growth": "infinite"
+  },
+  "input_sha256": "09c8b0afdcf2dbefd91d92f83fa5e8cde28a427892449fd3db36bc3970af3781",
+  "instance": "refresh_04",
+  "iteration": 2,
+  "measured": true,
+  "method": "pair",
+  "mode": "preprocessed",
+  "n": 4,
+  "parent_finished_utc": "2026-11-02T11:17:57.709770+00:00",
+  "parent_started_utc": "2026-11-02T11:17:57.656216+00:00",
+  "parent_wall_seconds": 0.053342823004641104,
+  "peak_rss_bytes": 15728640,
+  "peak_rss_decision_bytes": 15728640,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": "infinite",
+    "growth": "infinite"
+  },
+  "precheck_stats": {
+    "input_parent_entries": 12,
+    "input_scope_entries": 16,
+    "union_edges": 4
+  },
+  "reachable_states": null,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 0.00015408200124511495,
+    "certificate_generation": 0.0,
+    "core_decision": 0.0,
+    "input_validation": 0.00018554000416770577,
+    "matrix_construction": 0.0,
+    "precheck": 7.556399941677228e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.0010784480036818422
+}

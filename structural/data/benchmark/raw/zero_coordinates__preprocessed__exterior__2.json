@@ -1,0 +1,102 @@
+{
+  "J": [],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": true,
+  "certificates": [
+    {
+      "horizon": 0,
+      "proof": {
+        "type": "zero_coordinates"
+      },
+      "query": "full",
+      "schema": "structural-memory.union-certificate.v1",
+      "semantics": "graphical-unrestricted",
+      "status": "finite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            []
+          ],
+          []
+        ],
+        "n": 0,
+        "pa": [
+          [],
+          []
+        ]
+      }
+    },
+    {
+      "horizon": 0,
+      "proof": {
+        "type": "empty_fitness"
+      },
+      "query": "growth",
+      "schema": "structural-memory.union-certificate.v1",
+      "semantics": "graphical-unrestricted",
+      "status": "finite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            []
+          ],
+          []
+        ],
+        "n": 0,
+        "pa": [
+          [],
+          []
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": 0.00016662100097164512,
+  "core_queries": [],
+  "decision_seconds": 0.00011424200056353584,
+  "edges": null,
+  "family": "zero",
+  "horizons": {
+    "full": 0,
+    "growth": 0
+  },
+  "input_sha256": "2593a713382cd356e97914e5dbc69e0fda4d90ef9eb6c24ad3bcb4ceff1822ff",
+  "instance": "zero_coordinates",
+  "iteration": 2,
+  "measured": true,
+  "method": "exterior",
+  "mode": "preprocessed",
+  "n": 0,
+  "parent_finished_utc": "2026-11-02T11:18:00.099525+00:00",
+  "parent_started_utc": "2026-11-02T11:18:00.040196+00:00",
+  "parent_wall_seconds": 0.05919283399998676,
+  "peak_rss_bytes": 16252928,
+  "peak_rss_decision_bytes": 16252928,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": 0,
+    "growth": 0
+  },
+  "precheck_stats": {
+    "input_parent_entries": 0,
+    "input_scope_entries": 0,
+    "union_edges": 0
+  },
+  "reachable_states": null,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 5.237900040810928e-05,
+    "certificate_generation": 0.0,
+    "core_decision": 0.0,
+    "input_validation": 8.299500041175634e-05,
+    "matrix_construction": 0.0,
+    "precheck": 3.12470001517795e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.0015779810055391863
+}
