@@ -1,0 +1,69 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": false,
+  "certificates": [],
+  "certified_total_seconds": null,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.0009045439946930856,
+  "edges": 24,
+  "family": "matched_chain",
+  "horizons": {
+    "full": "infinite",
+    "growth": "infinite"
+  },
+  "input_sha256": "2a2d0d0412b4ec657fa45a39a0114ca6ac4e3a0bc2888fd67fc2fdaafde46aae",
+  "instance": "chain_12_joint",
+  "iteration": 3,
+  "measured": true,
+  "method": "antichain",
+  "mode": "preprocessed",
+  "n": 12,
+  "parent_finished_utc": "2026-11-02T11:16:24.655400+00:00",
+  "parent_started_utc": "2026-11-02T11:16:24.582327+00:00",
+  "parent_wall_seconds": 0.0728031140024541,
+  "peak_rss_bytes": 15466496,
+  "peak_rss_decision_bytes": 15466496,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 22,
+    "input_scope_entries": 4,
+    "union_edges": 11
+  },
+  "reachable_states": 12,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 3.210006980225444e-07,
+    "certificate_generation": 0.0,
+    "core_decision": 0.0007212169948616065,
+    "input_validation": 0.00011209900549147278,
+    "matrix_construction": 0.0,
+    "precheck": 7.122799434000626e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.0020407349948072806
+}

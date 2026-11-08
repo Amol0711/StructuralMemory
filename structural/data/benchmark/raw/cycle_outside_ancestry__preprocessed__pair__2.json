@@ -1,0 +1,209 @@
+{
+  "J": [
+    0,
+    1
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": true,
+  "certificates": [
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": {
+          "actions": [
+            0
+          ],
+          "vertices": [
+            2,
+            2
+          ]
+        },
+        "type": "union_cycle"
+      },
+      "query": "full",
+      "schema": "structural-memory.union-certificate.v1",
+      "semantics": "graphical-unrestricted",
+      "status": "infinite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              1
+            ]
+          ],
+          [
+            [
+              1
+            ]
+          ]
+        ],
+        "n": 3,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "horizon": 2,
+      "proof": {
+        "initial": 0,
+        "rank": [
+          1,
+          0,
+          -1
+        ],
+        "states": [
+          {
+            "pairs": [
+              7,
+              7,
+              7
+            ],
+            "root": 7
+          },
+          {
+            "pairs": [
+              1,
+              6,
+              6
+            ],
+            "root": 6
+          },
+          {
+            "pairs": [
+              1,
+              2,
+              4
+            ],
+            "root": 4
+          }
+        ],
+        "transitions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "type": "closed_graph_rank",
+        "witness_next_action": 0,
+        "witness_word": [
+          0
+        ]
+      },
+      "query": "growth",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "finite",
+      "structure": {
+        "U": 2,
+        "fac": [
+          [
+            [
+              1
+            ]
+          ],
+          [
+            [
+              1
+            ]
+          ]
+        ],
+        "n": 3,
+        "pa": [
+          [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": 0.0005152769954293035,
+  "core_queries": [
+    "growth"
+  ],
+  "decision_seconds": 0.00022496899327961728,
+  "edges": 6,
+  "family": "partial_precheck",
+  "horizons": {
+    "full": "infinite",
+    "growth": 2
+  },
+  "input_sha256": "6bc50ff1660075c0115b0986d46b78cd133911ad1dfbfc60684fbb1ad5e5eb3b",
+  "instance": "cycle_outside_ancestry",
+  "iteration": 2,
+  "measured": true,
+  "method": "pair",
+  "mode": "preprocessed",
+  "n": 3,
+  "parent_finished_utc": "2026-11-02T11:18:00.316971+00:00",
+  "parent_started_utc": "2026-11-02T11:18:00.264086+00:00",
+  "parent_wall_seconds": 0.05275006200099597,
+  "peak_rss_bytes": 16252928,
+  "peak_rss_decision_bytes": 16252928,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": "infinite",
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 4,
+    "input_scope_entries": 2,
+    "union_edges": 2
+  },
+  "reachable_states": 3,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 0.00026024300314020365,
+    "certificate_generation": 3.0064999009482563e-05,
+    "core_decision": 8.127299952320755e-05,
+    "input_validation": 9.185799717670307e-05,
+    "matrix_construction": 0.0,
+    "precheck": 5.183799657970667e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.0019401780009502545
+}

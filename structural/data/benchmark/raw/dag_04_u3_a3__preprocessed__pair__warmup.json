@@ -1,0 +1,256 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "actions": 3,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": true,
+  "certificates": [
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": null,
+        "prefix": [
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "full",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 3,
+        "fac": [
+          [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": 0,
+        "prefix": [
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "growth",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 3,
+        "fac": [
+          [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": 0.0007313829992199317,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.00046896699495846406,
+  "edges": 12,
+  "family": "branching_dag",
+  "horizons": {
+    "full": "infinite",
+    "growth": "infinite"
+  },
+  "input_sha256": "535df078fca44a8445beaf8b2d2dfebfc85bcd0f2011225fd4fd7ca81a7c1b87",
+  "instance": "dag_04_u3_a3",
+  "iteration": "warmup",
+  "measured": false,
+  "method": "pair",
+  "mode": "preprocessed",
+  "n": 4,
+  "parent_finished_utc": "2026-11-02T11:16:28.484012+00:00",
+  "parent_started_utc": "2026-11-02T11:16:28.431152+00:00",
+  "parent_wall_seconds": 0.05270544600352878,
+  "peak_rss_bytes": 15466496,
+  "peak_rss_decision_bytes": 15466496,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 11,
+    "input_scope_entries": 18,
+    "union_edges": 5
+  },
+  "reachable_states": 4,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 0.00015673600137233734,
+    "certificate_generation": 0.00010568000288913026,
+    "core_decision": 0.00017093699716497213,
+    "input_validation": 0.00020854499598499388,
+    "matrix_construction": 0.0,
+    "precheck": 8.948500180849805e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.002004261994443368
+}

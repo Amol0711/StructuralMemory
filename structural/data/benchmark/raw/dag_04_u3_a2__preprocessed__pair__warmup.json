@@ -1,0 +1,236 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "actions": 3,
+  "address_space_cap_bytes": 1073741824,
+  "all_answers_certified": true,
+  "certificates": [
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": null,
+        "prefix": [
+          0,
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "full",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 3,
+        "fac": [
+          [
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          [
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            []
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            []
+          ]
+        ]
+      }
+    },
+    {
+      "horizon": null,
+      "proof": {
+        "cycle": [
+          0
+        ],
+        "next_action": 0,
+        "prefix": [
+          0,
+          0
+        ],
+        "suffix": [],
+        "type": "lasso"
+      },
+      "query": "growth",
+      "schema": "structural-memory.pair-certificate.v1",
+      "status": "infinite",
+      "structure": {
+        "U": 3,
+        "fac": [
+          [
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        ],
+        "n": 4,
+        "pa": [
+          [
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          [
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            []
+          ],
+          [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            []
+          ]
+        ]
+      }
+    }
+  ],
+  "certified_total_seconds": 0.0007447430034517311,
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "decision_seconds": 0.00036527100019156933,
+  "edges": 18,
+  "family": "branching_dag",
+  "horizons": {
+    "full": "infinite",
+    "growth": "infinite"
+  },
+  "input_sha256": "55cd53b0d2f7478beeba8666ba7b11b90474a5bd77a9ba4c6d86951bcfa95fb2",
+  "instance": "dag_04_u3_a2",
+  "iteration": "warmup",
+  "measured": false,
+  "method": "pair",
+  "mode": "preprocessed",
+  "n": 4,
+  "parent_finished_utc": "2026-11-02T11:16:27.703877+00:00",
+  "parent_started_utc": "2026-11-02T11:16:27.656898+00:00",
+  "parent_wall_seconds": 0.04683901099633658,
+  "peak_rss_bytes": 15466496,
+  "peak_rss_decision_bytes": 15466496,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 8,
+    "input_scope_entries": 12,
+    "union_edges": 4
+  },
+  "reachable_states": 6,
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 0.0003248100038035773,
+    "certificate_generation": 5.4661999456584454e-05,
+    "core_decision": 0.00019652600167319179,
+    "input_validation": 0.00011106800229754299,
+    "matrix_construction": 0.0,
+    "precheck": 5.767699622083455e-05
+  },
+  "status": "completed",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.0017555669983266853
+}

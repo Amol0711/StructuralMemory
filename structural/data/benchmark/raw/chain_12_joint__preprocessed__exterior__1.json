@@ -1,0 +1,68 @@
+{
+  "J": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "actions": 2,
+  "address_space_cap_bytes": 1073741824,
+  "certificates": [],
+  "core_queries": [
+    "full",
+    "growth"
+  ],
+  "dense_compound_pointer_lower_bound_bytes": 1125350218137600,
+  "edges": null,
+  "exterior_dimension": 8386560,
+  "family": "matched_chain",
+  "horizons": {
+    "full": null,
+    "growth": null
+  },
+  "input_sha256": "2a2d0d0412b4ec657fa45a39a0114ca6ac4e3a0bc2888fd67fc2fdaafde46aae",
+  "instance": "chain_12_joint",
+  "iteration": 1,
+  "measured": true,
+  "method": "exterior",
+  "mode": "preprocessed",
+  "n": 12,
+  "parent_finished_utc": "2026-11-02T11:16:24.792452+00:00",
+  "parent_started_utc": "2026-11-02T11:16:24.720725+00:00",
+  "parent_wall_seconds": 0.07143591799831484,
+  "peak_rss_bytes": 15466496,
+  "phase": "finished",
+  "precheck_horizons": {
+    "full": null,
+    "growth": null
+  },
+  "precheck_stats": {
+    "input_parent_entries": 22,
+    "input_scope_entries": 4,
+    "union_edges": 11
+  },
+  "reachable_states": null,
+  "reason": "Dense compound pointer storage exceeds the common cap for this reference implementation.",
+  "resource_limit_bytes": 1073741824,
+  "schema": "structural-memory.benchmark-worker.v1",
+  "semantics": "graphical-unrestricted",
+  "stages_seconds": {
+    "certificate_checking": 4.1000021155923605e-07,
+    "certificate_generation": 0.0,
+    "core_decision": 0.0,
+    "input_validation": 9.989099635276943e-05,
+    "matrix_construction": 1.1948002793360502e-05,
+    "precheck": 6.993600254645571e-05
+  },
+  "status": "unknown_memory_preflight",
+  "wall_cap_seconds": 10,
+  "worker_elapsed_seconds": 0.0009149090037681162
+}
