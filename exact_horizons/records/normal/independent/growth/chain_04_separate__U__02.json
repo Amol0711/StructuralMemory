@@ -1,0 +1,72 @@
+{
+  "backend": "independent",
+  "case_id": "chain_04_separate__U__02",
+  "case_sha256": "d363bf5c52729f52e977188db3cf26aa78391854b72d3ee3138486a75998fd52",
+  "component": "growth",
+  "export_backend_sha256": "7d74f85a11ac906f37e1ff042b219796566298b56ecf5d424c0c1ccf8db2e015",
+  "frozen_backend_sha256": "612f692d3c9f60be74468386a159e1e07b4e54774416a140d0bbe54e6dc6220b",
+  "frozen_case_sha256": "2d2780e78822ed86b60ced3bf6148de372b09e2f81c3cc6f86638b57f2c5046d",
+  "horizon": 4,
+  "mode": "normal",
+  "optimized": false,
+  "peak_rss_kib": 16000,
+  "result": {
+    "details": {
+      "arithmetic": "exact integers and fractions.Fraction",
+      "construction": {
+        "integer_matrix_mass_sha256": "ed094bc9d2634f2e6eb34801100eee952e2478e5778132600be57e7b750f3dc0",
+        "positive_action_scaling": [
+          "832972004929/2",
+          "832972004929/3"
+        ],
+        "rational_matrix_mass_sha256": "e56e85f03f08fe14284a821fc45d81843581992a8db547fb0bbf7cd58034597c",
+        "strict_positivity_and_exact_column_sums": true
+      },
+      "exterior": {
+        "exterior_dimension": 120,
+        "full": null,
+        "growth": {
+          "dimensions": [
+            22,
+            20,
+            16,
+            8,
+            0
+          ],
+          "inclusion_verified": true,
+          "termination": "zero_space"
+        },
+        "growth_closure_dimensions": [
+          2,
+          6,
+          14,
+          22,
+          22
+        ]
+      },
+      "finite_boundary_replay": {
+        "checks": {
+          "growth": {
+            "all_words_at_horizon": true,
+            "horizon": 4,
+            "last_bad_word": {
+              "readout_action": 0,
+              "word": [
+                0,
+                0,
+                0
+              ]
+            },
+            "words_at_horizon": 16
+          }
+        },
+        "status": "passed",
+        "word_products": 31
+      },
+      "method": "independent_fraction_free_exterior_descent"
+    },
+    "growth": 4
+  },
+  "status": "resolved",
+  "wall_seconds": 0.5362863140035188
+}

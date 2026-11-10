@@ -1,0 +1,13 @@
+{
+  "backend": "independent",
+  "case_id": "refresh_04__U__04",
+  "case_sha256": "3f95f8099a5bb6eda8511e7c7ae05609c68fffedf2d78803a47ed4fdec6f74fc",
+  "component": "growth",
+  "export_backend_sha256": "7d74f85a11ac906f37e1ff042b219796566298b56ecf5d424c0c1ccf8db2e015",
+  "frozen_backend_sha256": "612f692d3c9f60be74468386a159e1e07b4e54774416a140d0bbe54e6dc6220b",
+  "frozen_case_sha256": "c86e85450e7e3a9aba4c62271f27d9b349acc778456912cfee3fae639fb734be",
+  "mode": "optimized",
+  "reason": "wall_time_limit",
+  "status": "unknown",
+  "wall_seconds": 120.10238300699712
+}

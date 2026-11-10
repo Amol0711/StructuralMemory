@@ -1,0 +1,87 @@
+{
+  "backend": "primary",
+  "case_id": "chain_02_joint__U__01",
+  "case_sha256": "342c1b3d110c469ac3976f62e414800bf54f05855bad8cfec0216a3be7e2c888",
+  "component": "growth",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "af6ff18b36247c75d13276e9178ff266e12138e205942cef2e91fcfb73d7cb62",
+  "horizon": "infinity",
+  "mode": "optimized",
+  "optimized": true,
+  "peak_rss_kib": 17652,
+  "result": {
+    "details": {
+      "algorithm": "invariant closure and exterior descent; exact primitive integer echelon",
+      "exterior_dimension": 6,
+      "growth": {
+        "closure": [
+          {
+            "basis_sha256": "eed571e47e1e16a92b1440a6f58742e3e0a2a8a41e38c6ded9f87518849fcf1d",
+            "dimension": 2
+          },
+          {
+            "basis_sha256": "5ee2ca770109af1df6facfe395949484dba0072bf304fdf0271757e55a39626e",
+            "dimension": 4
+          },
+          {
+            "basis_sha256": "5ee2ca770109af1df6facfe395949484dba0072bf304fdf0271757e55a39626e",
+            "dimension": 4
+          }
+        ],
+        "descent": [
+          {
+            "basis_sha256": "5ee2ca770109af1df6facfe395949484dba0072bf304fdf0271757e55a39626e",
+            "dimension": 4
+          },
+          {
+            "basis_sha256": "cfb071fe459a652c64203ace60dc7f53cc987e925b3f57b13b8fb4aa1d3326a3",
+            "dimension": 2
+          },
+          {
+            "basis_sha256": "cfb071fe459a652c64203ace60dc7f53cc987e925b3f57b13b8fb4aa1d3326a3",
+            "dimension": 2
+          }
+        ],
+        "reason": "exact nonzero image-space equality",
+        "terminal_basis": [
+          [
+            0,
+            36273,
+            28569,
+            20566,
+            16198,
+            0
+          ],
+          [
+            0,
+            0,
+            6017145,
+            -75228846,
+            -36787030,
+            0
+          ]
+        ]
+      },
+      "matrix_construction": {
+        "actions": 2,
+        "column_sum_identities": true,
+        "entry_count": 14,
+        "integer_matrix_sha256": [
+          "9f734647f0d4212331bb0ee1a2f085b81a47455fbf7c4b50dfa78f945354994e",
+          "c8133bbafbb6b244b509aebfe3ed6a2acf71814f209a9c02e52be83b4e7dfd03"
+        ],
+        "positive_action_scalings": [
+          "912673",
+          "912673"
+        ],
+        "positive_local_entries": true,
+        "state_count": 4,
+        "state_order": "lexicographic tuples in product((0,1), repeat=n)"
+      }
+    },
+    "growth": "infinity"
+  },
+  "status": "resolved",
+  "wall_seconds": 0.007055663998471573
+}

@@ -1,0 +1,56 @@
+{
+  "backend": "primary",
+  "case_id": "control__constant_mass_control",
+  "case_sha256": "cadafd4fad832dbcbfdda403029c5fdb6cb0b9a53a171754abc818024059194d",
+  "component": "growth",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "cadafd4fad832dbcbfdda403029c5fdb6cb0b9a53a171754abc818024059194d",
+  "horizon": 0,
+  "mode": "normal",
+  "optimized": false,
+  "peak_rss_kib": 18548,
+  "result": {
+    "details": {
+      "algorithm": "invariant closure and exterior descent; exact primitive integer echelon",
+      "exterior_dimension": 1,
+      "growth": {
+        "closure": [
+          {
+            "basis_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "dimension": 0
+          },
+          {
+            "basis_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "dimension": 0
+          }
+        ],
+        "descent": [
+          {
+            "basis_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "dimension": 0
+          }
+        ],
+        "last_nonzero_basis": [],
+        "reason": "first zero image space"
+      },
+      "matrix_construction": {
+        "actions": 1,
+        "column_sum_identities": true,
+        "entry_count": 2,
+        "integer_matrix_sha256": [
+          "fb08651546957434622b61898e3a58585471d85b84c996249ed1a5811b16b2ee"
+        ],
+        "positive_action_scalings": [
+          "4"
+        ],
+        "positive_local_entries": true,
+        "state_count": 2,
+        "state_order": "lexicographic tuples in product((0,1), repeat=n)"
+      }
+    },
+    "growth": 0
+  },
+  "status": "resolved",
+  "wall_seconds": 0.0025616909988457337
+}

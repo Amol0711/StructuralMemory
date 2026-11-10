@@ -1,0 +1,67 @@
+{
+  "backend": "independent",
+  "case_id": "zero_coordinates__U__01",
+  "case_sha256": "1608ffd4b41aeb973fb03eebc02317eada1ecc7a0bcb018cb787365010f24e12",
+  "component": "full",
+  "export_backend_sha256": "7d74f85a11ac906f37e1ff042b219796566298b56ecf5d424c0c1ccf8db2e015",
+  "frozen_backend_sha256": "612f692d3c9f60be74468386a159e1e07b4e54774416a140d0bbe54e6dc6220b",
+  "frozen_case_sha256": "c7c32661fb10e8f2b32445d9c3d07c53e98a17e924f618af20fcd89f0d227f7b",
+  "horizon": 0,
+  "mode": "optimized",
+  "optimized": true,
+  "peak_rss_kib": 19864,
+  "result": {
+    "details": {
+      "arithmetic": "exact integers and fractions.Fraction",
+      "construction": {
+        "integer_matrix_mass_sha256": "2269d5e7e120a606c54c7daae3e4d6c09484d0b89020914bc48fec9d7fa93875",
+        "positive_action_scaling": [
+          "97/126",
+          "1"
+        ],
+        "rational_matrix_mass_sha256": "f748f367c5fed1cc0c8e749faa8422d5ff72859eefa2f58b6d3b191c4f8e2bfc",
+        "strict_positivity_and_exact_column_sums": true
+      },
+      "exterior": {
+        "exterior_dimension": 0,
+        "full": {
+          "dimensions": [
+            0
+          ],
+          "termination": "zero_space"
+        },
+        "growth": {
+          "dimensions": [
+            0
+          ],
+          "termination": "zero_space"
+        },
+        "growth_closure_dimensions": [
+          0
+        ]
+      },
+      "finite_boundary_replay": {
+        "checks": {
+          "full": {
+            "all_words_at_horizon": true,
+            "horizon": 0,
+            "last_bad_word": null,
+            "words_at_horizon": 1
+          },
+          "growth": {
+            "all_words_at_horizon": true,
+            "horizon": 0,
+            "last_bad_word": null,
+            "words_at_horizon": 1
+          }
+        },
+        "status": "passed",
+        "word_products": 1
+      },
+      "method": "independent_fraction_free_exterior_descent"
+    },
+    "full": 0
+  },
+  "status": "resolved",
+  "wall_seconds": 0.006075326004065573
+}

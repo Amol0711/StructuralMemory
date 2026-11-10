@@ -1,0 +1,87 @@
+{
+  "backend": "primary",
+  "case_id": "chain_02_separate__U__05",
+  "case_sha256": "d7cc0aaf885d1e022ffb02ae822f6226afedde21cd44931a4e863ba7532797ec",
+  "component": "growth",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "a5ecbaea0b54f6ae8863b4aeb19c240bfd7e03d32a9e749c642cfab9282e18ab",
+  "horizon": 2,
+  "mode": "normal",
+  "optimized": false,
+  "peak_rss_kib": 13440,
+  "result": {
+    "details": {
+      "algorithm": "invariant closure and exterior descent; exact primitive integer echelon",
+      "exterior_dimension": 6,
+      "growth": {
+        "closure": [
+          {
+            "basis_sha256": "9dd090f618fa495643411deae24424c000ef3ae7ac7f4c8849c1d1c88949ccce",
+            "dimension": 2
+          },
+          {
+            "basis_sha256": "58e9962fdc09955fb8c912cce58e7a20f5b19f55b15a6c824bb2cd76825304ca",
+            "dimension": 4
+          },
+          {
+            "basis_sha256": "58e9962fdc09955fb8c912cce58e7a20f5b19f55b15a6c824bb2cd76825304ca",
+            "dimension": 4
+          }
+        ],
+        "descent": [
+          {
+            "basis_sha256": "58e9962fdc09955fb8c912cce58e7a20f5b19f55b15a6c824bb2cd76825304ca",
+            "dimension": 4
+          },
+          {
+            "basis_sha256": "7e83fe78960ff0d26f7d39b92bae752e933337ac2cd11989b57ba3569cee2677",
+            "dimension": 2
+          },
+          {
+            "basis_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "dimension": 0
+          }
+        ],
+        "last_nonzero_basis": [
+          [
+            0,
+            9,
+            21,
+            21,
+            49,
+            0
+          ],
+          [
+            0,
+            0,
+            156,
+            156,
+            451,
+            0
+          ]
+        ],
+        "reason": "first zero image space"
+      },
+      "matrix_construction": {
+        "actions": 2,
+        "column_sum_identities": true,
+        "entry_count": 14,
+        "integer_matrix_sha256": [
+          "a72aa960c2769b447027762e582ad6371051af54f75879de892fe660f89db1fa",
+          "feece99f74c3124f7b560c0b6decc30b945194d57647c74fa8f76596c233fec9"
+        ],
+        "positive_action_scalings": [
+          "88529281/48",
+          "88529281/6"
+        ],
+        "positive_local_entries": true,
+        "state_count": 4,
+        "state_order": "lexicographic tuples in product((0,1), repeat=n)"
+      }
+    },
+    "growth": 2
+  },
+  "status": "resolved",
+  "wall_seconds": 0.004374748001282569
+}

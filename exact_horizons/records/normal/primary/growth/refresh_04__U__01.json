@@ -1,0 +1,13 @@
+{
+  "backend": "primary",
+  "case_id": "refresh_04__U__01",
+  "case_sha256": "c9ef2c5d3b7da234a391e74031a8ab5fb347c748fb3ab702ca0a4c84aba6009b",
+  "component": "growth",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "cd6adec32e7f8f51509bcb3f83807dd6ed9ddbe1494f2ce5c2687537184dd68a",
+  "mode": "normal",
+  "reason": "wall_time_limit",
+  "status": "unknown",
+  "wall_seconds": 120.05933897700015
+}

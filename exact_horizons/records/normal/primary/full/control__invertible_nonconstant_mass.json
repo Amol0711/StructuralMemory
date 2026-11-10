@@ -1,0 +1,54 @@
+{
+  "backend": "primary",
+  "case_id": "control__invertible_nonconstant_mass",
+  "case_sha256": "42d7c7ec1e0023c8d622b4d416a4e61e34afacfed829d2a591c6ed6e5c50f076",
+  "component": "full",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "42d7c7ec1e0023c8d622b4d416a4e61e34afacfed829d2a591c6ed6e5c50f076",
+  "horizon": "infinity",
+  "mode": "normal",
+  "optimized": false,
+  "peak_rss_kib": 18548,
+  "result": {
+    "details": {
+      "algorithm": "invariant closure and exterior descent; exact primitive integer echelon",
+      "exterior_dimension": 1,
+      "full": {
+        "descent": [
+          {
+            "basis_sha256": "043f347c2cdc0d8ce70c38775d24e556c0290acf6d0c87a3a52aa85471cb8d02",
+            "dimension": 1
+          },
+          {
+            "basis_sha256": "043f347c2cdc0d8ce70c38775d24e556c0290acf6d0c87a3a52aa85471cb8d02",
+            "dimension": 1
+          }
+        ],
+        "reason": "exact nonzero image-space equality",
+        "terminal_basis": [
+          [
+            1
+          ]
+        ]
+      },
+      "matrix_construction": {
+        "actions": 1,
+        "column_sum_identities": true,
+        "entry_count": 4,
+        "integer_matrix_sha256": [
+          "10f87e50032ad8158eb3be64e2c6233bedd74c1dc11b2a381dddc6e63d116730"
+        ],
+        "positive_action_scalings": [
+          "4"
+        ],
+        "positive_local_entries": true,
+        "state_count": 2,
+        "state_order": "lexicographic tuples in product((0,1), repeat=n)"
+      }
+    },
+    "full": "infinity"
+  },
+  "status": "resolved",
+  "wall_seconds": 0.002484384000126738
+}

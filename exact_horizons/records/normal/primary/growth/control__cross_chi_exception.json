@@ -1,0 +1,64 @@
+{
+  "backend": "primary",
+  "case_id": "control__cross_chi_exception",
+  "case_sha256": "db949321d989f79a15617fc4e11deb2edc24e89780d4f3925a9a0ed96d6aefe7",
+  "component": "growth",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "db949321d989f79a15617fc4e11deb2edc24e89780d4f3925a9a0ed96d6aefe7",
+  "horizon": 1,
+  "mode": "normal",
+  "optimized": false,
+  "peak_rss_kib": 18548,
+  "result": {
+    "details": {
+      "algorithm": "invariant closure and exterior descent; exact primitive integer echelon",
+      "exterior_dimension": 1,
+      "growth": {
+        "closure": [
+          {
+            "basis_sha256": "043f347c2cdc0d8ce70c38775d24e556c0290acf6d0c87a3a52aa85471cb8d02",
+            "dimension": 1
+          },
+          {
+            "basis_sha256": "043f347c2cdc0d8ce70c38775d24e556c0290acf6d0c87a3a52aa85471cb8d02",
+            "dimension": 1
+          }
+        ],
+        "descent": [
+          {
+            "basis_sha256": "043f347c2cdc0d8ce70c38775d24e556c0290acf6d0c87a3a52aa85471cb8d02",
+            "dimension": 1
+          },
+          {
+            "basis_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "dimension": 0
+          }
+        ],
+        "last_nonzero_basis": [
+          [
+            1
+          ]
+        ],
+        "reason": "first zero image space"
+      },
+      "matrix_construction": {
+        "actions": 1,
+        "column_sum_identities": true,
+        "entry_count": 4,
+        "integer_matrix_sha256": [
+          "eb60445d513425274263c3b3c116d00c281df973cf76c9f15c6c45d441362da3"
+        ],
+        "positive_action_scalings": [
+          "7"
+        ],
+        "positive_local_entries": true,
+        "state_count": 2,
+        "state_order": "lexicographic tuples in product((0,1), repeat=n)"
+      }
+    },
+    "growth": 1
+  },
+  "status": "resolved",
+  "wall_seconds": 0.003034814006241504
+}

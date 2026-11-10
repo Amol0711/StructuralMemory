@@ -1,0 +1,73 @@
+{
+  "backend": "primary",
+  "case_id": "refresh_02__T__03",
+  "case_sha256": "233d1188a86a0f32215e4398d35e21f09f4a1dfaa5d84c52e13f176000051df8",
+  "component": "full",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "0f812f5af798915aaa0af0b14b6e93d7fd6ee4155841985025f278c13f0d728b",
+  "horizon": "infinity",
+  "mode": "optimized",
+  "optimized": true,
+  "peak_rss_kib": 17572,
+  "result": {
+    "details": {
+      "algorithm": "invariant closure and exterior descent; exact primitive integer echelon",
+      "exterior_dimension": 6,
+      "full": {
+        "descent": [
+          {
+            "basis_sha256": "2b409f046a322801272d87a822f47d3e27ff1a7dc96203a1f4e63b64434c2579",
+            "dimension": 6
+          },
+          {
+            "basis_sha256": "bfa731189ab600a1ac558c9cc54eff83fa5a96a6862bb53beed1364f3c210f46",
+            "dimension": 2
+          },
+          {
+            "basis_sha256": "bfa731189ab600a1ac558c9cc54eff83fa5a96a6862bb53beed1364f3c210f46",
+            "dimension": 2
+          }
+        ],
+        "reason": "exact nonzero image-space equality",
+        "terminal_basis": [
+          [
+            4225,
+            0,
+            1885,
+            -1885,
+            0,
+            841
+          ],
+          [
+            0,
+            4225,
+            1885,
+            1885,
+            841,
+            0
+          ]
+        ]
+      },
+      "matrix_construction": {
+        "actions": 2,
+        "column_sum_identities": true,
+        "entry_count": 14,
+        "integer_matrix_sha256": [
+          "7683613e62d67c0f9d92f4b31ebb7200ba544cf40e093f184c0067f8a9e5436e",
+          "44c797dd081f4590c164336e454e2e9fb772122ab84b52207cc899b03aefabc9"
+        ],
+        "positive_action_scalings": [
+          "88529281/4",
+          "88529281/4"
+        ],
+        "positive_local_entries": true,
+        "state_count": 4,
+        "state_order": "lexicographic tuples in product((0,1), repeat=n)"
+      }
+    },
+    "full": "infinity"
+  },
+  "status": "resolved",
+  "wall_seconds": 0.00860939700214658
+}

@@ -1,0 +1,48 @@
+{
+  "backend": "primary",
+  "case_id": "zero_coordinates__U__04",
+  "case_sha256": "82da7173f98b98e22f9f506298de75eb43012cd4dd0151fbe540cdebd1092ae1",
+  "component": "full",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "a9d73f797877d5a95c591f8b99ebc52806548bddbeec79173272af698bcc13b5",
+  "horizon": 0,
+  "mode": "optimized",
+  "optimized": true,
+  "peak_rss_kib": 19864,
+  "result": {
+    "details": {
+      "algorithm": "invariant closure and exterior descent; exact primitive integer echelon",
+      "exterior_dimension": 0,
+      "full": {
+        "descent": [
+          {
+            "basis_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "dimension": 0
+          }
+        ],
+        "last_nonzero_basis": [],
+        "reason": "zero-dimensional exterior space"
+      },
+      "matrix_construction": {
+        "actions": 2,
+        "column_sum_identities": true,
+        "entry_count": 1,
+        "integer_matrix_sha256": [
+          "043f347c2cdc0d8ce70c38775d24e556c0290acf6d0c87a3a52aa85471cb8d02",
+          "043f347c2cdc0d8ce70c38775d24e556c0290acf6d0c87a3a52aa85471cb8d02"
+        ],
+        "positive_action_scalings": [
+          "97/357",
+          "1"
+        ],
+        "positive_local_entries": true,
+        "state_count": 1,
+        "state_order": "lexicographic tuples in product((0,1), repeat=n)"
+      }
+    },
+    "full": 0
+  },
+  "status": "resolved",
+  "wall_seconds": 0.0055116559960879385
+}

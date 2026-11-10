@@ -1,0 +1,76 @@
+{
+  "backend": "independent",
+  "case_id": "delay_04_selected__U__05",
+  "case_sha256": "85873d86c70530f0a8b6dbe409eaa7a29b5b5d720e7bf74627aa01f8fe67bf9f",
+  "component": "growth",
+  "export_backend_sha256": "7d74f85a11ac906f37e1ff042b219796566298b56ecf5d424c0c1ccf8db2e015",
+  "frozen_backend_sha256": "612f692d3c9f60be74468386a159e1e07b4e54774416a140d0bbe54e6dc6220b",
+  "frozen_case_sha256": "681c3b40fa06f87bbd6ecf082d81ebbd3300ed66fbd7c62eb60c6a943ada7cdd",
+  "horizon": 6,
+  "mode": "normal",
+  "optimized": false,
+  "peak_rss_kib": 15872,
+  "result": {
+    "details": {
+      "arithmetic": "exact integers and fractions.Fraction",
+      "construction": {
+        "integer_matrix_mass_sha256": "aecc71b10295d47140220a8abf219b1094eec9991aebb06f3d13d3b1ac4ba581",
+        "positive_action_scaling": [
+          "832972004929/3780",
+          "832972004929/123"
+        ],
+        "rational_matrix_mass_sha256": "d345ff5775ef04df3a9d0e299829cb5a0620d5d0399349fd684039313d8b109f",
+        "strict_positivity_and_exact_column_sums": true
+      },
+      "exterior": {
+        "exterior_dimension": 120,
+        "full": null,
+        "growth": {
+          "dimensions": [
+            15,
+            14,
+            12,
+            8,
+            4,
+            2,
+            0
+          ],
+          "inclusion_verified": true,
+          "termination": "zero_space"
+        },
+        "growth_closure_dimensions": [
+          1,
+          3,
+          7,
+          15,
+          15
+        ]
+      },
+      "finite_boundary_replay": {
+        "checks": {
+          "growth": {
+            "all_words_at_horizon": true,
+            "horizon": 6,
+            "last_bad_word": {
+              "readout_action": 1,
+              "word": [
+                0,
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "words_at_horizon": 64
+          }
+        },
+        "status": "passed",
+        "word_products": 127
+      },
+      "method": "independent_fraction_free_exterior_descent"
+    },
+    "growth": 6
+  },
+  "status": "resolved",
+  "wall_seconds": 0.18507859099918278
+}

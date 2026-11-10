@@ -1,0 +1,67 @@
+{
+  "backend": "independent",
+  "case_id": "zero_coordinates__U__02",
+  "case_sha256": "a22b088e5ccce91a154703f5823542737b64eccf834e650aa9a40c8536a2a3f1",
+  "component": "growth",
+  "export_backend_sha256": "7d74f85a11ac906f37e1ff042b219796566298b56ecf5d424c0c1ccf8db2e015",
+  "frozen_backend_sha256": "612f692d3c9f60be74468386a159e1e07b4e54774416a140d0bbe54e6dc6220b",
+  "frozen_case_sha256": "263e1e2d496ac3e74c27ea3a84c768cc5da3350332d476ad2a790bc6ae47527e",
+  "horizon": 0,
+  "mode": "normal",
+  "optimized": false,
+  "peak_rss_kib": 18548,
+  "result": {
+    "details": {
+      "arithmetic": "exact integers and fractions.Fraction",
+      "construction": {
+        "integer_matrix_mass_sha256": "2269d5e7e120a606c54c7daae3e4d6c09484d0b89020914bc48fec9d7fa93875",
+        "positive_action_scaling": [
+          "97/366",
+          "1"
+        ],
+        "rational_matrix_mass_sha256": "e99c8625a5e7c1cebf0ba0de45b889a655495c3b14b6fa7364c80a663f07c24b",
+        "strict_positivity_and_exact_column_sums": true
+      },
+      "exterior": {
+        "exterior_dimension": 0,
+        "full": {
+          "dimensions": [
+            0
+          ],
+          "termination": "zero_space"
+        },
+        "growth": {
+          "dimensions": [
+            0
+          ],
+          "termination": "zero_space"
+        },
+        "growth_closure_dimensions": [
+          0
+        ]
+      },
+      "finite_boundary_replay": {
+        "checks": {
+          "full": {
+            "all_words_at_horizon": true,
+            "horizon": 0,
+            "last_bad_word": null,
+            "words_at_horizon": 1
+          },
+          "growth": {
+            "all_words_at_horizon": true,
+            "horizon": 0,
+            "last_bad_word": null,
+            "words_at_horizon": 1
+          }
+        },
+        "status": "passed",
+        "word_products": 1
+      },
+      "method": "independent_fraction_free_exterior_descent"
+    },
+    "growth": 0
+  },
+  "status": "resolved",
+  "wall_seconds": 0.002192534004279878
+}

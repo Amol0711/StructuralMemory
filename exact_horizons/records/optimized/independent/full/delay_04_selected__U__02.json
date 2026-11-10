@@ -1,0 +1,69 @@
+{
+  "backend": "independent",
+  "case_id": "delay_04_selected__U__02",
+  "case_sha256": "83e3c85cd81ae394fb615c3d6f9080de24812f4c296ab802c32ef4f9d39de323",
+  "component": "full",
+  "export_backend_sha256": "7d74f85a11ac906f37e1ff042b219796566298b56ecf5d424c0c1ccf8db2e015",
+  "frozen_backend_sha256": "612f692d3c9f60be74468386a159e1e07b4e54774416a140d0bbe54e6dc6220b",
+  "frozen_case_sha256": "4f63e04d70d536fb232163c3135bf57b8775442432e7f73406ab213b136c8777",
+  "horizon": 6,
+  "mode": "optimized",
+  "optimized": true,
+  "peak_rss_kib": 19124,
+  "result": {
+    "details": {
+      "arithmetic": "exact integers and fractions.Fraction",
+      "construction": {
+        "integer_matrix_mass_sha256": "e2080704447bc7a2df67c6962e701115b4c2de172de3f27ee352751859320b10",
+        "positive_action_scaling": [
+          "832972004929/18357",
+          "832972004929/2655"
+        ],
+        "rational_matrix_mass_sha256": "2086045bb6385edd4280b22f97641279578095004d07ffe9824e9184316c0037",
+        "strict_positivity_and_exact_column_sums": true
+      },
+      "exterior": {
+        "exterior_dimension": 120,
+        "full": {
+          "dimensions": [
+            120,
+            56,
+            24,
+            8,
+            4,
+            2,
+            0
+          ],
+          "inclusion_verified": true,
+          "termination": "zero_space"
+        },
+        "growth": null,
+        "growth_closure_dimensions": null
+      },
+      "finite_boundary_replay": {
+        "checks": {
+          "full": {
+            "all_words_at_horizon": true,
+            "horizon": 6,
+            "last_bad_word": {
+              "word": [
+                0,
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "words_at_horizon": 64
+          }
+        },
+        "status": "passed",
+        "word_products": 127
+      },
+      "method": "independent_fraction_free_exterior_descent"
+    },
+    "full": 6
+  },
+  "status": "resolved",
+  "wall_seconds": 0.3438997310004197
+}

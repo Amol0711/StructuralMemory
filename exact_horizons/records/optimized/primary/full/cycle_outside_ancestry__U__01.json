@@ -1,0 +1,181 @@
+{
+  "backend": "primary",
+  "case_id": "cycle_outside_ancestry__U__01",
+  "case_sha256": "1c2d26cabf035a3c01119e31bfe951cfd5e6720bf891e97c8e2258f40ef9c612",
+  "component": "full",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "f93bc15b3df92259f31162fcc6caa6ce9699018dbb67a8ac02ba1d67af8d1259",
+  "horizon": "infinity",
+  "mode": "optimized",
+  "optimized": true,
+  "peak_rss_kib": 19864,
+  "result": {
+    "details": {
+      "algorithm": "invariant closure and exterior descent; exact primitive integer echelon",
+      "exterior_dimension": 28,
+      "full": {
+        "descent": [
+          {
+            "basis_sha256": "6eaa1c53184eb24c313dd9f6d9f7bde3dff96b2466457d44731071e9e656a505",
+            "dimension": 28
+          },
+          {
+            "basis_sha256": "feebecd7eb1a91bb4d983c567f44dd21d51eed8cf0848baf3691824cb8f928a0",
+            "dimension": 12
+          },
+          {
+            "basis_sha256": "6e99d45bd45c68b64defff197fd649690f7275a0afab22b1e168b534413f5bb3",
+            "dimension": 4
+          },
+          {
+            "basis_sha256": "6e99d45bd45c68b64defff197fd649690f7275a0afab22b1e168b534413f5bb3",
+            "dimension": 4
+          }
+        ],
+        "reason": "exact nonzero image-space equality",
+        "terminal_basis": [
+          [
+            4669945569,
+            0,
+            2767375152,
+            0,
+            3675437208,
+            0,
+            2178036864,
+            -2767375152,
+            0,
+            -3675437208,
+            0,
+            -2178036864,
+            0,
+            1639926016,
+            0,
+            2178036864,
+            0,
+            1290688512,
+            -2178036864,
+            0,
+            -1290688512,
+            0,
+            2892718656,
+            0,
+            1714203648,
+            -1714203648,
+            0,
+            1015824384
+          ],
+          [
+            0,
+            0,
+            46163830501916852472,
+            0,
+            18556523494678325376,
+            0,
+            51445133529796703664,
+            -46163830501916852472,
+            0,
+            -18556523494678325376,
+            0,
+            -51445133529796703664,
+            0,
+            64951887781106076521,
+            0,
+            51445133529796703664,
+            0,
+            63427160963613594522,
+            -51445133529796703664,
+            0,
+            -63427160963613594522,
+            0,
+            30863935647664922880,
+            0,
+            53730804750081532128,
+            -53730804750081532128,
+            0,
+            60703465517760992004
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            46526016384,
+            0,
+            27570972672,
+            0,
+            0,
+            -46526016384,
+            0,
+            -27570972672,
+            0,
+            0,
+            0,
+            27570972672,
+            0,
+            16338354176,
+            -27570972672,
+            0,
+            -16338354176,
+            0,
+            78713801973,
+            0,
+            46645215984,
+            -46645215984,
+            0,
+            27641609472
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            36887125705023943008,
+            0,
+            0,
+            0,
+            0,
+            -36887125705023943008,
+            0,
+            0,
+            0,
+            36887125705023943008,
+            0,
+            51899689070662896244,
+            -36887125705023943008,
+            0,
+            -51899689070662896244,
+            0,
+            21728962728671616594,
+            0,
+            80102436987655742616,
+            -80102436987655742616,
+            0,
+            102216569691718445793
+          ]
+        ]
+      },
+      "matrix_construction": {
+        "actions": 2,
+        "column_sum_identities": true,
+        "entry_count": 14,
+        "integer_matrix_sha256": [
+          "b703681b379a251e1aae98b5ad0757e96bd76b1ddda3aff147d936438a9e49fb",
+          "6ef771c0a0e8672d90d9f043c7e76a6a8b37aa627d6a58f50348f8e5430a9771"
+        ],
+        "positive_action_scalings": [
+          "88529281/3",
+          "88529281"
+        ],
+        "positive_local_entries": true,
+        "state_count": 8,
+        "state_order": "lexicographic tuples in product((0,1), repeat=n)"
+      }
+    },
+    "full": "infinity"
+  },
+  "status": "resolved",
+  "wall_seconds": 0.015980812997440808
+}

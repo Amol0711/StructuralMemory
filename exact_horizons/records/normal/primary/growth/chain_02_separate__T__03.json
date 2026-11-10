@@ -1,0 +1,79 @@
+{
+  "backend": "primary",
+  "case_id": "chain_02_separate__T__03",
+  "case_sha256": "8e84a6c5dbfe5a4c40880a9707252c9c357bc2a99c6f41b3c977aab4833b0c41",
+  "component": "growth",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "3f035ccd7676cf4694b01e537bb6ec7ff73b968d807d9fecdeadb41499d569c4",
+  "horizon": 2,
+  "mode": "normal",
+  "optimized": false,
+  "peak_rss_kib": 13440,
+  "result": {
+    "details": {
+      "algorithm": "invariant closure and exterior descent; exact primitive integer echelon",
+      "exterior_dimension": 6,
+      "growth": {
+        "closure": [
+          {
+            "basis_sha256": "7ee82d052b1dfb9b6d5c71b17860c40bf8ee656a9c620db6fc0dac90cbb35999",
+            "dimension": 1
+          },
+          {
+            "basis_sha256": "5bb31fe3872cbe0ac849e939073baf40db439aa503b2fa10ee9897074dbe4228",
+            "dimension": 2
+          },
+          {
+            "basis_sha256": "5bb31fe3872cbe0ac849e939073baf40db439aa503b2fa10ee9897074dbe4228",
+            "dimension": 2
+          }
+        ],
+        "descent": [
+          {
+            "basis_sha256": "5bb31fe3872cbe0ac849e939073baf40db439aa503b2fa10ee9897074dbe4228",
+            "dimension": 2
+          },
+          {
+            "basis_sha256": "6dd5243a413dbec8afb0fc0228641892a50b94a61b58d49a3192b6ea560e785d",
+            "dimension": 1
+          },
+          {
+            "basis_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "dimension": 0
+          }
+        ],
+        "last_nonzero_basis": [
+          [
+            0,
+            16,
+            220,
+            220,
+            3025,
+            0
+          ]
+        ],
+        "reason": "first zero image space"
+      },
+      "matrix_construction": {
+        "actions": 2,
+        "column_sum_identities": true,
+        "entry_count": 14,
+        "integer_matrix_sha256": [
+          "4465466447762f9f7675ba6a70dfac2d86f9d4991879f149ab5a957325b21626",
+          "4465466447762f9f7675ba6a70dfac2d86f9d4991879f149ab5a957325b21626"
+        ],
+        "positive_action_scalings": [
+          "88529281/49",
+          "88529281/49"
+        ],
+        "positive_local_entries": true,
+        "state_count": 4,
+        "state_order": "lexicographic tuples in product((0,1), repeat=n)"
+      }
+    },
+    "growth": 2
+  },
+  "status": "resolved",
+  "wall_seconds": 0.003643335003289394
+}

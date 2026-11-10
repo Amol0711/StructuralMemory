@@ -1,0 +1,65 @@
+{
+  "backend": "primary",
+  "case_id": "chain_02_joint__T__01",
+  "case_sha256": "467bec12bf8e617f7ef5059c9d1a718644603903789dde466d9c923074b76c08",
+  "component": "full",
+  "export_backend_sha256": "3721568c358e814410b973ffdf70cd2928329333f1f7f3b32b13df276cb83124",
+  "frozen_backend_sha256": "908f27a23688aaeb9cd98b8fc076d96ff0821e205b330b17b5b82da5082e1b99",
+  "frozen_case_sha256": "53f9ed37a715d97cb2eddbf99fe673f1518d3c9a2e16eb2183fab52bc2ce3efe",
+  "horizon": "infinity",
+  "mode": "optimized",
+  "optimized": true,
+  "peak_rss_kib": 17600,
+  "result": {
+    "details": {
+      "algorithm": "invariant closure and exterior descent; exact primitive integer echelon",
+      "exterior_dimension": 6,
+      "full": {
+        "descent": [
+          {
+            "basis_sha256": "2b409f046a322801272d87a822f47d3e27ff1a7dc96203a1f4e63b64434c2579",
+            "dimension": 6
+          },
+          {
+            "basis_sha256": "3e6ab9320b99409e92b957d36b7b72400662e3f6b0ce860138ef48d96e536b0e",
+            "dimension": 1
+          },
+          {
+            "basis_sha256": "3e6ab9320b99409e92b957d36b7b72400662e3f6b0ce860138ef48d96e536b0e",
+            "dimension": 1
+          }
+        ],
+        "reason": "exact nonzero image-space equality",
+        "terminal_basis": [
+          [
+            0,
+            173,
+            305,
+            173,
+            305,
+            0
+          ]
+        ]
+      },
+      "matrix_construction": {
+        "actions": 2,
+        "column_sum_identities": true,
+        "entry_count": 14,
+        "integer_matrix_sha256": [
+          "12d8dd0b99943e08e5461a03442e1b2745a7da9765874a5a1842942fc817461d",
+          "12d8dd0b99943e08e5461a03442e1b2745a7da9765874a5a1842942fc817461d"
+        ],
+        "positive_action_scalings": [
+          "912673",
+          "912673"
+        ],
+        "positive_local_entries": true,
+        "state_count": 4,
+        "state_order": "lexicographic tuples in product((0,1), repeat=n)"
+      }
+    },
+    "full": "infinity"
+  },
+  "status": "resolved",
+  "wall_seconds": 0.006334407000395004
+}

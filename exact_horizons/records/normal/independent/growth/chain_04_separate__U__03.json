@@ -1,0 +1,72 @@
+{
+  "backend": "independent",
+  "case_id": "chain_04_separate__U__03",
+  "case_sha256": "0c04ca5deaf96a47f50b3fcda2c8c63ae5ffab314e90a1195b6402fcaceca00c",
+  "component": "growth",
+  "export_backend_sha256": "7d74f85a11ac906f37e1ff042b219796566298b56ecf5d424c0c1ccf8db2e015",
+  "frozen_backend_sha256": "612f692d3c9f60be74468386a159e1e07b4e54774416a140d0bbe54e6dc6220b",
+  "frozen_case_sha256": "931ba6e33a121baac351ed1045f369656fa81348e4537c14024d6e58d6e2c9c0",
+  "horizon": 4,
+  "mode": "normal",
+  "optimized": false,
+  "peak_rss_kib": 16000,
+  "result": {
+    "details": {
+      "arithmetic": "exact integers and fractions.Fraction",
+      "construction": {
+        "integer_matrix_mass_sha256": "60b4a642106acce1b3f50111cdd8d1eec03e3f9ffb54e7b83d3f7e4197e621da",
+        "positive_action_scaling": [
+          "832972004929",
+          "832972004929"
+        ],
+        "rational_matrix_mass_sha256": "6057b6b860039ef191d06ca6088ac35e0ef661ec02256e54a0694c70a5e8a73f",
+        "strict_positivity_and_exact_column_sums": true
+      },
+      "exterior": {
+        "exterior_dimension": 120,
+        "full": null,
+        "growth": {
+          "dimensions": [
+            22,
+            20,
+            16,
+            8,
+            0
+          ],
+          "inclusion_verified": true,
+          "termination": "zero_space"
+        },
+        "growth_closure_dimensions": [
+          2,
+          6,
+          14,
+          22,
+          22
+        ]
+      },
+      "finite_boundary_replay": {
+        "checks": {
+          "growth": {
+            "all_words_at_horizon": true,
+            "horizon": 4,
+            "last_bad_word": {
+              "readout_action": 0,
+              "word": [
+                0,
+                0,
+                0
+              ]
+            },
+            "words_at_horizon": 16
+          }
+        },
+        "status": "passed",
+        "word_products": 31
+      },
+      "method": "independent_fraction_free_exterior_descent"
+    },
+    "growth": 4
+  },
+  "status": "resolved",
+  "wall_seconds": 0.5077934879955137
+}

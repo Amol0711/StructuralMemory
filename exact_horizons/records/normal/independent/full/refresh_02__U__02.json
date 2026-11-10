@@ -1,0 +1,51 @@
+{
+  "backend": "independent",
+  "case_id": "refresh_02__U__02",
+  "case_sha256": "b36398a16b9143a07e15b9a0a03eca91095fe93031d6128a7187a0a54db97f36",
+  "component": "full",
+  "export_backend_sha256": "7d74f85a11ac906f37e1ff042b219796566298b56ecf5d424c0c1ccf8db2e015",
+  "frozen_backend_sha256": "612f692d3c9f60be74468386a159e1e07b4e54774416a140d0bbe54e6dc6220b",
+  "frozen_case_sha256": "410b36220b6971cf08b3688e84eb878072d163bca081ec6f8a21624263d11336",
+  "horizon": "infinity",
+  "mode": "normal",
+  "optimized": false,
+  "peak_rss_kib": 14464,
+  "result": {
+    "details": {
+      "arithmetic": "exact integers and fractions.Fraction",
+      "construction": {
+        "integer_matrix_mass_sha256": "ca8a05eacfca2943b318f414f922e7d0b2cfb52a7e68af2a1a25d10748d3b1af",
+        "positive_action_scaling": [
+          "88529281/3",
+          "88529281"
+        ],
+        "rational_matrix_mass_sha256": "375e178dec9fc33a6ebf18bf1d21a4409e4f64039ad14439e70373cbc5951ec3",
+        "strict_positivity_and_exact_column_sums": true
+      },
+      "exterior": {
+        "exterior_dimension": 6,
+        "full": {
+          "dimensions": [
+            6,
+            2,
+            2
+          ],
+          "fixed_basis_sha256": "d992455da7486c4cbd9eeb8272401f13734c5308df7799a043410d4bba59fd2d",
+          "fixed_dimension": 2,
+          "inclusion_verified": true,
+          "termination": "nonzero_fixed_space"
+        },
+        "growth": null,
+        "growth_closure_dimensions": null
+      },
+      "finite_boundary_replay": {
+        "status": "not_applicable_both_infinite",
+        "word_products": 0
+      },
+      "method": "independent_fraction_free_exterior_descent"
+    },
+    "full": "infinity"
+  },
+  "status": "resolved",
+  "wall_seconds": 0.003234358999179676
+}
